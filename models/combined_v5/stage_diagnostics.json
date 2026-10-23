@@ -1,0 +1,802 @@
+{
+  "train_vs_test_by_fold": [
+    {
+      "fold": 0,
+      "train_acc": 0.8306,
+      "test_acc": 0.8165,
+      "acc_gap": 0.0141,
+      "train_logloss": 0.3541,
+      "test_logloss": 0.3999,
+      "train_pr_auc": 0.9246,
+      "test_pr_auc": 0.8883
+    },
+    {
+      "fold": 1,
+      "train_acc": 0.8354,
+      "test_acc": 0.8611,
+      "acc_gap": -0.0257,
+      "train_logloss": 0.34,
+      "test_logloss": 0.368,
+      "train_pr_auc": 0.9382,
+      "test_pr_auc": 0.8334
+    },
+    {
+      "fold": 2,
+      "train_acc": 0.8287,
+      "test_acc": 0.8421,
+      "acc_gap": -0.0134,
+      "train_logloss": 0.3606,
+      "test_logloss": 0.3456,
+      "train_pr_auc": 0.9175,
+      "test_pr_auc": 0.9407
+    },
+    {
+      "fold": 3,
+      "train_acc": 0.8379,
+      "test_acc": 0.7848,
+      "acc_gap": 0.0531,
+      "train_logloss": 0.3529,
+      "test_logloss": 0.4126,
+      "train_pr_auc": 0.9193,
+      "test_pr_auc": 0.923
+    },
+    {
+      "fold": 4,
+      "train_acc": 0.8343,
+      "test_acc": 0.8019,
+      "acc_gap": 0.0324,
+      "train_logloss": 0.3566,
+      "test_logloss": 0.383,
+      "train_pr_auc": 0.9166,
+      "test_pr_auc": 0.9382
+    },
+    {
+      "fold": 5,
+      "train_acc": 0.8358,
+      "test_acc": 0.8005,
+      "acc_gap": 0.0353,
+      "train_logloss": 0.3471,
+      "test_logloss": 0.4236,
+      "train_pr_auc": 0.9284,
+      "test_pr_auc": 0.8717
+    },
+    {
+      "fold": 6,
+      "train_acc": 0.829,
+      "test_acc": 0.8252,
+      "acc_gap": 0.0038,
+      "train_logloss": 0.3568,
+      "test_logloss": 0.3965,
+      "train_pr_auc": 0.9233,
+      "test_pr_auc": 0.8927
+    }
+  ],
+  "mean_accuracy_gap": 0.0142,
+  "mean_logloss_gap": 0.0373,
+  "complexity_curve_iterations": [
+    {
+      "iterations": 10,
+      "train_ll": 0.5279,
+      "test_ll": 0.5365,
+      "train_acc": 0.8205,
+      "test_acc": 0.8151
+    },
+    {
+      "iterations": 25,
+      "train_ll": 0.4319,
+      "test_ll": 0.4438,
+      "train_acc": 0.8233,
+      "test_acc": 0.8176
+    },
+    {
+      "iterations": 50,
+      "train_ll": 0.3813,
+      "test_ll": 0.4003,
+      "train_acc": 0.8267,
+      "test_acc": 0.8187
+    },
+    {
+      "iterations": 100,
+      "train_ll": 0.3556,
+      "test_ll": 0.3888,
+      "train_acc": 0.8331,
+      "test_acc": 0.8186
+    },
+    {
+      "iterations": 200,
+      "train_ll": 0.3338,
+      "test_ll": 0.3889,
+      "train_acc": 0.8444,
+      "test_acc": 0.8175
+    },
+    {
+      "iterations": 300,
+      "train_ll": 0.3177,
+      "test_ll": 0.3917,
+      "train_acc": 0.8541,
+      "test_acc": 0.816
+    },
+    {
+      "iterations": 500,
+      "train_ll": 0.2922,
+      "test_ll": 0.3962,
+      "train_acc": 0.8706,
+      "test_acc": 0.8129
+    },
+    {
+      "iterations": 750,
+      "train_ll": 0.2672,
+      "test_ll": 0.4017,
+      "train_acc": 0.8874,
+      "test_acc": 0.8091
+    },
+    {
+      "iterations": 1000,
+      "train_ll": 0.2464,
+      "test_ll": 0.4066,
+      "train_acc": 0.9015,
+      "test_acc": 0.8068
+    }
+  ],
+  "best_iterations_by_test_logloss": 100,
+  "capacity_sweep_depth": [
+    {
+      "max_depth": 2,
+      "train_logloss": 0.3744,
+      "test_logloss": 0.3925,
+      "train_acc": 0.8244,
+      "test_acc": 0.8176,
+      "test_acc_std_across_folds": 0.0244
+    },
+    {
+      "max_depth": 3,
+      "train_logloss": 0.3607,
+      "test_logloss": 0.3897,
+      "train_acc": 0.8304,
+      "test_acc": 0.8188,
+      "test_acc_std_across_folds": 0.0243
+    },
+    {
+      "max_depth": 4,
+      "train_logloss": 0.3463,
+      "test_logloss": 0.3888,
+      "train_acc": 0.8375,
+      "test_acc": 0.8182,
+      "test_acc_std_across_folds": 0.0232
+    },
+    {
+      "max_depth": 6,
+      "train_logloss": 0.3177,
+      "test_logloss": 0.3917,
+      "train_acc": 0.8541,
+      "test_acc": 0.816,
+      "test_acc_std_across_folds": 0.0216
+    },
+    {
+      "max_depth": 8,
+      "train_logloss": 0.3102,
+      "test_logloss": 0.3927,
+      "train_acc": 0.8593,
+      "test_acc": 0.815,
+      "test_acc_std_across_folds": 0.0207
+    },
+    {
+      "max_depth": 12,
+      "train_logloss": 0.3074,
+      "test_logloss": 0.3925,
+      "train_acc": 0.8613,
+      "test_acc": 0.8146,
+      "test_acc_std_across_folds": 0.0201
+    }
+  ],
+  "learning_curve_patients": [
+    {
+      "train_patients": 3,
+      "train_acc": 0.925,
+      "test_acc": 0.7842,
+      "train_ll": 0.2083,
+      "test_ll": 0.448,
+      "test_auc": 0.8659,
+      "test_acc_std": 0.0274
+    },
+    {
+      "train_patients": 6,
+      "train_acc": 0.8922,
+      "test_acc": 0.7963,
+      "train_ll": 0.2586,
+      "test_ll": 0.421,
+      "test_auc": 0.8736,
+      "test_acc_std": 0.0207
+    },
+    {
+      "train_patients": 9,
+      "train_acc": 0.8733,
+      "test_acc": 0.8076,
+      "train_ll": 0.2874,
+      "test_ll": 0.4037,
+      "test_auc": 0.8776,
+      "test_acc_std": 0.0177
+    },
+    {
+      "train_patients": 12,
+      "train_acc": 0.8674,
+      "test_acc": 0.8095,
+      "train_ll": 0.2955,
+      "test_ll": 0.4034,
+      "test_auc": 0.8765,
+      "test_acc_std": 0.0191
+    },
+    {
+      "train_patients": 15,
+      "train_acc": 0.8589,
+      "test_acc": 0.8133,
+      "train_ll": 0.3099,
+      "test_ll": 0.3952,
+      "test_auc": 0.8814,
+      "test_acc_std": 0.021
+    },
+    {
+      "train_patients": 18,
+      "train_acc": 0.8541,
+      "test_acc": 0.816,
+      "train_ll": 0.3177,
+      "test_ll": 0.3917,
+      "test_auc": 0.8826,
+      "test_acc_std": 0.0216
+    }
+  ],
+  "subgroups": {
+    "source": [
+      {
+        "source": "brist",
+        "n": 75784,
+        "prevalence": 0.445,
+        "mean_pred": 0.456,
+        "calibration_gap": 0.011,
+        "accuracy": 0.807,
+        "recall": 0.663,
+        "false_pos_rate": 0.078,
+        "roc_auc": 0.865
+      },
+      {
+        "source": "ohio",
+        "n": 53796,
+        "prevalence": 0.516,
+        "mean_pred": 0.523,
+        "calibration_gap": 0.007,
+        "accuracy": 0.835,
+        "recall": 0.749,
+        "false_pos_rate": 0.075,
+        "roc_auc": 0.909
+      }
+    ],
+    "cgm_native": [
+      {
+        "cgm_native": "15min",
+        "n": 25173,
+        "prevalence": 0.485,
+        "mean_pred": 0.489,
+        "calibration_gap": 0.003,
+        "accuracy": 0.805,
+        "recall": 0.689,
+        "false_pos_rate": 0.085,
+        "roc_auc": 0.875
+      },
+      {
+        "cgm_native": "5min",
+        "n": 104407,
+        "prevalence": 0.472,
+        "mean_pred": 0.483,
+        "calibration_gap": 0.011,
+        "accuracy": 0.822,
+        "recall": 0.706,
+        "false_pos_rate": 0.074,
+        "roc_auc": 0.887
+      }
+    ],
+    "glucose_range": [
+      {
+        "glucose_range": "70-180",
+        "n": 88258,
+        "prevalence": 0.276,
+        "mean_pred": 0.291,
+        "calibration_gap": 0.014,
+        "accuracy": 0.756,
+        "recall": 0.286,
+        "false_pos_rate": 0.065,
+        "roc_auc": 0.732
+      },
+      {
+        "glucose_range": "<70",
+        "n": 3773,
+        "prevalence": 0.195,
+        "mean_pred": 0.197,
+        "calibration_gap": 0.001,
+        "accuracy": 0.804,
+        "recall": 0.011,
+        "false_pos_rate": 0.004,
+        "roc_auc": 0.684
+      },
+      {
+        "glucose_range": ">180",
+        "n": 37549,
+        "prevalence": 0.968,
+        "mean_pred": 0.966,
+        "calibration_gap": -0.001,
+        "accuracy": 0.968,
+        "recall": 0.996,
+        "false_pos_rate": 0.864,
+        "roc_auc": 0.926
+      }
+    ],
+    "time_of_day": [
+      {
+        "time_of_day": "afternoon 12-18",
+        "n": 32939,
+        "prevalence": 0.514,
+        "mean_pred": 0.526,
+        "calibration_gap": 0.013,
+        "accuracy": 0.778,
+        "recall": 0.668,
+        "false_pos_rate": 0.105,
+        "roc_auc": 0.832
+      },
+      {
+        "time_of_day": "evening 18-24",
+        "n": 32228,
+        "prevalence": 0.534,
+        "mean_pred": 0.539,
+        "calibration_gap": 0.004,
+        "accuracy": 0.797,
+        "recall": 0.71,
+        "false_pos_rate": 0.103,
+        "roc_auc": 0.87
+      },
+      {
+        "time_of_day": "morning 06-12",
+        "n": 32124,
+        "prevalence": 0.454,
+        "mean_pred": 0.468,
+        "calibration_gap": 0.014,
+        "accuracy": 0.802,
+        "recall": 0.651,
+        "false_pos_rate": 0.073,
+        "roc_auc": 0.85
+      },
+      {
+        "time_of_day": "night 00-06",
+        "n": 32289,
+        "prevalence": 0.394,
+        "mean_pred": 0.401,
+        "calibration_gap": 0.007,
+        "accuracy": 0.898,
+        "recall": 0.798,
+        "false_pos_rate": 0.036,
+        "roc_auc": 0.943
+      }
+    ],
+    "meal_last_2h": [
+      {
+        "meal_last_2h": "no",
+        "n": 93617,
+        "prevalence": 0.454,
+        "mean_pred": 0.463,
+        "calibration_gap": 0.009,
+        "accuracy": 0.829,
+        "recall": 0.701,
+        "false_pos_rate": 0.065,
+        "roc_auc": 0.894
+      },
+      {
+        "meal_last_2h": "yes",
+        "n": 35963,
+        "prevalence": 0.527,
+        "mean_pred": 0.538,
+        "calibration_gap": 0.012,
+        "accuracy": 0.792,
+        "recall": 0.705,
+        "false_pos_rate": 0.11,
+        "roc_auc": 0.854
+      }
+    ],
+    "hr_available": [
+      {
+        "hr_available": "no",
+        "n": 44279,
+        "prevalence": 0.492,
+        "mean_pred": 0.497,
+        "calibration_gap": 0.005,
+        "accuracy": 0.821,
+        "recall": 0.718,
+        "false_pos_rate": 0.079,
+        "roc_auc": 0.892
+      },
+      {
+        "hr_available": "yes",
+        "n": 85301,
+        "prevalence": 0.465,
+        "mean_pred": 0.477,
+        "calibration_gap": 0.012,
+        "accuracy": 0.817,
+        "recall": 0.694,
+        "false_pos_rate": 0.075,
+        "roc_auc": 0.88
+      }
+    ]
+  },
+  "per_patient": [
+    {
+      "patient_id": "brist_p01",
+      "n": 8459,
+      "prevalence": 0.548,
+      "mean_pred": 0.525,
+      "calibration_gap": -0.022,
+      "accuracy": 0.79,
+      "recall": 0.689,
+      "false_pos_rate": 0.087,
+      "roc_auc": 0.866
+    },
+    {
+      "patient_id": "brist_p02",
+      "n": 8621,
+      "prevalence": 0.601,
+      "mean_pred": 0.517,
+      "calibration_gap": -0.085,
+      "accuracy": 0.762,
+      "recall": 0.66,
+      "false_pos_rate": 0.086,
+      "roc_auc": 0.858
+    },
+    {
+      "patient_id": "brist_p03",
+      "n": 8681,
+      "prevalence": 0.495,
+      "mean_pred": 0.438,
+      "calibration_gap": -0.056,
+      "accuracy": 0.8,
+      "recall": 0.62,
+      "false_pos_rate": 0.025,
+      "roc_auc": 0.877
+    },
+    {
+      "patient_id": "brist_p04",
+      "n": 8269,
+      "prevalence": 0.389,
+      "mean_pred": 0.375,
+      "calibration_gap": -0.013,
+      "accuracy": 0.772,
+      "recall": 0.503,
+      "false_pos_rate": 0.057,
+      "roc_auc": 0.811
+    },
+    {
+      "patient_id": "brist_p05",
+      "n": 8286,
+      "prevalence": 0.429,
+      "mean_pred": 0.445,
+      "calibration_gap": 0.015,
+      "accuracy": 0.805,
+      "recall": 0.655,
+      "false_pos_rate": 0.083,
+      "roc_auc": 0.874
+    },
+    {
+      "patient_id": "brist_p06",
+      "n": 8428,
+      "prevalence": 0.478,
+      "mean_pred": 0.495,
+      "calibration_gap": 0.017,
+      "accuracy": 0.821,
+      "recall": 0.718,
+      "false_pos_rate": 0.085,
+      "roc_auc": 0.884
+    },
+    {
+      "patient_id": "brist_p10",
+      "n": 8490,
+      "prevalence": 0.105,
+      "mean_pred": 0.3,
+      "calibration_gap": 0.195,
+      "accuracy": 0.881,
+      "recall": 0.477,
+      "false_pos_rate": 0.072,
+      "roc_auc": 0.817
+    },
+    {
+      "patient_id": "brist_p11",
+      "n": 8168,
+      "prevalence": 0.651,
+      "mean_pred": 0.619,
+      "calibration_gap": -0.032,
+      "accuracy": 0.763,
+      "recall": 0.766,
+      "false_pos_rate": 0.244,
+      "roc_auc": 0.865
+    },
+    {
+      "patient_id": "brist_p12",
+      "n": 8382,
+      "prevalence": 0.308,
+      "mean_pred": 0.392,
+      "calibration_gap": 0.084,
+      "accuracy": 0.872,
+      "recall": 0.674,
+      "false_pos_rate": 0.04,
+      "roc_auc": 0.892
+    },
+    {
+      "patient_id": "ohio_540",
+      "n": 4829,
+      "prevalence": 0.4,
+      "mean_pred": 0.447,
+      "calibration_gap": 0.046,
+      "accuracy": 0.835,
+      "recall": 0.665,
+      "false_pos_rate": 0.052,
+      "roc_auc": 0.878
+    },
+    {
+      "patient_id": "ohio_544",
+      "n": 4322,
+      "prevalence": 0.545,
+      "mean_pred": 0.528,
+      "calibration_gap": -0.016,
+      "accuracy": 0.807,
+      "recall": 0.738,
+      "false_pos_rate": 0.111,
+      "roc_auc": 0.897
+    },
+    {
+      "patient_id": "ohio_552",
+      "n": 3666,
+      "prevalence": 0.407,
+      "mean_pred": 0.463,
+      "calibration_gap": 0.056,
+      "accuracy": 0.833,
+      "recall": 0.685,
+      "false_pos_rate": 0.066,
+      "roc_auc": 0.894
+    },
+    {
+      "patient_id": "ohio_559",
+      "n": 4201,
+      "prevalence": 0.573,
+      "mean_pred": 0.569,
+      "calibration_gap": -0.005,
+      "accuracy": 0.848,
+      "recall": 0.78,
+      "false_pos_rate": 0.061,
+      "roc_auc": 0.921
+    },
+    {
+      "patient_id": "ohio_563",
+      "n": 4822,
+      "prevalence": 0.446,
+      "mean_pred": 0.458,
+      "calibration_gap": 0.012,
+      "accuracy": 0.837,
+      "recall": 0.697,
+      "false_pos_rate": 0.051,
+      "roc_auc": 0.906
+    },
+    {
+      "patient_id": "ohio_567",
+      "n": 4148,
+      "prevalence": 0.511,
+      "mean_pred": 0.472,
+      "calibration_gap": -0.039,
+      "accuracy": 0.803,
+      "recall": 0.663,
+      "false_pos_rate": 0.051,
+      "roc_auc": 0.899
+    },
+    {
+      "patient_id": "ohio_570",
+      "n": 4450,
+      "prevalence": 0.7,
+      "mean_pred": 0.703,
+      "calibration_gap": 0.003,
+      "accuracy": 0.896,
+      "recall": 0.887,
+      "false_pos_rate": 0.082,
+      "roc_auc": 0.958
+    },
+    {
+      "patient_id": "ohio_575",
+      "n": 4662,
+      "prevalence": 0.409,
+      "mean_pred": 0.46,
+      "calibration_gap": 0.051,
+      "accuracy": 0.851,
+      "recall": 0.724,
+      "false_pos_rate": 0.061,
+      "roc_auc": 0.918
+    },
+    {
+      "patient_id": "ohio_584",
+      "n": 4792,
+      "prevalence": 0.706,
+      "mean_pred": 0.656,
+      "calibration_gap": -0.05,
+      "accuracy": 0.821,
+      "recall": 0.795,
+      "false_pos_rate": 0.115,
+      "roc_auc": 0.904
+    },
+    {
+      "patient_id": "ohio_588",
+      "n": 5063,
+      "prevalence": 0.58,
+      "mean_pred": 0.569,
+      "calibration_gap": -0.011,
+      "accuracy": 0.806,
+      "recall": 0.763,
+      "false_pos_rate": 0.135,
+      "roc_auc": 0.892
+    },
+    {
+      "patient_id": "ohio_591",
+      "n": 4438,
+      "prevalence": 0.499,
+      "mean_pred": 0.483,
+      "calibration_gap": -0.016,
+      "accuracy": 0.828,
+      "recall": 0.709,
+      "false_pos_rate": 0.054,
+      "roc_auc": 0.903
+    },
+    {
+      "patient_id": "ohio_596",
+      "n": 4403,
+      "prevalence": 0.397,
+      "mean_pred": 0.456,
+      "calibration_gap": 0.059,
+      "accuracy": 0.853,
+      "recall": 0.764,
+      "false_pos_rate": 0.088,
+      "roc_auc": 0.906
+    }
+  ],
+  "per_patient_accuracy_range": [
+    0.762,
+    0.896
+  ],
+  "max_abs_calibration_gap_patient": 0.195,
+  "disparity": {
+    "source": {
+      "accuracy_gap_max_min": 0.028,
+      "recall_gap_max_min": 0.086,
+      "fpr_gap_max_min": 0.003
+    },
+    "cgm_native": {
+      "accuracy_gap_max_min": 0.017,
+      "recall_gap_max_min": 0.017,
+      "fpr_gap_max_min": 0.011
+    },
+    "glucose_range": {
+      "accuracy_gap_max_min": 0.212,
+      "recall_gap_max_min": 0.985,
+      "fpr_gap_max_min": 0.86
+    },
+    "time_of_day": {
+      "accuracy_gap_max_min": 0.12,
+      "recall_gap_max_min": 0.147,
+      "fpr_gap_max_min": 0.069
+    },
+    "meal_last_2h": {
+      "accuracy_gap_max_min": 0.037,
+      "recall_gap_max_min": 0.004,
+      "fpr_gap_max_min": 0.045
+    },
+    "hr_available": {
+      "accuracy_gap_max_min": 0.004,
+      "recall_gap_max_min": 0.024,
+      "fpr_gap_max_min": 0.004
+    }
+  },
+  "hard_subset_glucose_le_180": {
+    "n": 92031,
+    "prevalence": 0.2731,
+    "threshold": 0.54,
+    "accuracy": 0.7577,
+    "balanced_accuracy": 0.6047,
+    "precision": 0.6333,
+    "recall": 0.2675,
+    "specificity": 0.9418,
+    "f1": 0.3761,
+    "mcc": 0.2919,
+    "roc_auc": 0.7315,
+    "pr_auc": 0.5272,
+    "brier": 0.17,
+    "log_loss": 0.5131,
+    "ece": 0.0184,
+    "mean_pred": 0.2868,
+    "confusion": {
+      "tp": 6722,
+      "tn": 63008,
+      "fp": 3892,
+      "fn": 18409
+    }
+  },
+  "hard_subset_rule_baseline_accuracy": 0.7269,
+  "reliability": [
+    {
+      "bin": "0.0-0.1",
+      "n": 14186,
+      "mean_pred": 0.063,
+      "observed": 0.059
+    },
+    {
+      "bin": "0.1-0.2",
+      "n": 20015,
+      "mean_pred": 0.154,
+      "observed": 0.165
+    },
+    {
+      "bin": "0.2-0.3",
+      "n": 23510,
+      "mean_pred": 0.248,
+      "observed": 0.247
+    },
+    {
+      "bin": "0.3-0.4",
+      "n": 13764,
+      "mean_pred": 0.344,
+      "observed": 0.314
+    },
+    {
+      "bin": "0.4-0.5",
+      "n": 7914,
+      "mean_pred": 0.446,
+      "observed": 0.406
+    },
+    {
+      "bin": "0.5-0.6",
+      "n": 5398,
+      "mean_pred": 0.547,
+      "observed": 0.497
+    },
+    {
+      "bin": "0.6-0.7",
+      "n": 4033,
+      "mean_pred": 0.648,
+      "observed": 0.603
+    },
+    {
+      "bin": "0.7-0.8",
+      "n": 3281,
+      "mean_pred": 0.749,
+      "observed": 0.695
+    },
+    {
+      "bin": "0.8-0.9",
+      "n": 3043,
+      "mean_pred": 0.851,
+      "observed": 0.834
+    },
+    {
+      "bin": "0.9-1.0",
+      "n": 34436,
+      "mean_pred": 0.987,
+      "observed": 0.989
+    }
+  ],
+  "permutation_importance_pr_auc_drop": {
+    "glucose": 0.1823,
+    "g_proj_30m": 0.0179,
+    "g_d15m": 0.0147,
+    "g_dist_180": 0.0066,
+    "hour": 0.0028,
+    "is_night": 0.0017,
+    "insulin_max_1h": 0.0012,
+    "hr_std_1h": 0.0009,
+    "cob": 0.0008,
+    "tod_sin": 0.0007,
+    "g_max_4h": 0.0006,
+    "g_d2h": 0.0006,
+    "carbs_4h": 0.0004,
+    "g_min_4h": 0.0004,
+    "hr_now": 0.0004
+  },
+  "source_predictability_auc": 0.8125
+}
