@@ -1,0 +1,310 @@
+{
+  "selected": "combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics",
+  "test_people": 37,
+  "test_rows": 147200,
+  "thresholds_from_dev": {
+    "baseline (v7 config, DEV-trained)": {
+      "accuracy": 0.52,
+      "policy": 0.51
+    },
+    "candidate: combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics": {
+      "accuracy": 0.5,
+      "policy": 0.51
+    }
+  },
+  "results": {
+    "baseline (v7 config, DEV-trained)": {
+      "test": {
+        "n": 147200,
+        "prevalence": 0.3651,
+        "threshold": 0.52,
+        "accuracy": 0.8524,
+        "balanced_accuracy": 0.8174,
+        "precision": 0.8819,
+        "recall": 0.6877,
+        "specificity": 0.9471,
+        "f1": 0.7728,
+        "mcc": 0.6772,
+        "roc_auc": 0.9154,
+        "pr_auc": 0.8933,
+        "brier": 0.1046,
+        "log_loss": 0.3313,
+        "ece": 0.0085,
+        "mean_pred": 0.3715,
+        "confusion": {
+          "tp": 36954,
+          "tn": 88513,
+          "fp": 4948,
+          "fn": 16785
+        },
+        "type2": {
+          "accuracy": 0.9041,
+          "recall": 0.7433,
+          "precision": 0.8825,
+          "roc_auc": 0.9539
+        },
+        "people": 37,
+        "accuracy_ci95_by_person": [
+          0.8287,
+          0.8689
+        ],
+        "alerts_v7_policy": {
+          "patient_days": 1533.3,
+          "people": 37,
+          "alerts_fired": 13202,
+          "false_alerts": 2246,
+          "false_alerts_per_patient_day": 1.465,
+          "alerts_per_patient_day": 8.61,
+          "serious_episodes": 2515,
+          "serious_warned": 1526,
+          "serious_recall": 0.6068,
+          "all_episodes": 3332,
+          "all_recall": 0.5984,
+          "serious_lead_min_median": 60.0
+        },
+        "alerts_chosen_policy": {
+          "patient_days": 1533.3,
+          "people": 37,
+          "alerts_fired": 5578,
+          "false_alerts": 2048,
+          "false_alerts_per_patient_day": 1.336,
+          "alerts_per_patient_day": 3.638,
+          "serious_episodes": 2515,
+          "serious_warned": 1571,
+          "serious_recall": 0.6247,
+          "all_episodes": 3332,
+          "all_recall": 0.6149,
+          "serious_lead_min_median": 60.0
+        },
+        "by_source": {
+          "azt1d": 0.8359,
+          "brist": 0.7837,
+          "hupa": 0.8591,
+          "sh_t1": 0.8962,
+          "sh_t2": 0.9041,
+          "uom": 0.8499
+        }
+      },
+      "ohio_external": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.52,
+        "accuracy": 0.8372,
+        "balanced_accuracy": 0.8401,
+        "precision": 0.92,
+        "recall": 0.7498,
+        "specificity": 0.9304,
+        "f1": 0.8262,
+        "mcc": 0.6887,
+        "roc_auc": 0.9125,
+        "pr_auc": 0.9352,
+        "brier": 0.1132,
+        "log_loss": 0.3488,
+        "ece": 0.0126,
+        "mean_pred": 0.5095,
+        "confusion": {
+          "tp": 20817,
+          "tn": 24223,
+          "fp": 1811,
+          "fn": 6945
+        },
+        "type2": null,
+        "people": 12,
+        "accuracy_ci95_by_person": [
+          0.8273,
+          0.8504
+        ],
+        "alerts_v7_policy": null,
+        "by_source": {
+          "ohio": 0.8372
+        }
+      }
+    },
+    "candidate: combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics": {
+      "test": {
+        "n": 147200,
+        "prevalence": 0.3651,
+        "threshold": 0.5,
+        "accuracy": 0.8533,
+        "balanced_accuracy": 0.8209,
+        "precision": 0.8721,
+        "recall": 0.7008,
+        "specificity": 0.9409,
+        "f1": 0.7771,
+        "mcc": 0.6786,
+        "roc_auc": 0.9167,
+        "pr_auc": 0.8946,
+        "brier": 0.104,
+        "log_loss": 0.3293,
+        "ece": 0.0066,
+        "mean_pred": 0.3701,
+        "confusion": {
+          "tp": 37661,
+          "tn": 87940,
+          "fp": 5521,
+          "fn": 16078
+        },
+        "type2": {
+          "accuracy": 0.9037,
+          "recall": 0.7494,
+          "precision": 0.8757,
+          "roc_auc": 0.9538
+        },
+        "people": 37,
+        "accuracy_ci95_by_person": [
+          0.8301,
+          0.8695
+        ],
+        "alerts_v7_policy": {
+          "patient_days": 1533.3,
+          "people": 37,
+          "alerts_fired": 13508,
+          "false_alerts": 2425,
+          "false_alerts_per_patient_day": 1.582,
+          "alerts_per_patient_day": 8.81,
+          "serious_episodes": 2515,
+          "serious_warned": 1616,
+          "serious_recall": 0.6425,
+          "all_episodes": 3332,
+          "all_recall": 0.6345,
+          "serious_lead_min_median": 75.0
+        },
+        "alerts_chosen_policy": {
+          "patient_days": 1533.3,
+          "people": 37,
+          "alerts_fired": 5599,
+          "false_alerts": 2033,
+          "false_alerts_per_patient_day": 1.326,
+          "alerts_per_patient_day": 3.652,
+          "serious_episodes": 2515,
+          "serious_warned": 1569,
+          "serious_recall": 0.6239,
+          "all_episodes": 3332,
+          "all_recall": 0.617,
+          "serious_lead_min_median": 60.0
+        },
+        "by_source": {
+          "azt1d": 0.8411,
+          "brist": 0.7815,
+          "hupa": 0.8596,
+          "sh_t1": 0.8938,
+          "sh_t2": 0.9037,
+          "uom": 0.8518
+        }
+      },
+      "ohio_external": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.5,
+        "accuracy": 0.8398,
+        "balanced_accuracy": 0.8422,
+        "precision": 0.9063,
+        "recall": 0.7691,
+        "specificity": 0.9152,
+        "f1": 0.8321,
+        "mcc": 0.6893,
+        "roc_auc": 0.914,
+        "pr_auc": 0.9361,
+        "brier": 0.1125,
+        "log_loss": 0.3469,
+        "ece": 0.0143,
+        "mean_pred": 0.5137,
+        "confusion": {
+          "tp": 21353,
+          "tn": 23827,
+          "fp": 2207,
+          "fn": 6409
+        },
+        "type2": null,
+        "people": 12,
+        "accuracy_ci95_by_person": [
+          0.8301,
+          0.8527
+        ],
+        "alerts_v7_policy": null,
+        "by_source": {
+          "ohio": 0.8398
+        }
+      }
+    }
+  },
+  "chronological_holdout": {
+    "train": "DEV + first half of each TEST person's record",
+    "test": "second half of TEST records",
+    "baseline (v7 config, DEV-trained)": {
+      "n": 73591,
+      "prevalence": 0.3585,
+      "threshold": 0.52,
+      "accuracy": 0.8544,
+      "balanced_accuracy": 0.8164,
+      "precision": 0.8855,
+      "recall": 0.6821,
+      "specificity": 0.9507,
+      "f1": 0.7706,
+      "mcc": 0.6787,
+      "roc_auc": 0.9177,
+      "pr_auc": 0.8934,
+      "brier": 0.1027,
+      "log_loss": 0.3261,
+      "ece": 0.0077,
+      "mean_pred": 0.3609,
+      "confusion": {
+        "tp": 17993,
+        "tn": 44884,
+        "fp": 2327,
+        "fn": 8387
+      },
+      "type2": {
+        "accuracy": 0.9144,
+        "recall": 0.6905,
+        "precision": 0.8821,
+        "roc_auc": 0.9544
+      },
+      "people": 37
+    },
+    "candidate: combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics": {
+      "n": 73591,
+      "prevalence": 0.3585,
+      "threshold": 0.5,
+      "accuracy": 0.8545,
+      "balanced_accuracy": 0.8196,
+      "precision": 0.8718,
+      "recall": 0.6965,
+      "specificity": 0.9428,
+      "f1": 0.7743,
+      "mcc": 0.6781,
+      "roc_auc": 0.9191,
+      "pr_auc": 0.8947,
+      "brier": 0.1021,
+      "log_loss": 0.324,
+      "ece": 0.0092,
+      "mean_pred": 0.3612,
+      "confusion": {
+        "tp": 18373,
+        "tn": 44510,
+        "fp": 2701,
+        "fn": 8007
+      },
+      "type2": {
+        "accuracy": 0.912,
+        "recall": 0.7116,
+        "precision": 0.8508,
+        "roc_auc": 0.9548
+      },
+      "people": 37
+    }
+  },
+  "test_candidate_vs_baseline": {
+    "accuracy_diff_mean": 0.0009,
+    "accuracy_diff_ci95": [
+      -0.0005,
+      0.0025
+    ],
+    "roc_auc_diff_mean": 0.0013,
+    "roc_auc_diff_ci95": [
+      0.0004,
+      0.0021
+    ],
+    "accuracy_diff_excludes_0": false
+  }
+}
