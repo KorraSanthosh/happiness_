@@ -1,0 +1,488 @@
+{
+  "baseline": "v7 held-out 2-h predictions (accuracy mode)",
+  "moments": 530807,
+  "people": 187,
+  "overall": {
+    "miss_rate": 0.3108,
+    "false_alert_rate": 0.0552
+  },
+  "by_factor": [
+    {
+      "factor": "glucose now (mg/dL)",
+      "strata": {
+        "(0, 100]": {
+          "moments": 101794,
+          "people": 183,
+          "spikes": 12029,
+          "miss_rate": 0.958,
+          "non_spikes": 89765,
+          "false_alert_rate": 0.005
+        },
+        "(100, 140]": {
+          "moments": 183262,
+          "people": 186,
+          "spikes": 29813,
+          "miss_rate": 0.86,
+          "non_spikes": 153449,
+          "false_alert_rate": 0.018
+        },
+        "(140, 160]": {
+          "moments": 72298,
+          "people": 186,
+          "spikes": 20107,
+          "miss_rate": 0.673,
+          "non_spikes": 52191,
+          "false_alert_rate": 0.075
+        },
+        "(160, 180]": {
+          "moments": 54827,
+          "people": 187,
+          "spikes": 24733,
+          "miss_rate": 0.412,
+          "non_spikes": 30094,
+          "false_alert_rate": 0.213
+        },
+        "(180, 250]": {
+          "moments": 91390,
+          "people": 184,
+          "spikes": 85109,
+          "miss_rate": 0.011,
+          "non_spikes": 6281,
+          "false_alert_rate": 0.757
+        },
+        "(250, 1000]": {
+          "moments": 27236,
+          "people": 157,
+          "spikes": 27230,
+          "miss_rate": 0.0,
+          "non_spikes": 6,
+          "false_alert_rate": 1.0
+        }
+      }
+    },
+    {
+      "factor": "trend last 30 min (mg/dL per h)",
+      "strata": {
+        "(-1000000000.0, -30.0]": {
+          "moments": 105741,
+          "people": 186,
+          "spikes": 35584,
+          "miss_rate": 0.417,
+          "non_spikes": 70157,
+          "false_alert_rate": 0.033
+        },
+        "(-30.0, -10.0]": {
+          "moments": 109192,
+          "people": 186,
+          "spikes": 30055,
+          "miss_rate": 0.391,
+          "non_spikes": 79137,
+          "false_alert_rate": 0.022
+        },
+        "(-10.0, 10.0]": {
+          "moments": 130573,
+          "people": 186,
+          "spikes": 35282,
+          "miss_rate": 0.394,
+          "non_spikes": 95291,
+          "false_alert_rate": 0.029
+        },
+        "(10.0, 30.0]": {
+          "moments": 83567,
+          "people": 186,
+          "spikes": 33263,
+          "miss_rate": 0.323,
+          "non_spikes": 50304,
+          "false_alert_rate": 0.068
+        },
+        "(30.0, 60.0]": {
+          "moments": 54326,
+          "people": 186,
+          "spikes": 30161,
+          "miss_rate": 0.231,
+          "non_spikes": 24165,
+          "false_alert_rate": 0.158
+        },
+        "(60.0, 1000000000.0]": {
+          "moments": 45724,
+          "people": 185,
+          "spikes": 34038,
+          "miss_rate": 0.1,
+          "non_spikes": 11686,
+          "false_alert_rate": 0.358
+        }
+      }
+    },
+    {
+      "factor": "variability last 2 h (SD, mg/dL)",
+      "strata": {
+        "(-0.001, 7.761]": {
+          "moments": 132352,
+          "people": 186,
+          "spikes": 28756,
+          "miss_rate": 0.45,
+          "non_spikes": 103596,
+          "false_alert_rate": 0.025
+        },
+        "(7.761, 13.977]": {
+          "moments": 132352,
+          "people": 186,
+          "spikes": 42690,
+          "miss_rate": 0.373,
+          "non_spikes": 89662,
+          "false_alert_rate": 0.046
+        },
+        "(13.977, 23.57]": {
+          "moments": 132351,
+          "people": 186,
+          "spikes": 53888,
+          "miss_rate": 0.316,
+          "non_spikes": 78463,
+          "false_alert_rate": 0.074
+        },
+        "(23.57, 175.903]": {
+          "moments": 132352,
+          "people": 187,
+          "spikes": 73134,
+          "miss_rate": 0.216,
+          "non_spikes": 59218,
+          "false_alert_rate": 0.098
+        }
+      }
+    },
+    {
+      "factor": "person's spike rate at this time, past 7 days",
+      "strata": {
+        "(-0.01, 0.0]": {
+          "moments": 128493,
+          "people": 184,
+          "spikes": 18901,
+          "miss_rate": 0.444,
+          "non_spikes": 109592,
+          "false_alert_rate": 0.011
+        },
+        "(0.0, 0.25]": {
+          "moments": 69097,
+          "people": 172,
+          "spikes": 16217,
+          "miss_rate": 0.444,
+          "non_spikes": 52880,
+          "false_alert_rate": 0.021
+        },
+        "(0.25, 0.5]": {
+          "moments": 133442,
+          "people": 181,
+          "spikes": 50206,
+          "miss_rate": 0.372,
+          "non_spikes": 83236,
+          "false_alert_rate": 0.051
+        },
+        "(0.5, 0.75]": {
+          "moments": 82311,
+          "people": 172,
+          "spikes": 44182,
+          "miss_rate": 0.289,
+          "non_spikes": 38129,
+          "false_alert_rate": 0.119
+        },
+        "(0.75, 1.0]": {
+          "moments": 75923,
+          "people": 175,
+          "spikes": 51928,
+          "miss_rate": 0.18,
+          "non_spikes": 23995,
+          "false_alert_rate": 0.236
+        }
+      }
+    },
+    {
+      "factor": "CGM coverage last 2 h",
+      "strata": {
+        "(0.0, 0.75]": {
+          "moments": 12679,
+          "people": 79,
+          "spikes": 3840,
+          "miss_rate": 0.332,
+          "non_spikes": 8839,
+          "false_alert_rate": 0.043
+        },
+        "(0.75, 0.99]": {
+          "moments": 27881,
+          "people": 82,
+          "spikes": 9481,
+          "miss_rate": 0.32,
+          "non_spikes": 18400,
+          "false_alert_rate": 0.059
+        },
+        "(0.99, 1.0]": {
+          "moments": 490247,
+          "people": 186,
+          "spikes": 185700,
+          "miss_rate": 0.31,
+          "non_spikes": 304547,
+          "false_alert_rate": 0.055
+        }
+      }
+    },
+    {
+      "factor": "CGM native interval",
+      "strata": {
+        "15min": {
+          "moments": 304459,
+          "people": 146,
+          "spikes": 110974,
+          "miss_rate": 0.285,
+          "non_spikes": 193485,
+          "false_alert_rate": 0.056
+        },
+        "5min": {
+          "moments": 226348,
+          "people": 41,
+          "spikes": 88047,
+          "miss_rate": 0.343,
+          "non_spikes": 138301,
+          "false_alert_rate": 0.054
+        }
+      }
+    },
+    {
+      "factor": "meal logged in last 2 h (where meals recorded)",
+      "strata": {
+        "no": {
+          "moments": 282069,
+          "people": 69,
+          "spikes": 107205,
+          "miss_rate": 0.325,
+          "non_spikes": 174864,
+          "false_alert_rate": 0.055
+        },
+        "not recorded": {
+          "moments": 155062,
+          "people": 118,
+          "spikes": 48496,
+          "miss_rate": 0.279,
+          "non_spikes": 106566,
+          "false_alert_rate": 0.035
+        },
+        "yes": {
+          "moments": 93676,
+          "people": 68,
+          "spikes": 43320,
+          "miss_rate": 0.312,
+          "non_spikes": 50356,
+          "false_alert_rate": 0.098
+        }
+      }
+    },
+    {
+      "factor": "insulin in last 2 h (where recorded)",
+      "strata": {
+        "<= 0.5 U": {
+          "moments": 186805,
+          "people": 160,
+          "spikes": 54949,
+          "miss_rate": 0.358,
+          "non_spikes": 131856,
+          "false_alert_rate": 0.037
+        },
+        "> 0.5 U": {
+          "moments": 336001,
+          "people": 142,
+          "spikes": 141359,
+          "miss_rate": 0.29,
+          "non_spikes": 194642,
+          "false_alert_rate": 0.068
+        },
+        "not recorded": {
+          "moments": 8001,
+          "people": 4,
+          "spikes": 2713,
+          "miss_rate": 0.404,
+          "non_spikes": 5288,
+          "false_alert_rate": 0.047
+        }
+      }
+    },
+    {
+      "factor": "steps last hour (where recorded)",
+      "strata": {
+        "<= 500": {
+          "moments": 116185,
+          "people": 47,
+          "spikes": 42507,
+          "miss_rate": 0.315,
+          "non_spikes": 73678,
+          "false_alert_rate": 0.055
+        },
+        "> 500": {
+          "moments": 105961,
+          "people": 48,
+          "spikes": 42017,
+          "miss_rate": 0.334,
+          "non_spikes": 63944,
+          "false_alert_rate": 0.065
+        },
+        "not recorded": {
+          "moments": 308661,
+          "people": 161,
+          "spikes": 114497,
+          "miss_rate": 0.301,
+          "non_spikes": 194164,
+          "false_alert_rate": 0.052
+        }
+      }
+    },
+    {
+      "factor": "night 22-06",
+      "strata": {
+        "day": {
+          "moments": 357094,
+          "people": 187,
+          "spikes": 149763,
+          "miss_rate": 0.335,
+          "non_spikes": 207331,
+          "false_alert_rate": 0.073
+        },
+        "night": {
+          "moments": 173713,
+          "people": 186,
+          "spikes": 49258,
+          "miss_rate": 0.237,
+          "non_spikes": 124455,
+          "false_alert_rate": 0.025
+        }
+      }
+    },
+    {
+      "factor": "diabetes type",
+      "strata": {
+        "T1D": {
+          "moments": 419945,
+          "people": 87,
+          "spikes": 166352,
+          "miss_rate": 0.319,
+          "non_spikes": 253593,
+          "false_alert_rate": 0.062
+        },
+        "T2D": {
+          "moments": 110862,
+          "people": 100,
+          "spikes": 32669,
+          "miss_rate": 0.267,
+          "non_spikes": 78193,
+          "false_alert_rate": 0.033
+        }
+      }
+    },
+    {
+      "factor": "dataset",
+      "strata": {
+        "azt1d": {
+          "moments": 99288,
+          "people": 25,
+          "spikes": 38451,
+          "miss_rate": 0.353,
+          "non_spikes": 60837,
+          "false_alert_rate": 0.058
+        },
+        "brist": {
+          "moments": 75784,
+          "people": 9,
+          "spikes": 33701,
+          "miss_rate": 0.325,
+          "non_spikes": 42083,
+          "false_alert_rate": 0.076
+        },
+        "hupa": {
+          "moments": 83159,
+          "people": 24,
+          "spikes": 28509,
+          "miss_rate": 0.315,
+          "non_spikes": 54650,
+          "false_alert_rate": 0.059
+        },
+        "sh_t1": {
+          "moments": 15476,
+          "people": 12,
+          "spikes": 7725,
+          "miss_rate": 0.159,
+          "non_spikes": 7751,
+          "false_alert_rate": 0.055
+        },
+        "sh_t2": {
+          "moments": 110862,
+          "people": 100,
+          "spikes": 32669,
+          "miss_rate": 0.267,
+          "non_spikes": 78193,
+          "false_alert_rate": 0.033
+        },
+        "uom": {
+          "moments": 146238,
+          "people": 17,
+          "spikes": 57966,
+          "miss_rate": 0.318,
+          "non_spikes": 88272,
+          "false_alert_rate": 0.06
+        }
+      }
+    }
+  ],
+  "missed_spike_types": {
+    "time_to_onset_min": {
+      "missed": {
+        "25%": 45.0,
+        "50%": 75.0,
+        "75%": 105.0
+      },
+      "caught": {
+        "25%": 15.0,
+        "50%": 15.0,
+        "75%": 15.0
+      }
+    },
+    "miss_rate_by_onset_time": {
+      "15-30 min": 0.081,
+      "45-60 min": 0.729,
+      "75-90 min": 0.829,
+      "105-120 min": 0.873
+    },
+    "miss_rate_by_peak": {
+      "(180, 200]": 0.498,
+      "(200, 250]": 0.301,
+      "(250, 1000]": 0.119
+    },
+    "miss_rate_when_meal_logged_after_prediction": {
+      "meal after prediction": 0.442,
+      "no meal after": 0.276
+    }
+  },
+  "false_alert_types": {
+    "future_peak_of_false_alerts": {
+      "25%": 159.0,
+      "50%": 169.4,
+      "75%": 176.0
+    },
+    "share_within_10pct_below_180": 0.711,
+    "glucose_now_of_false_alerts": {
+      "25%": 148.0,
+      "50%": 167.4,
+      "75%": 180.2
+    },
+    "share_already_above_180_now": 0.26
+  },
+  "patient_concentration": {
+    "people": 186,
+    "miss_rate_p10_p50_p90": [
+      0.138,
+      0.321,
+      0.637
+    ],
+    "false_alert_rate_p10_p50_p90": [
+      0.008,
+      0.05,
+      0.125
+    ],
+    "share_of_misses_from_worst_10pct_people": 0.444
+  }
+}
