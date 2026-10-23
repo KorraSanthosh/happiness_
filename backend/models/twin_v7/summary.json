@@ -1,0 +1,1124 @@
+{
+  "version": "7.0.0",
+  "datasets": {
+    "brist": "BrisT1D (Univ. of Bristol, CC BY 4.0) - Type 1",
+    "hupa": "HUPA-UCM (Hidalgo et al. 2024, CC BY 4.0) - Type 1",
+    "uom": "T1D-UOM (Univ. of Manchester 2025, CC BY 4.0) - Type 1",
+    "azt1d": "AZT1D (Mayo Clinic Arizona 2025, CC BY 4.0) - Type 1",
+    "sh_t1": "Shanghai T1DM (Zhao et al. 2023, CC BY 4.0) - Type 1, with clinical EHR",
+    "sh_t2": "Shanghai T2DM (Zhao et al. 2023, CC BY 4.0) - Type 2, with clinical EHR",
+    "ohio": "OhioT1DM (data-use agreement) - external validation only, never trained on"
+  },
+  "horizons": {
+    "30m": {
+      "accuracy_mode": {
+        "all_open": {
+          "accuracy": 0.9473,
+          "balanced_accuracy": 0.9201,
+          "recall": 0.8639,
+          "precision": 0.9266,
+          "roc_auc": 0.9832,
+          "rule_accuracy": 0.9366,
+          "people": 187,
+          "n": 526103
+        },
+        "type1": {
+          "accuracy": 0.9429,
+          "balanced_accuracy": 0.9169,
+          "recall": 0.8601,
+          "precision": 0.9244,
+          "roc_auc": 0.9807,
+          "rule_accuracy": 0.9331,
+          "people": 87,
+          "n": 414602
+        },
+        "type2": {
+          "accuracy": 0.9638,
+          "balanced_accuracy": 0.9337,
+          "recall": 0.8826,
+          "precision": 0.9372,
+          "roc_auc": 0.9911,
+          "rule_accuracy": 0.9497,
+          "people": 100,
+          "n": 111501
+        },
+        "brist": {
+          "accuracy": 0.9365,
+          "balanced_accuracy": 0.9138,
+          "recall": 0.8559,
+          "precision": 0.9293,
+          "roc_auc": 0.9779,
+          "rule_accuracy": 0.9263,
+          "people": 9,
+          "n": 76984
+        },
+        "hupa": {
+          "accuracy": 0.9451,
+          "balanced_accuracy": 0.9186,
+          "recall": 0.8672,
+          "precision": 0.9025,
+          "roc_auc": 0.9824,
+          "rule_accuracy": 0.9349,
+          "people": 24,
+          "n": 75338
+        },
+        "uom": {
+          "accuracy": 0.9429,
+          "balanced_accuracy": 0.9174,
+          "recall": 0.862,
+          "precision": 0.9215,
+          "roc_auc": 0.9808,
+          "rule_accuracy": 0.9336,
+          "people": 17,
+          "n": 146976
+        },
+        "azt1d": {
+          "accuracy": 0.9429,
+          "balanced_accuracy": 0.9071,
+          "recall": 0.8353,
+          "precision": 0.9301,
+          "roc_auc": 0.9779,
+          "rule_accuracy": 0.9341,
+          "people": 25,
+          "n": 99730
+        },
+        "sh_t1": {
+          "accuracy": 0.9629,
+          "balanced_accuracy": 0.9594,
+          "recall": 0.941,
+          "precision": 0.9667,
+          "roc_auc": 0.9946,
+          "rule_accuracy": 0.9457,
+          "people": 12,
+          "n": 15574
+        },
+        "sh_t2": {
+          "accuracy": 0.9638,
+          "balanced_accuracy": 0.9337,
+          "recall": 0.8826,
+          "precision": 0.9372,
+          "roc_auc": 0.9911,
+          "rule_accuracy": 0.9497,
+          "people": 100,
+          "n": 111501
+        }
+      },
+      "safety_mode": {
+        "accuracy": 0.9353,
+        "balanced_accuracy": 0.9312,
+        "recall": 0.9228,
+        "precision": 0.8416,
+        "roc_auc": 0.9832,
+        "rule_accuracy": 0.9366,
+        "people": 187,
+        "n": 526103
+      },
+      "accuracy_ci95": [
+        0.9434,
+        0.9512
+      ],
+      "overfit_gap": 0.0028,
+      "ohio_external": {
+        "accuracy": 0.9453,
+        "balanced_accuracy": 0.9355,
+        "recall": 0.8942,
+        "precision": 0.9597,
+        "roc_auc": 0.9858,
+        "rule_accuracy": 0.9347,
+        "people": null,
+        "n": 54832
+      }
+    },
+    "60m": {
+      "accuracy_mode": {
+        "all_open": {
+          "accuracy": 0.9114,
+          "balanced_accuracy": 0.8732,
+          "recall": 0.7777,
+          "precision": 0.9137,
+          "roc_auc": 0.9564,
+          "rule_accuracy": 0.8967,
+          "people": 187,
+          "n": 534206
+        },
+        "type1": {
+          "accuracy": 0.9044,
+          "balanced_accuracy": 0.8691,
+          "recall": 0.7731,
+          "precision": 0.9111,
+          "roc_auc": 0.9511,
+          "rule_accuracy": 0.8906,
+          "people": 87,
+          "n": 422916
+        },
+        "type2": {
+          "accuracy": 0.9378,
+          "balanced_accuracy": 0.8907,
+          "recall": 0.8009,
+          "precision": 0.9269,
+          "roc_auc": 0.9741,
+          "rule_accuracy": 0.9201,
+          "people": 100,
+          "n": 111290
+        },
+        "brist": {
+          "accuracy": 0.8909,
+          "balanced_accuracy": 0.8627,
+          "recall": 0.7649,
+          "precision": 0.9143,
+          "roc_auc": 0.941,
+          "rule_accuracy": 0.8775,
+          "people": 9,
+          "n": 76825
+        },
+        "hupa": {
+          "accuracy": 0.9138,
+          "balanced_accuracy": 0.874,
+          "recall": 0.7852,
+          "precision": 0.8891,
+          "roc_auc": 0.9568,
+          "rule_accuracy": 0.9014,
+          "people": 24,
+          "n": 83411
+        },
+        "uom": {
+          "accuracy": 0.9049,
+          "balanced_accuracy": 0.87,
+          "recall": 0.775,
+          "precision": 0.9109,
+          "roc_auc": 0.9508,
+          "rule_accuracy": 0.8914,
+          "people": 17,
+          "n": 147416
+        },
+        "azt1d": {
+          "accuracy": 0.9011,
+          "balanced_accuracy": 0.8552,
+          "recall": 0.7402,
+          "precision": 0.9144,
+          "roc_auc": 0.946,
+          "rule_accuracy": 0.8865,
+          "people": 25,
+          "n": 99721
+        },
+        "sh_t1": {
+          "accuracy": 0.9375,
+          "balanced_accuracy": 0.9331,
+          "recall": 0.8971,
+          "precision": 0.958,
+          "roc_auc": 0.9844,
+          "rule_accuracy": 0.9152,
+          "people": 12,
+          "n": 15543
+        },
+        "sh_t2": {
+          "accuracy": 0.9378,
+          "balanced_accuracy": 0.8907,
+          "recall": 0.8009,
+          "precision": 0.9269,
+          "roc_auc": 0.9741,
+          "rule_accuracy": 0.9201,
+          "people": 100,
+          "n": 111290
+        }
+      },
+      "safety_mode": {
+        "accuracy": 0.8983,
+        "balanced_accuracy": 0.8853,
+        "recall": 0.8529,
+        "precision": 0.816,
+        "roc_auc": 0.9564,
+        "rule_accuracy": 0.8967,
+        "people": 187,
+        "n": 534206
+      },
+      "accuracy_ci95": [
+        0.9051,
+        0.9176
+      ],
+      "overfit_gap": 0.0045,
+      "ohio_external": {
+        "accuracy": 0.9063,
+        "balanced_accuracy": 0.8968,
+        "recall": 0.8285,
+        "precision": 0.9471,
+        "roc_auc": 0.9628,
+        "rule_accuracy": 0.8876,
+        "people": null,
+        "n": 54614
+      }
+    },
+    "2h": {
+      "accuracy_mode": {
+        "all_open": {
+          "accuracy": 0.849,
+          "balanced_accuracy": 0.817,
+          "recall": 0.6892,
+          "precision": 0.8823,
+          "roc_auc": 0.9135,
+          "rule_accuracy": 0.8249,
+          "people": 187,
+          "n": 530807
+        },
+        "type1": {
+          "accuracy": 0.8361,
+          "balanced_accuracy": 0.8094,
+          "recall": 0.6806,
+          "precision": 0.8783,
+          "roc_auc": 0.9014,
+          "rule_accuracy": 0.8139,
+          "people": 87,
+          "n": 419945
+        },
+        "type2": {
+          "accuracy": 0.8977,
+          "balanced_accuracy": 0.8498,
+          "recall": 0.733,
+          "precision": 0.9015,
+          "roc_auc": 0.9507,
+          "rule_accuracy": 0.8664,
+          "people": 100,
+          "n": 110862
+        },
+        "brist": {
+          "accuracy": 0.8134,
+          "balanced_accuracy": 0.7996,
+          "recall": 0.675,
+          "precision": 0.877,
+          "roc_auc": 0.8869,
+          "rule_accuracy": 0.7921,
+          "people": 9,
+          "n": 75784
+        },
+        "hupa": {
+          "accuracy": 0.8534,
+          "balanced_accuracy": 0.8131,
+          "recall": 0.685,
+          "precision": 0.8587,
+          "roc_auc": 0.9047,
+          "rule_accuracy": 0.8374,
+          "people": 24,
+          "n": 83159
+        },
+        "uom": {
+          "accuracy": 0.8376,
+          "balanced_accuracy": 0.811,
+          "recall": 0.6825,
+          "precision": 0.8811,
+          "roc_auc": 0.8995,
+          "rule_accuracy": 0.8154,
+          "people": 17,
+          "n": 146238
+        },
+        "azt1d": {
+          "accuracy": 0.828,
+          "balanced_accuracy": 0.7947,
+          "recall": 0.6473,
+          "precision": 0.8762,
+          "roc_auc": 0.8979,
+          "rule_accuracy": 0.8013,
+          "people": 25,
+          "n": 99288
+        },
+        "sh_t1": {
+          "accuracy": 0.8933,
+          "balanced_accuracy": 0.8932,
+          "recall": 0.8413,
+          "precision": 0.9386,
+          "roc_auc": 0.9614,
+          "rule_accuracy": 0.8609,
+          "people": 12,
+          "n": 15476
+        },
+        "sh_t2": {
+          "accuracy": 0.8977,
+          "balanced_accuracy": 0.8498,
+          "recall": 0.733,
+          "precision": 0.9015,
+          "roc_auc": 0.9507,
+          "rule_accuracy": 0.8664,
+          "people": 100,
+          "n": 110862
+        }
+      },
+      "safety_mode": {
+        "accuracy": 0.8417,
+        "balanced_accuracy": 0.8267,
+        "recall": 0.7666,
+        "precision": 0.8025,
+        "roc_auc": 0.9135,
+        "rule_accuracy": 0.8249,
+        "people": 187,
+        "n": 530807
+      },
+      "accuracy_ci95": [
+        0.8402,
+        0.8584
+      ],
+      "overfit_gap": 0.0099,
+      "ohio_external": {
+        "accuracy": 0.837,
+        "balanced_accuracy": 0.8397,
+        "recall": 0.7542,
+        "precision": 0.915,
+        "roc_auc": 0.9116,
+        "rule_accuracy": 0.803,
+        "people": null,
+        "n": 53796
+      }
+    }
+  },
+  "fusion_ablation": {
+    "EHR only (static record)": {
+      "accuracy": 0.6683,
+      "balanced_accuracy": 0.5283,
+      "recall": 0.1397,
+      "precision": 0.4411,
+      "roc_auc": 0.6489,
+      "rule_accuracy": null,
+      "people": null,
+      "n": 126338
+    },
+    "CGM/wearable only (dynamic)": {
+      "accuracy": 0.8978,
+      "balanced_accuracy": 0.8623,
+      "recall": 0.7639,
+      "precision": 0.9014,
+      "roc_auc": 0.9535,
+      "rule_accuracy": null,
+      "people": null,
+      "n": 126338
+    },
+    "Fusion (EHR + CGM)": {
+      "accuracy": 0.8974,
+      "balanced_accuracy": 0.8609,
+      "recall": 0.7597,
+      "precision": 0.9042,
+      "roc_auc": 0.9532,
+      "rule_accuracy": null,
+      "people": null,
+      "n": 126338
+    }
+  },
+  "fusion_vs_cgm_only": {
+    "accuracy_diff_mean": -0.0004,
+    "accuracy_diff_ci95": [
+      -0.0014,
+      0.0006
+    ],
+    "roc_auc_diff_mean": -0.0003,
+    "roc_auc_diff_ci95": [
+      -0.0014,
+      0.0005
+    ],
+    "accuracy_diff_excludes_0": false
+  },
+  "bias": {
+    "source": [
+      {
+        "group": "azt1d",
+        "n": 99288,
+        "accuracy": 0.828,
+        "recall": 0.647,
+        "calibration_gap": -0.005
+      },
+      {
+        "group": "brist",
+        "n": 75784,
+        "accuracy": 0.813,
+        "recall": 0.675,
+        "calibration_gap": -0.007
+      },
+      {
+        "group": "hupa",
+        "n": 83159,
+        "accuracy": 0.853,
+        "recall": 0.685,
+        "calibration_gap": 0.025
+      },
+      {
+        "group": "sh_t1",
+        "n": 15476,
+        "accuracy": 0.893,
+        "recall": 0.841,
+        "calibration_gap": 0.001
+      },
+      {
+        "group": "sh_t2",
+        "n": 110862,
+        "accuracy": 0.898,
+        "recall": 0.733,
+        "calibration_gap": -0.004
+      },
+      {
+        "group": "uom",
+        "n": 146238,
+        "accuracy": 0.838,
+        "recall": 0.682,
+        "calibration_gap": 0.008
+      }
+    ],
+    "diabetes_type": [
+      {
+        "group": "T1D",
+        "n": 419945,
+        "accuracy": 0.836,
+        "recall": 0.681,
+        "calibration_gap": 0.005
+      },
+      {
+        "group": "T2D",
+        "n": 110862,
+        "accuracy": 0.898,
+        "recall": 0.733,
+        "calibration_gap": -0.004
+      }
+    ],
+    "time_of_day": [
+      {
+        "group": "afternoon 12-18",
+        "n": 134540,
+        "accuracy": 0.813,
+        "recall": 0.664,
+        "calibration_gap": 0.006
+      },
+      {
+        "group": "evening 18-24",
+        "n": 131804,
+        "accuracy": 0.833,
+        "recall": 0.706,
+        "calibration_gap": 0.001
+      },
+      {
+        "group": "morning 06-12",
+        "n": 133301,
+        "accuracy": 0.822,
+        "recall": 0.647,
+        "calibration_gap": 0.006
+      },
+      {
+        "group": "night 00-06",
+        "n": 131162,
+        "accuracy": 0.929,
+        "recall": 0.771,
+        "calibration_gap": -0.0
+      }
+    ],
+    "glucose_range": [
+      {
+        "group": "70-180",
+        "n": 395518,
+        "accuracy": 0.817,
+        "recall": 0.304,
+        "calibration_gap": 0.004
+      },
+      {
+        "group": "<70",
+        "n": 16663,
+        "accuracy": 0.871,
+        "recall": 0.05,
+        "calibration_gap": 0.012
+      },
+      {
+        "group": ">180",
+        "n": 118626,
+        "accuracy": 0.952,
+        "recall": 0.991,
+        "calibration_gap": 0.0
+      }
+    ],
+    "cgm_native": [
+      {
+        "group": "15min",
+        "n": 304459,
+        "accuracy": 0.86,
+        "recall": 0.715,
+        "calibration_gap": 0.009
+      },
+      {
+        "group": "5min",
+        "n": 226348,
+        "accuracy": 0.834,
+        "recall": 0.657,
+        "calibration_gap": -0.005
+      }
+    ],
+    "sex (Shanghai, real EHR)": [
+      {
+        "group": "female",
+        "n": 58018,
+        "accuracy": 0.9,
+        "recall": 0.75,
+        "calibration_gap": 0.002
+      },
+      {
+        "group": "male",
+        "n": 68320,
+        "accuracy": 0.895,
+        "recall": 0.757,
+        "calibration_gap": -0.008
+      }
+    ],
+    "age_group (Shanghai, real EHR)": [
+      {
+        "group": "40-60",
+        "n": 45934,
+        "accuracy": 0.894,
+        "recall": 0.737,
+        "calibration_gap": -0.007
+      },
+      {
+        "group": "60+",
+        "n": 67944,
+        "accuracy": 0.894,
+        "recall": 0.764,
+        "calibration_gap": -0.002
+      },
+      {
+        "group": "<40",
+        "n": 12460,
+        "accuracy": 0.925,
+        "recall": 0.753,
+        "calibration_gap": 0.002
+      }
+    ],
+    "bmi_group (Shanghai, real EHR)": [
+      {
+        "group": "23-27.5",
+        "n": 59038,
+        "accuracy": 0.891,
+        "recall": 0.715,
+        "calibration_gap": -0.006
+      },
+      {
+        "group": "27.5+",
+        "n": 10291,
+        "accuracy": 0.948,
+        "recall": 0.723,
+        "calibration_gap": 0.009
+      },
+      {
+        "group": "<23",
+        "n": 57009,
+        "accuracy": 0.894,
+        "recall": 0.787,
+        "calibration_gap": -0.003
+      }
+    ]
+  },
+  "top_features_2h": {
+    "g_dist_180": 0.0544,
+    "glucose": 0.0246,
+    "p_same_time_spike_7d": 0.0244,
+    "g_d15m": 0.018,
+    "g_proj_30m": 0.0106,
+    "hour": 0.0034,
+    "p_mean_24h": 0.0032,
+    "tod_cos": 0.0022,
+    "is_night": 0.002,
+    "tod_sin": 0.0018,
+    "p_frac_above_24h": 0.0014,
+    "insulin_4h": 0.001,
+    "g_minus_same_time": 0.0009,
+    "last_meal_size": 0.0009,
+    "p_hist_days": 0.0009,
+    "kcal_2h": 0.0009,
+    "kcal_1h": 0.0009,
+    "g_min_4h": 0.0007,
+    "g_lag_30m": 0.0007,
+    "g_d2h": 0.0007
+  },
+  "error_analysis": {
+    "source": "models/investigation/analysis.json (verified by app/verify_results.py)",
+    "protocol": {
+      "predictions": "models/combined_v7/oof_*.parquet (7-fold person-grouped nested CV, 187 people)",
+      "threshold": "accuracy mode, per fold (thr_acc)",
+      "unit": "15-min prediction moment",
+      "label": "max CGM over next 2 h > 180 mg/dL",
+      "rows_2h": 530807,
+      "people": 187
+    },
+    "label_reliability_2h": {
+      "band_mg_dl": [
+        162,
+        198
+      ],
+      "assumption": "180 \u00b1 10 %, a typical-CGM-error assumption, not measured on these sensors",
+      "stratified_by": "the ACTUAL future peak - an error decomposition, not a subset a model could pick in advance",
+      "all_open": {
+        "rows": 530807,
+        "people": 187,
+        "accuracy_all": 0.849,
+        "uncertain_rows": 120743,
+        "uncertain_share_of_rows": 0.2275,
+        "accuracy_clear": 0.9021,
+        "accuracy_uncertain": 0.6685,
+        "errors": 80150,
+        "uncertain_share_of_errors": 0.4994
+      },
+      "type2": {
+        "rows": 110862,
+        "people": 100,
+        "accuracy_all": 0.8977,
+        "uncertain_rows": 22108,
+        "uncertain_share_of_rows": 0.1994,
+        "accuracy_clear": 0.9443,
+        "accuracy_uncertain": 0.7108,
+        "errors": 11340,
+        "uncertain_share_of_errors": 0.5638
+      }
+    },
+    "serious_spikes_2h": {
+      "definition": "peak >= 250 mg/dL OR >= 3 consecutive bins above 180",
+      "episode_level": {
+        "rule": "Distinct hyperglycaemia episodes: a run of consecutive 15-min bins with a reading > 180, preceded by an observed bin <= 180. An episode is WARNED if any held-out 2-h prediction made 30-120 min before onset (bins onset-8 .. onset-2, while glucose was <= 180) was at or above its fold threshold. Episodes with no held-out prediction in that window are not evaluable and are counted separately.",
+        "episodes": 9503,
+        "warned": 6008,
+        "missed": 3495,
+        "miss_rate": 0.3678,
+        "miss_rate_ci95_by_person": [
+          0.3425,
+          0.3967
+        ]
+      },
+      "moment_level": {
+        "serious_positives": 146990,
+        "serious_missed": 34936,
+        "serious_miss_rate": 0.2377
+      }
+    },
+    "calibration": {
+      "30m": {
+        "rows": 526103,
+        "ece": 0.0015,
+        "ece_ci95_by_person": [
+          0.0012,
+          0.0034
+        ],
+        "slope": 1.013,
+        "intercept": -0.006,
+        "per_person": {
+          "people": 186,
+          "excluded_small": 1,
+          "median_abs_gap": 0.0053,
+          "share_over_5pts": 0.005,
+          "share_over_10pts": 0.0,
+          "largest": {
+            "hupa_0001": -0.07,
+            "sh_t2_2013": 0.031,
+            "uom_2307": -0.03,
+            "brist_p11": -0.028,
+            "sh_t2_2020": -0.024
+          }
+        }
+      },
+      "60m": {
+        "rows": 534206,
+        "ece": 0.0034,
+        "ece_ci95_by_person": [
+          0.0027,
+          0.0055
+        ],
+        "slope": 1.023,
+        "intercept": 0.003,
+        "per_person": {
+          "people": 186,
+          "excluded_small": 1,
+          "median_abs_gap": 0.0116,
+          "share_over_5pts": 0.016,
+          "share_over_10pts": 0.0,
+          "largest": {
+            "hupa_0001": -0.08,
+            "sh_t2_2013": 0.056,
+            "sh_t2_2020": -0.055,
+            "uom_2307": -0.048,
+            "azt1d_04": -0.046
+          }
+        }
+      },
+      "2h": {
+        "rows": 530807,
+        "ece": 0.0038,
+        "ece_ci95_by_person": [
+          0.0034,
+          0.0098
+        ],
+        "slope": 1.031,
+        "intercept": -0.005,
+        "per_person": {
+          "people": 186,
+          "excluded_small": 1,
+          "median_abs_gap": 0.0224,
+          "share_over_5pts": 0.124,
+          "share_over_10pts": 0.0,
+          "largest": {
+            "hupa_0001": -0.096,
+            "sh_t2_2052": -0.095,
+            "sh_t2_2059": -0.095,
+            "azt1d_04": -0.084,
+            "uom_2307": -0.077
+          }
+        }
+      },
+      "method": "Held-out (out-of-fold) probabilities; ECE = 10 equal-width bins weighted by row count; slope/intercept from logistic regression of y on logit(p); 95 % CI by resampling people",
+      "limitations": [
+        "Rows within a person are autocorrelated, so row counts overstate the effective sample size; CIs resample people to account for this.",
+        "These are the 7 fold models' predictions pooled, not the final model trained on all people.",
+        "Per-person gaps use people with >= 200 rows."
+      ]
+    },
+    "cgm_vs_fingerstick": {
+      "source": "ShanghaiT1DM/T2DM files: 'CGM (mg / dl)' and 'CBG (mg / dl)' (capillary blood glucose) columns",
+      "pairing": "A CBG value is recorded on a row of the 15-min CGM grid; that row's CGM value is its pair. The true fingerstick time is not given, so time alignment is only to within the grid step.",
+      "method": "relative difference (CGM - CBG) / CBG per pair; MARD = mean |diff|; bias = median diff; duplicate timestamps dropped; CBG outside 40-600 mg/dL dropped; 95 % CI by resampling people",
+      "overall": {
+        "pairs": 4010,
+        "people": 98,
+        "mard_pct": 13.9,
+        "median_ard_pct": 11.0,
+        "median_bias_pct": -7.0,
+        "mean_bias_pct": -7.4,
+        "within_15pct": 0.636,
+        "within_20pct": 0.759
+      },
+      "median_ard_ci95_pct": [
+        9.6,
+        12.5
+      ],
+      "median_bias_ci95_pct": [
+        -10.6,
+        -3.8
+      ],
+      "by_type": {
+        "T1DM": {
+          "pairs": 749,
+          "people": 10,
+          "mard_pct": 18.4,
+          "median_ard_pct": 14.8,
+          "median_bias_pct": -12.6,
+          "mean_bias_pct": -13.4,
+          "within_15pct": 0.505,
+          "within_20pct": 0.615
+        },
+        "T2DM": {
+          "pairs": 3261,
+          "people": 88,
+          "mard_pct": 12.8,
+          "median_ard_pct": 10.2,
+          "median_bias_pct": -5.8,
+          "mean_bias_pct": -6.1,
+          "within_15pct": 0.666,
+          "within_20pct": 0.792
+        }
+      },
+      "caveats": [
+        "Fingersticks were taken at clinical times (often around meals), not at random moments.",
+        "Glucose meters have their own error (ISO 15197 allows \u00b115 %), so this is CGM-meter disagreement, not the CGM's true error.",
+        "Applies to the Shanghai sensors only; the other datasets use different CGM devices and have no reference readings."
+      ]
+    }
+  },
+  "v9": {
+    "source": "models/combined_v9 (verified by app/verify_results.py)",
+    "protocol": "187 open-data people split once into DEV 150 / TEST 37 (seed 2026). Feature groups, thresholds and the alert policy were chosen on DEV only (5-fold person CV); TEST, OhioT1DM and a chronological holdout were scored once. Label unchanged (max CGM in next 2 h > 180).",
+    "selected": "combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics",
+    "served_2h_model": "v9 (30 min / 1 h stay v7)",
+    "dev_cv": {
+      "base (v7 inputs)": {
+        "accuracy": 0.8466,
+        "roc_auc": 0.911,
+        "retained": null,
+        "accuracy_diff_ci95": null,
+        "roc_auc_diff_ci95": null
+      },
+      "+C1 personal history": {
+        "accuracy": 0.8476,
+        "roc_auc": 0.9126,
+        "retained": true,
+        "accuracy_diff_ci95": [
+          0.0001,
+          0.0018
+        ],
+        "roc_auc_diff_ci95": [
+          0.0008,
+          0.0022
+        ]
+      },
+      "+C2 recorded meals & oral drugs": {
+        "accuracy": 0.8473,
+        "roc_auc": 0.9119,
+        "retained": true,
+        "accuracy_diff_ci95": [
+          0.0002,
+          0.0013
+        ],
+        "roc_auc_diff_ci95": [
+          0.0005,
+          0.0011
+        ]
+      },
+      "+C3 multi-window dynamics": {
+        "accuracy": 0.8471,
+        "roc_auc": 0.9115,
+        "retained": true,
+        "accuracy_diff_ci95": [
+          -0.0002,
+          0.0011
+        ],
+        "roc_auc_diff_ci95": [
+          0.0001,
+          0.0007
+        ]
+      },
+      "combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics": {
+        "accuracy": 0.8481,
+        "roc_auc": 0.9133,
+        "retained": true,
+        "accuracy_diff_ci95": [
+          0.0009,
+          0.0022
+        ],
+        "roc_auc_diff_ci95": [
+          0.0014,
+          0.003
+        ]
+      }
+    },
+    "test": {
+      "v7_config": {
+        "accuracy": 0.8524,
+        "roc_auc": 0.9154,
+        "pr_auc": 0.8933,
+        "recall": 0.6877,
+        "precision": 0.8819,
+        "specificity": 0.9471,
+        "f1": 0.7728,
+        "brier": 0.1046,
+        "ece": 0.0085,
+        "accuracy_ci95_by_person": [
+          0.8287,
+          0.8689
+        ],
+        "type2_accuracy": 0.9041,
+        "ohio_accuracy": 0.8372,
+        "ohio_roc_auc": 0.9125
+      },
+      "v9": {
+        "accuracy": 0.8533,
+        "roc_auc": 0.9167,
+        "pr_auc": 0.8946,
+        "recall": 0.7008,
+        "precision": 0.8721,
+        "specificity": 0.9409,
+        "f1": 0.7771,
+        "brier": 0.104,
+        "ece": 0.0066,
+        "accuracy_ci95_by_person": [
+          0.8301,
+          0.8695
+        ],
+        "type2_accuracy": 0.9037,
+        "ohio_accuracy": 0.8398,
+        "ohio_roc_auc": 0.914
+      }
+    },
+    "test_v9_vs_v7_config": {
+      "accuracy_diff_mean": 0.0009,
+      "accuracy_diff_ci95": [
+        -0.0005,
+        0.0025
+      ],
+      "roc_auc_diff_mean": 0.0013,
+      "roc_auc_diff_ci95": [
+        0.0004,
+        0.0021
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "chronological_holdout": {
+      "v7_config": {
+        "accuracy": 0.8544,
+        "roc_auc": 0.9177
+      },
+      "v9": {
+        "accuracy": 0.8545,
+        "roc_auc": 0.9191
+      }
+    },
+    "test_people": 37,
+    "test_rows": 147200,
+    "alert_policy": {
+      "rule": "maximise serious-episode recall subject to false alerts per patient-day <= the v7 policy's on the same validation data; alerts suppressed while glucose > 180",
+      "thresholds": {
+        "baseline (v7 config, DEV-trained)": {
+          "accuracy": 0.52,
+          "policy": 0.51
+        },
+        "candidate: combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics": {
+          "accuracy": 0.5,
+          "policy": 0.51
+        }
+      },
+      "population": "TEST people (37), saved TEST predictions",
+      "bootstrap": "2000 person resamples",
+      "arms": {
+        "baseline + v7 policy": {
+          "serious_episodes": 2515,
+          "serious_warned": 1526,
+          "serious_recall": 0.6068,
+          "serious_recall_ci95": [
+            0.5396,
+            0.6812
+          ],
+          "false_alerts": 2246,
+          "false_alerts_per_patient_day": 1.465,
+          "false_alerts_per_patient_day_ci95": [
+            1.2184,
+            1.7465
+          ]
+        },
+        "baseline + v9 policy": {
+          "serious_episodes": 2515,
+          "serious_warned": 1571,
+          "serious_recall": 0.6247,
+          "serious_recall_ci95": [
+            0.5566,
+            0.6992
+          ],
+          "false_alerts": 2048,
+          "false_alerts_per_patient_day": 1.336,
+          "false_alerts_per_patient_day_ci95": [
+            1.1156,
+            1.6591
+          ]
+        },
+        "candidate + v7 policy": {
+          "serious_episodes": 2515,
+          "serious_warned": 1616,
+          "serious_recall": 0.6425,
+          "serious_recall_ci95": [
+            0.5733,
+            0.718
+          ],
+          "false_alerts": 2425,
+          "false_alerts_per_patient_day": 1.582,
+          "false_alerts_per_patient_day_ci95": [
+            1.3084,
+            1.9397
+          ]
+        },
+        "candidate + v9 policy": {
+          "serious_episodes": 2515,
+          "serious_warned": 1569,
+          "serious_recall": 0.6239,
+          "serious_recall_ci95": [
+            0.5508,
+            0.7058
+          ],
+          "false_alerts": 2033,
+          "false_alerts_per_patient_day": 1.326,
+          "false_alerts_per_patient_day_ci95": [
+            1.0819,
+            1.6995
+          ]
+        }
+      },
+      "paired_vs_baseline_v7_policy": {
+        "baseline + v9 policy": {
+          "serious_recall_diff": 0.0179,
+          "serious_recall_diff_ci95": [
+            0.0133,
+            0.0215
+          ],
+          "false_alerts_per_day_diff": -0.129,
+          "false_alerts_per_day_diff_ci95": [
+            -0.214,
+            -0.0012
+          ]
+        },
+        "candidate + v7 policy": {
+          "serious_recall_diff": 0.0358,
+          "serious_recall_diff_ci95": [
+            0.022,
+            0.0521
+          ],
+          "false_alerts_per_day_diff": 0.117,
+          "false_alerts_per_day_diff_ci95": [
+            0.0485,
+            0.2115
+          ]
+        },
+        "candidate + v9 policy": {
+          "serious_recall_diff": 0.0171,
+          "serious_recall_diff_ci95": [
+            0.0013,
+            0.0385
+          ],
+          "false_alerts_per_day_diff": -0.139,
+          "false_alerts_per_day_diff_ci95": [
+            -0.2494,
+            0.0362
+          ]
+        }
+      },
+      "alerts_per_patient_day": {
+        "baseline + v7 policy": 8.61,
+        "baseline + v9 policy": 3.638,
+        "candidate + v7 policy": 8.81,
+        "candidate + v9 policy": 3.652
+      }
+    },
+    "label_sensitivity": {
+      "peak > 170": {
+        "prevalence": 0.429,
+        "accuracy": 0.821,
+        "recall": 0.6231,
+        "roc_auc": 0.911
+      },
+      "peak > 180 (primary)": {
+        "prevalence": 0.3651,
+        "accuracy": 0.8524,
+        "recall": 0.6877,
+        "roc_auc": 0.9154
+      },
+      "peak > 190": {
+        "prevalence": 0.3098,
+        "accuracy": 0.8586,
+        "recall": 0.7311,
+        "roc_auc": 0.9166
+      },
+      "peak > 198 (180 + 10 %)": {
+        "prevalence": 0.2693,
+        "accuracy": 0.8548,
+        "recall": 0.759,
+        "roc_auc": 0.9162
+      },
+      "> 180 for >= 2 consecutive bins": {
+        "prevalence": 0.3168,
+        "accuracy": 0.8546,
+        "recall": 0.7198,
+        "roc_auc": 0.913
+      }
+    },
+    "uncertainty_bands": {
+      "\u00b15 % (171-189)": {
+        "coverage_clear": 0.887,
+        "accuracy_clear": 0.8829,
+        "accuracy_near": 0.6129,
+        "share_of_errors_near": 0.2964
+      },
+      "\u00b110 % (162-198)": {
+        "coverage_clear": 0.782,
+        "accuracy_clear": 0.9044,
+        "accuracy_near": 0.6657,
+        "share_of_errors_near": 0.4937
+      },
+      "\u00b115 % (153-207)": {
+        "coverage_clear": 0.6821,
+        "accuracy_clear": 0.9179,
+        "accuracy_near": 0.7118,
+        "share_of_errors_near": 0.6206
+      }
+    }
+  }
+}
