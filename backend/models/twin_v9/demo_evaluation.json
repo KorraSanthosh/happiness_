@@ -1,0 +1,117 @@
+{
+  "demo_patients": [
+    "sh_t2_2000",
+    "sh_t2_2001",
+    "sh_t2_2015",
+    "sh_t2_2016",
+    "sh_t2_2017",
+    "sh_t2_2045",
+    "sh_t2_2055",
+    "sh_t2_2069",
+    "sh_t2_2073",
+    "sh_t2_2074",
+    "sh_t2_2078",
+    "sh_t2_2091",
+    "sh_t1_1002",
+    "sh_t1_1003",
+    "sh_t1_1006",
+    "sh_t1_1007",
+    "sh_t1_1012",
+    "azt1d_07",
+    "azt1d_15",
+    "azt1d_20",
+    "azt1d_21",
+    "azt1d_23",
+    "uom_2301",
+    "uom_2302",
+    "uom_2310",
+    "uom_2403",
+    "hupa_0001",
+    "hupa_0026",
+    "hupa_0027",
+    "hupa_0028"
+  ],
+  "note": "demo patients were excluded from training of this model",
+  "thresholds_from_dev_validation": {
+    "candidate": "combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics",
+    "accuracy_mode": 0.5,
+    "safety_mode": 0.38,
+    "early_warning": 0.51
+  },
+  "evaluation": {
+    "2h": {
+      "accuracy_mode": {
+        "n": 170269,
+        "prevalence": 0.336,
+        "threshold": 0.5,
+        "accuracy": 0.8513,
+        "balanced_accuracy": 0.8087,
+        "precision": 0.8478,
+        "recall": 0.6791,
+        "specificity": 0.9383,
+        "f1": 0.7542,
+        "mcc": 0.6576,
+        "roc_auc": 0.9021,
+        "pr_auc": 0.8689,
+        "brier": 0.1078,
+        "log_loss": 0.3427,
+        "ece": 0.0182,
+        "mean_pred": 0.3542,
+        "confusion": {
+          "tp": 38851,
+          "tn": 106091,
+          "fp": 6972,
+          "fn": 18355
+        }
+      },
+      "safety_mode": {
+        "n": 170269,
+        "prevalence": 0.336,
+        "threshold": 0.38,
+        "accuracy": 0.8379,
+        "balanced_accuracy": 0.8157,
+        "precision": 0.7645,
+        "recall": 0.7481,
+        "specificity": 0.8834,
+        "f1": 0.7562,
+        "mcc": 0.6349,
+        "roc_auc": 0.9021,
+        "pr_auc": 0.8689,
+        "brier": 0.1078,
+        "log_loss": 0.3427,
+        "ece": 0.0182,
+        "mean_pred": 0.3542,
+        "confusion": {
+          "tp": 42794,
+          "tn": 99879,
+          "fp": 13184,
+          "fn": 14412
+        }
+      },
+      "v7_demo_model_same_rows": {
+        "n": 170269,
+        "prevalence": 0.336,
+        "threshold": 0.51,
+        "accuracy": 0.8513,
+        "balanced_accuracy": 0.8067,
+        "precision": 0.8555,
+        "recall": 0.6708,
+        "specificity": 0.9427,
+        "f1": 0.752,
+        "mcc": 0.6578,
+        "roc_auc": 0.9007,
+        "pr_auc": 0.8674,
+        "brier": 0.1084,
+        "log_loss": 0.3446,
+        "ece": 0.0186,
+        "mean_pred": 0.3546,
+        "confusion": {
+          "tp": 38375,
+          "tn": 106579,
+          "fp": 6484,
+          "fn": 18831
+        }
+      }
+    }
+  }
+}
