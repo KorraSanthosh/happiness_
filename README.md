@@ -24,7 +24,7 @@
 
 ### Demonstration video
 
-**Demonstration video:** Pending recording by the team leader. The recording checklist and the place to insert the final link are in [`docs/VIDEO_PENDING.md`](docs/VIDEO_PENDING.md).
+**Demonstration video:** [`docs/GlucoTwin_Demo_Video.mp4`](docs/GlucoTwin_Demo_Video.mp4) — about 22 minutes, narrated by team leader Korra Santhosh, showing the slides and the running application (captions included).
 
 ---
 
@@ -316,7 +316,7 @@ frontend/src/
   services/api.js           API client
 docs/
   GlucoTwin_Architecture.pdf, GlucoTwin_Presentation.pdf|pptx
-  model_investigation.md, DATA_SOURCES.md, VIDEO_PENDING.md, screenshots/
+  GlucoTwin_Demo_Video.mp4, model_investigation.md, DATA_SOURCES.md, screenshots/
 models/                     result summaries (JSON): combined_v5|v6|v7|v9|t2d, investigation/, baseline_v7/
 ```
 
