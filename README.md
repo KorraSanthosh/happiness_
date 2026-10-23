@@ -15,6 +15,7 @@
 | **Team name** | hackers_ |
 | **Institution** | IIT (ISM) Dhanbad |
 | **Team leader** | Korra Santhosh |
+| **Contact** | korrasanthosh2418@gmail.com |
 | **Other members** | _Pending: to be added by the team_ |
 | **Repository** | https://github.com/KorraSanthosh/happiness_ |
 | **Presentation** | [`docs/GlucoTwin_Presentation.pdf`](docs/GlucoTwin_Presentation.pdf) (editable: [`.pptx`](docs/GlucoTwin_Presentation.pptx)) |
