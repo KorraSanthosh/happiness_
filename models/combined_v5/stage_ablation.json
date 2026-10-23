@@ -1,0 +1,1034 @@
+{
+  "rules": {
+    "rule: majority class": {
+      "all": {
+        "n": 129580,
+        "prevalence": 0.4743,
+        "threshold": 0.5,
+        "accuracy": 0.5257,
+        "balanced_accuracy": 0.5,
+        "precision": null,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0,
+        "mcc": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.4743,
+        "brier": 0.4743,
+        "log_loss": 6.553,
+        "ece": 0.4743,
+        "mean_pred": 0.0,
+        "confusion": {
+          "tp": 0,
+          "tn": 68117,
+          "fp": 0,
+          "fn": 61463
+        }
+      },
+      "ohio": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.5,
+        "accuracy": 0.4839,
+        "balanced_accuracy": 0.5,
+        "precision": null,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0,
+        "mcc": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.5161,
+        "brier": 0.5161,
+        "log_loss": 7.1296,
+        "ece": 0.5161,
+        "mean_pred": 0.0,
+        "confusion": {
+          "tp": 0,
+          "tn": 26034,
+          "fp": 0,
+          "fn": 27762
+        }
+      },
+      "brist": {
+        "n": 75784,
+        "prevalence": 0.4447,
+        "threshold": 0.5,
+        "accuracy": 0.5553,
+        "balanced_accuracy": 0.5,
+        "precision": null,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "f1": 0.0,
+        "mcc": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.4447,
+        "brier": 0.4447,
+        "log_loss": 6.1437,
+        "ece": 0.4447,
+        "mean_pred": 0.0,
+        "confusion": {
+          "tp": 0,
+          "tn": 42083,
+          "fp": 0,
+          "fn": 33701
+        }
+      }
+    },
+    "rule: glucose > 180 now": {
+      "all": {
+        "n": 129580,
+        "prevalence": 0.4743,
+        "threshold": 0.5,
+        "accuracy": 0.7967,
+        "balanced_accuracy": 0.7866,
+        "precision": 0.9676,
+        "recall": 0.5911,
+        "specificity": 0.9821,
+        "f1": 0.7339,
+        "mcc": 0.631,
+        "roc_auc": 0.7866,
+        "pr_auc": 0.7659,
+        "brier": 0.2033,
+        "log_loss": 2.8092,
+        "ece": 0.2033,
+        "mean_pred": 0.2898,
+        "confusion": {
+          "tp": 36332,
+          "tn": 66900,
+          "fp": 1217,
+          "fn": 25131
+        }
+      },
+      "ohio": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.5,
+        "accuracy": 0.803,
+        "balanced_accuracy": 0.8087,
+        "precision": 0.98,
+        "recall": 0.6312,
+        "specificity": 0.9862,
+        "f1": 0.7679,
+        "mcc": 0.655,
+        "roc_auc": 0.8087,
+        "pr_auc": 0.8089,
+        "brier": 0.197,
+        "log_loss": 2.7212,
+        "ece": 0.197,
+        "mean_pred": 0.3324,
+        "confusion": {
+          "tp": 17524,
+          "tn": 25676,
+          "fp": 358,
+          "fn": 10238
+        }
+      },
+      "brist": {
+        "n": 75784,
+        "prevalence": 0.4447,
+        "threshold": 0.5,
+        "accuracy": 0.7921,
+        "balanced_accuracy": 0.7688,
+        "precision": 0.9563,
+        "recall": 0.5581,
+        "specificity": 0.9796,
+        "f1": 0.7048,
+        "mcc": 0.6095,
+        "roc_auc": 0.7688,
+        "pr_auc": 0.7302,
+        "brier": 0.2079,
+        "log_loss": 2.8716,
+        "ece": 0.2079,
+        "mean_pred": 0.2595,
+        "confusion": {
+          "tp": 18808,
+          "tn": 41224,
+          "fp": 859,
+          "fn": 14893
+        }
+      }
+    },
+    "rule: glucose or 2h projection > 180": {
+      "all": {
+        "n": 129580,
+        "prevalence": 0.4743,
+        "threshold": 0.5,
+        "accuracy": 0.7945,
+        "balanced_accuracy": 0.7911,
+        "precision": 0.8218,
+        "recall": 0.7237,
+        "specificity": 0.8584,
+        "f1": 0.7697,
+        "mcc": 0.5894,
+        "roc_auc": 0.7911,
+        "pr_auc": 0.7258,
+        "brier": 0.2055,
+        "log_loss": 2.8388,
+        "ece": 0.2055,
+        "mean_pred": 0.4177,
+        "confusion": {
+          "tp": 44483,
+          "tn": 58471,
+          "fp": 9646,
+          "fn": 16980
+        }
+      },
+      "ohio": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.5,
+        "accuracy": 0.8134,
+        "balanced_accuracy": 0.8152,
+        "precision": 0.8618,
+        "recall": 0.7605,
+        "specificity": 0.8699,
+        "f1": 0.808,
+        "mcc": 0.6326,
+        "roc_auc": 0.8152,
+        "pr_auc": 0.779,
+        "brier": 0.1866,
+        "log_loss": 2.5774,
+        "ece": 0.1866,
+        "mean_pred": 0.4554,
+        "confusion": {
+          "tp": 21113,
+          "tn": 22647,
+          "fp": 3387,
+          "fn": 6649
+        }
+      },
+      "brist": {
+        "n": 75784,
+        "prevalence": 0.4447,
+        "threshold": 0.5,
+        "accuracy": 0.7811,
+        "balanced_accuracy": 0.7724,
+        "precision": 0.7888,
+        "recall": 0.6935,
+        "specificity": 0.8513,
+        "f1": 0.738,
+        "mcc": 0.5547,
+        "roc_auc": 0.7724,
+        "pr_auc": 0.6833,
+        "brier": 0.2189,
+        "log_loss": 3.0244,
+        "ece": 0.2189,
+        "mean_pred": 0.391,
+        "confusion": {
+          "tp": 23370,
+          "tn": 35824,
+          "fp": 6259,
+          "fn": 10331
+        }
+      }
+    }
+  },
+  "models": {
+    "LR glucose-only | combined": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.8009,
+          "balanced_accuracy": 0.7986,
+          "precision": 0.8133,
+          "recall": 0.753,
+          "specificity": 0.8441,
+          "f1": 0.782,
+          "mcc": 0.6008,
+          "roc_auc": 0.8606,
+          "pr_auc": 0.8914,
+          "brier": 0.1429,
+          "log_loss": 0.4505,
+          "ece": 0.0819,
+          "mean_pred": 0.4745,
+          "confusion": {
+            "tp": 46284,
+            "tn": 57495,
+            "fp": 10622,
+            "fn": 15179
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8155,
+          "balanced_accuracy": 0.8161,
+          "precision": 0.839,
+          "recall": 0.795,
+          "specificity": 0.8373,
+          "f1": 0.8164,
+          "mcc": 0.6321,
+          "roc_auc": 0.8878,
+          "pr_auc": 0.9211,
+          "brier": 0.1317,
+          "log_loss": 0.4188,
+          "ece": 0.077,
+          "mean_pred": 0.5064,
+          "confusion": {
+            "tp": 22071,
+            "tn": 21798,
+            "fp": 4236,
+            "fn": 5691
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.7905,
+          "balanced_accuracy": 0.7834,
+          "precision": 0.7913,
+          "recall": 0.7185,
+          "specificity": 0.8483,
+          "f1": 0.7531,
+          "mcc": 0.574,
+          "roc_auc": 0.8381,
+          "pr_auc": 0.8648,
+          "brier": 0.1509,
+          "log_loss": 0.473,
+          "ece": 0.0854,
+          "mean_pred": 0.4519,
+          "confusion": {
+            "tp": 24213,
+            "tn": 35697,
+            "fp": 6386,
+            "fn": 9488
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8045,
+        "std": 0.04,
+        "min": 0.7217,
+        "max": 0.887
+      }
+    },
+    "LR engineered | combined": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.8127,
+          "balanced_accuracy": 0.8071,
+          "precision": 0.8834,
+          "recall": 0.6971,
+          "specificity": 0.917,
+          "f1": 0.7793,
+          "mcc": 0.6337,
+          "roc_auc": 0.875,
+          "pr_auc": 0.8956,
+          "brier": 0.1326,
+          "log_loss": 0.4105,
+          "ece": 0.0118,
+          "mean_pred": 0.4773,
+          "confusion": {
+            "tp": 42847,
+            "tn": 62463,
+            "fp": 5654,
+            "fn": 18616
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8263,
+          "balanced_accuracy": 0.8294,
+          "precision": 0.9144,
+          "recall": 0.7319,
+          "specificity": 0.927,
+          "f1": 0.813,
+          "mcc": 0.6687,
+          "roc_auc": 0.9002,
+          "pr_auc": 0.9257,
+          "brier": 0.1209,
+          "log_loss": 0.3745,
+          "ece": 0.0092,
+          "mean_pred": 0.5075,
+          "confusion": {
+            "tp": 20318,
+            "tn": 24133,
+            "fp": 1901,
+            "fn": 7444
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.8031,
+          "balanced_accuracy": 0.7897,
+          "precision": 0.8572,
+          "recall": 0.6685,
+          "specificity": 0.9108,
+          "f1": 0.7512,
+          "mcc": 0.6049,
+          "roc_auc": 0.8546,
+          "pr_auc": 0.8691,
+          "brier": 0.141,
+          "log_loss": 0.436,
+          "ece": 0.0257,
+          "mean_pred": 0.4558,
+          "confusion": {
+            "tp": 22529,
+            "tn": 38330,
+            "fp": 3753,
+            "fn": 11172
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8164,
+        "std": 0.0331,
+        "min": 0.7592,
+        "max": 0.8762
+      }
+    },
+    "RF engineered | combined": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.818,
+          "balanced_accuracy": 0.8121,
+          "precision": 0.8955,
+          "recall": 0.6977,
+          "specificity": 0.9265,
+          "f1": 0.7843,
+          "mcc": 0.6458,
+          "roc_auc": 0.8843,
+          "pr_auc": 0.9032,
+          "brier": 0.1276,
+          "log_loss": 0.3897,
+          "ece": 0.0106,
+          "mean_pred": 0.4825,
+          "confusion": {
+            "tp": 42884,
+            "tn": 63112,
+            "fp": 5005,
+            "fn": 18579
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8325,
+          "balanced_accuracy": 0.8355,
+          "precision": 0.9183,
+          "recall": 0.7413,
+          "specificity": 0.9297,
+          "f1": 0.8204,
+          "mcc": 0.6802,
+          "roc_auc": 0.9065,
+          "pr_auc": 0.9312,
+          "brier": 0.1166,
+          "log_loss": 0.357,
+          "ece": 0.0184,
+          "mean_pred": 0.5192,
+          "confusion": {
+            "tp": 20579,
+            "tn": 24204,
+            "fp": 1830,
+            "fn": 7183
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.8077,
+          "balanced_accuracy": 0.7932,
+          "precision": 0.8754,
+          "recall": 0.6618,
+          "specificity": 0.9246,
+          "f1": 0.7538,
+          "mcc": 0.6168,
+          "roc_auc": 0.8665,
+          "pr_auc": 0.8778,
+          "brier": 0.1354,
+          "log_loss": 0.4129,
+          "ece": 0.0122,
+          "mean_pred": 0.4565,
+          "confusion": {
+            "tp": 22305,
+            "tn": 38908,
+            "fp": 3175,
+            "fn": 11396
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8219,
+        "std": 0.0381,
+        "min": 0.7548,
+        "max": 0.898
+      }
+    },
+    "HGB base | ohio-only": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.8047,
+          "balanced_accuracy": 0.8009,
+          "precision": 0.8402,
+          "recall": 0.7265,
+          "specificity": 0.8754,
+          "f1": 0.7792,
+          "mcc": 0.611,
+          "roc_auc": 0.8709,
+          "pr_auc": 0.8943,
+          "brier": 0.1364,
+          "log_loss": 0.4178,
+          "ece": 0.0452,
+          "mean_pred": 0.4886,
+          "confusion": {
+            "tp": 44650,
+            "tn": 59627,
+            "fp": 8490,
+            "fn": 16813
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8237,
+          "balanced_accuracy": 0.8257,
+          "precision": 0.8795,
+          "recall": 0.7629,
+          "specificity": 0.8886,
+          "f1": 0.8171,
+          "mcc": 0.6547,
+          "roc_auc": 0.9013,
+          "pr_auc": 0.9274,
+          "brier": 0.1208,
+          "log_loss": 0.3666,
+          "ece": 0.0245,
+          "mean_pred": 0.5163,
+          "confusion": {
+            "tp": 21179,
+            "tn": 23133,
+            "fp": 2901,
+            "fn": 6583
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.7913,
+          "balanced_accuracy": 0.7818,
+          "precision": 0.8077,
+          "recall": 0.6964,
+          "specificity": 0.8672,
+          "f1": 0.7479,
+          "mcc": 0.576,
+          "roc_auc": 0.8463,
+          "pr_auc": 0.865,
+          "brier": 0.1474,
+          "log_loss": 0.4541,
+          "ece": 0.0628,
+          "mean_pred": 0.469,
+          "confusion": {
+            "tp": 23471,
+            "tn": 36494,
+            "fp": 5589,
+            "fn": 10230
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.81,
+        "std": 0.032,
+        "min": 0.7512,
+        "max": 0.8872
+      }
+    },
+    "HGB base | brist-only": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.804,
+          "balanced_accuracy": 0.7995,
+          "precision": 0.8494,
+          "recall": 0.7132,
+          "specificity": 0.8859,
+          "f1": 0.7753,
+          "mcc": 0.611,
+          "roc_auc": 0.8728,
+          "pr_auc": 0.8945,
+          "brier": 0.1353,
+          "log_loss": 0.4105,
+          "ece": 0.0331,
+          "mean_pred": 0.49,
+          "confusion": {
+            "tp": 43834,
+            "tn": 60343,
+            "fp": 7774,
+            "fn": 17629
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8209,
+          "balanced_accuracy": 0.8231,
+          "precision": 0.8825,
+          "recall": 0.7532,
+          "specificity": 0.893,
+          "f1": 0.8127,
+          "mcc": 0.6505,
+          "roc_auc": 0.8883,
+          "pr_auc": 0.9202,
+          "brier": 0.1262,
+          "log_loss": 0.383,
+          "ece": 0.0388,
+          "mean_pred": 0.5258,
+          "confusion": {
+            "tp": 20910,
+            "tn": 23249,
+            "fp": 2785,
+            "fn": 6852
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.792,
+          "balanced_accuracy": 0.7808,
+          "precision": 0.8213,
+          "recall": 0.6802,
+          "specificity": 0.8814,
+          "f1": 0.7441,
+          "mcc": 0.5786,
+          "roc_auc": 0.8607,
+          "pr_auc": 0.8717,
+          "brier": 0.1418,
+          "log_loss": 0.43,
+          "ece": 0.0342,
+          "mean_pred": 0.4646,
+          "confusion": {
+            "tp": 22924,
+            "tn": 37094,
+            "fp": 4989,
+            "fn": 10777
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8083,
+        "std": 0.0325,
+        "min": 0.742,
+        "max": 0.8816
+      }
+    },
+    "HGB base | combined": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.8131,
+          "balanced_accuracy": 0.8082,
+          "precision": 0.8707,
+          "recall": 0.7117,
+          "specificity": 0.9046,
+          "f1": 0.7832,
+          "mcc": 0.6317,
+          "roc_auc": 0.8805,
+          "pr_auc": 0.9005,
+          "brier": 0.13,
+          "log_loss": 0.3961,
+          "ece": 0.0187,
+          "mean_pred": 0.4843,
+          "confusion": {
+            "tp": 43744,
+            "tn": 61620,
+            "fp": 6497,
+            "fn": 17719
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8282,
+          "balanced_accuracy": 0.8306,
+          "precision": 0.8941,
+          "recall": 0.7568,
+          "specificity": 0.9044,
+          "f1": 0.8197,
+          "mcc": 0.6662,
+          "roc_auc": 0.901,
+          "pr_auc": 0.9278,
+          "brier": 0.119,
+          "log_loss": 0.3624,
+          "ece": 0.018,
+          "mean_pred": 0.5243,
+          "confusion": {
+            "tp": 21009,
+            "tn": 23546,
+            "fp": 2488,
+            "fn": 6753
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.8024,
+          "balanced_accuracy": 0.7897,
+          "precision": 0.8501,
+          "recall": 0.6746,
+          "specificity": 0.9047,
+          "f1": 0.7523,
+          "mcc": 0.6025,
+          "roc_auc": 0.8641,
+          "pr_auc": 0.8757,
+          "brier": 0.1378,
+          "log_loss": 0.42,
+          "ece": 0.0264,
+          "mean_pred": 0.456,
+          "confusion": {
+            "tp": 22735,
+            "tn": 38074,
+            "fp": 4009,
+            "fn": 10966
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8172,
+        "std": 0.0341,
+        "min": 0.7562,
+        "max": 0.8951
+      }
+    },
+    "HGB engineered | ohio-only": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.8048,
+          "balanced_accuracy": 0.8011,
+          "precision": 0.8381,
+          "recall": 0.7293,
+          "specificity": 0.8729,
+          "f1": 0.7799,
+          "mcc": 0.6108,
+          "roc_auc": 0.8737,
+          "pr_auc": 0.8958,
+          "brier": 0.1359,
+          "log_loss": 0.4163,
+          "ece": 0.0478,
+          "mean_pred": 0.484,
+          "confusion": {
+            "tp": 44823,
+            "tn": 59461,
+            "fp": 8656,
+            "fn": 16640
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8268,
+          "balanced_accuracy": 0.8288,
+          "precision": 0.8817,
+          "recall": 0.7673,
+          "specificity": 0.8902,
+          "f1": 0.8205,
+          "mcc": 0.6606,
+          "roc_auc": 0.906,
+          "pr_auc": 0.93,
+          "brier": 0.1187,
+          "log_loss": 0.3618,
+          "ece": 0.0229,
+          "mean_pred": 0.5119,
+          "confusion": {
+            "tp": 21302,
+            "tn": 23176,
+            "fp": 2858,
+            "fn": 6460
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.7892,
+          "balanced_accuracy": 0.7801,
+          "precision": 0.8022,
+          "recall": 0.6979,
+          "specificity": 0.8622,
+          "f1": 0.7465,
+          "mcc": 0.5715,
+          "roc_auc": 0.8477,
+          "pr_auc": 0.8653,
+          "brier": 0.148,
+          "log_loss": 0.455,
+          "ece": 0.066,
+          "mean_pred": 0.4641,
+          "confusion": {
+            "tp": 23521,
+            "tn": 36285,
+            "fp": 5798,
+            "fn": 10180
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8108,
+        "std": 0.0331,
+        "min": 0.751,
+        "max": 0.8854
+      }
+    },
+    "HGB engineered | brist-only": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.8018,
+          "balanced_accuracy": 0.7983,
+          "precision": 0.8324,
+          "recall": 0.729,
+          "specificity": 0.8675,
+          "f1": 0.7773,
+          "mcc": 0.6045,
+          "roc_auc": 0.8741,
+          "pr_auc": 0.8955,
+          "brier": 0.1358,
+          "log_loss": 0.4105,
+          "ece": 0.0398,
+          "mean_pred": 0.4967,
+          "confusion": {
+            "tp": 44807,
+            "tn": 59093,
+            "fp": 9024,
+            "fn": 16656
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8197,
+          "balanced_accuracy": 0.8212,
+          "precision": 0.8641,
+          "recall": 0.7719,
+          "specificity": 0.8706,
+          "f1": 0.8154,
+          "mcc": 0.6441,
+          "roc_auc": 0.8932,
+          "pr_auc": 0.9229,
+          "brier": 0.1249,
+          "log_loss": 0.3793,
+          "ece": 0.0403,
+          "mean_pred": 0.5326,
+          "confusion": {
+            "tp": 21430,
+            "tn": 22664,
+            "fp": 3370,
+            "fn": 6332
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.7892,
+          "balanced_accuracy": 0.7797,
+          "precision": 0.8052,
+          "recall": 0.6937,
+          "specificity": 0.8656,
+          "f1": 0.7453,
+          "mcc": 0.5717,
+          "roc_auc": 0.8589,
+          "pr_auc": 0.8708,
+          "brier": 0.1435,
+          "log_loss": 0.4326,
+          "ece": 0.0443,
+          "mean_pred": 0.4712,
+          "confusion": {
+            "tp": 23377,
+            "tn": 36429,
+            "fp": 5654,
+            "fn": 10324
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8065,
+        "std": 0.0295,
+        "min": 0.7527,
+        "max": 0.878
+      }
+    },
+    "HGB engineered | combined": {
+      "subsets": {
+        "all": {
+          "n": 129580,
+          "prevalence": 0.4743,
+          "threshold": 0.5,
+          "accuracy": 0.8157,
+          "balanced_accuracy": 0.8112,
+          "precision": 0.8673,
+          "recall": 0.722,
+          "specificity": 0.9003,
+          "f1": 0.788,
+          "mcc": 0.6357,
+          "roc_auc": 0.8833,
+          "pr_auc": 0.9027,
+          "brier": 0.1288,
+          "log_loss": 0.3926,
+          "ece": 0.0205,
+          "mean_pred": 0.485,
+          "confusion": {
+            "tp": 44378,
+            "tn": 61326,
+            "fp": 6791,
+            "fn": 17085
+          }
+        },
+        "ohio": {
+          "n": 53796,
+          "prevalence": 0.5161,
+          "threshold": 0.5,
+          "accuracy": 0.8328,
+          "balanced_accuracy": 0.8348,
+          "precision": 0.8907,
+          "recall": 0.7704,
+          "specificity": 0.8992,
+          "f1": 0.8262,
+          "mcc": 0.6732,
+          "roc_auc": 0.9068,
+          "pr_auc": 0.9314,
+          "brier": 0.1164,
+          "log_loss": 0.3556,
+          "ece": 0.016,
+          "mean_pred": 0.5256,
+          "confusion": {
+            "tp": 21389,
+            "tn": 23410,
+            "fp": 2624,
+            "fn": 6373
+          }
+        },
+        "brist": {
+          "n": 75784,
+          "prevalence": 0.4447,
+          "threshold": 0.5,
+          "accuracy": 0.8037,
+          "balanced_accuracy": 0.7916,
+          "precision": 0.8466,
+          "recall": 0.6821,
+          "specificity": 0.901,
+          "f1": 0.7555,
+          "mcc": 0.6043,
+          "roc_auc": 0.8641,
+          "pr_auc": 0.8764,
+          "brier": 0.1376,
+          "log_loss": 0.4189,
+          "ece": 0.0302,
+          "mean_pred": 0.4562,
+          "confusion": {
+            "tp": 22989,
+            "tn": 37916,
+            "fp": 4167,
+            "fn": 10712
+          }
+        }
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8203,
+        "std": 0.0344,
+        "min": 0.7576,
+        "max": 0.9009
+      }
+    }
+  },
+  "n_rows": 129580,
+  "paired_bootstrap": {
+    "feature engineering (HGB combined)": {
+      "accuracy_diff_mean": 0.0027,
+      "accuracy_diff_ci95": [
+        0.0013,
+        0.0044
+      ],
+      "roc_auc_diff_mean": 0.0029,
+      "roc_auc_diff_ci95": [
+        0.001,
+        0.0049
+      ],
+      "accuracy_diff_excludes_0": true
+    },
+    "adding BrisT1D to Ohio training (base)": {
+      "accuracy_diff_mean": 0.0083,
+      "accuracy_diff_ci95": [
+        0.0031,
+        0.0139
+      ],
+      "roc_auc_diff_mean": 0.0096,
+      "roc_auc_diff_ci95": [
+        0.0023,
+        0.0172
+      ],
+      "accuracy_diff_excludes_0": true
+    },
+    "adding BrisT1D to Ohio training (engineered)": {
+      "accuracy_diff_mean": 0.0108,
+      "accuracy_diff_ci95": [
+        0.0048,
+        0.0178
+      ],
+      "roc_auc_diff_mean": 0.0096,
+      "roc_auc_diff_ci95": [
+        0.003,
+        0.0172
+      ],
+      "accuracy_diff_excludes_0": true
+    },
+    "HGB vs logistic regression (engineered, combined)": {
+      "accuracy_diff_mean": 0.0033,
+      "accuracy_diff_ci95": [
+        -0.0004,
+        0.0069
+      ],
+      "roc_auc_diff_mean": 0.0086,
+      "roc_auc_diff_ci95": [
+        0.0029,
+        0.0145
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "HGB vs rule 'glucose>180' (engineered, combined)": {
+      "accuracy_diff_mean": 0.0197,
+      "accuracy_diff_ci95": [
+        0.0072,
+        0.0286
+      ],
+      "roc_auc_diff_mean": 0.0975,
+      "roc_auc_diff_ci95": [
+        0.0893,
+        0.106
+      ],
+      "accuracy_diff_excludes_0": true
+    }
+  }
+}
