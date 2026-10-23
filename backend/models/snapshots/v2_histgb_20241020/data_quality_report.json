@@ -1,0 +1,52 @@
+{
+  "run_timestamp": "2026-10-20T12:51:14.050840",
+  "raw_record_count": 17280,
+  "raw_patient_count": 120,
+  "checks": {
+    "duplicate_patient_timestamp_pairs": 0,
+    "orphan_reading_patients": [],
+    "ehr_patients_without_readings": [],
+    "invalid_timestamps": 0,
+    "irregular_sampling_intervals": 0,
+    "glucose_implausible_count": 0,
+    "heart_rate_implausible_count": 0,
+    "steps_implausible_count": 0,
+    "bmi_implausible_count": 0,
+    "hba1c_implausible_count": 0,
+    "invalid_target_labels": 0,
+    "unknown_horizon_rows_excluded_from_training": 1440,
+    "patients_with_fewer_than_24_readings": 0
+  },
+  "corrections": [],
+  "exclusions": [],
+  "final_record_count": 17280,
+  "final_patient_count": 120,
+  "target_distribution": {
+    "no_spike_0": 13203,
+    "spike_1": 2637,
+    "prevalence": 0.1665
+  },
+  "missing_value_pct": {
+    "patient_id": 0.0,
+    "timestamp": 0.0,
+    "glucose_mgdl": 0.0,
+    "heart_rate_bpm": 0.0,
+    "sleep_hours": 99.31,
+    "steps": 0.0,
+    "activity_level": 0.0,
+    "activity_score": 0.0,
+    "spike_target": 0.0,
+    "age": 0.0,
+    "bmi": 0.0,
+    "hba1c": 0.0,
+    "diabetes_flag": 0.0,
+    "gender_male": 0.0
+  },
+  "assumptions": [
+    "Glucose spike threshold: >180 mg/dL (ADA postprandial upper bound).",
+    "Prediction horizon: 2 hours (12 \u00d7 10-min intervals).",
+    "spike_target == -1 rows (no future data) are excluded from training only.",
+    "Plausibility bounds applied per column; implausible values are NaN-flagged and imputed with patient median.",
+    "Missing future target not treated as negative event \u2014 rows excluded instead."
+  ]
+}
