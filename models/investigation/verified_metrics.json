@@ -1,0 +1,2060 @@
+{
+  "checks_total": 297,
+  "checks_failed": 0,
+  "failed": [],
+  "verified": {
+    "cv": {
+      "30m": {
+        "rows": 526103,
+        "people": 187,
+        "all_open": {
+          "accuracy": 0.9472859877248372,
+          "recall": 0.8638844633268425,
+          "precision": 0.9265907706426373,
+          "roc_auc": 0.9831628538976119,
+          "rule_accuracy": 0.9365865619469952,
+          "rows": 526103
+        },
+        "type1": {
+          "accuracy": 0.9428536282989469,
+          "recall": 0.8600814645877519,
+          "precision": 0.9244034107166702,
+          "roc_auc": 0.9807397227183395,
+          "rule_accuracy": 0.9330683402395551,
+          "rows": 414602
+        },
+        "type2": {
+          "accuracy": 0.9637671411018736,
+          "recall": 0.8826073659836603,
+          "precision": 0.9372303409881698,
+          "roc_auc": 0.9910732216636201,
+          "rule_accuracy": 0.949668612837553,
+          "rows": 111501
+        },
+        "brist": {
+          "accuracy": 0.9364803075963837,
+          "recall": 0.8559325660005991,
+          "precision": 0.9292516374785154,
+          "roc_auc": 0.9779136802817209,
+          "rule_accuracy": 0.9263093629845163,
+          "rows": 76984
+        },
+        "hupa": {
+          "accuracy": 0.9451140194855185,
+          "recall": 0.86721446179129,
+          "precision": 0.9024626610420705,
+          "roc_auc": 0.9823820756268485,
+          "rule_accuracy": 0.9349199607103985,
+          "rows": 75338
+        },
+        "uom": {
+          "accuracy": 0.9428954387110821,
+          "recall": 0.8620081616202327,
+          "precision": 0.921502625555406,
+          "roc_auc": 0.9808347114094963,
+          "rule_accuracy": 0.9336150119747442,
+          "rows": 146976
+        },
+        "azt1d": {
+          "accuracy": 0.9428757645643236,
+          "recall": 0.8352898897939627,
+          "precision": 0.9301053754835268,
+          "roc_auc": 0.9778591024092378,
+          "rule_accuracy": 0.9341020756041312,
+          "rows": 99730
+        },
+        "sh_t1": {
+          "accuracy": 0.9628868627199179,
+          "recall": 0.9409716727330274,
+          "precision": 0.9666720858397009,
+          "roc_auc": 0.9946098091654841,
+          "rule_accuracy": 0.9457429048414023,
+          "rows": 15574
+        },
+        "sh_t2": {
+          "accuracy": 0.9637671411018736,
+          "recall": 0.8826073659836603,
+          "precision": 0.9372303409881698,
+          "roc_auc": 0.9910732216636201,
+          "rule_accuracy": 0.949668612837553,
+          "rows": 111501
+        },
+        "safety_mode": {
+          "accuracy": 0.9353377570551774,
+          "recall": 0.9228108219743908
+        },
+        "accuracy_ci95": [
+          0.9434,
+          0.9512
+        ]
+      },
+      "60m": {
+        "rows": 534206,
+        "people": 187,
+        "all_open": {
+          "accuracy": 0.9113825003837471,
+          "recall": 0.7777291976365067,
+          "precision": 0.9137447714097013,
+          "roc_auc": 0.9564190762693148,
+          "rule_accuracy": 0.8967252333369524,
+          "rows": 534206
+        },
+        "type1": {
+          "accuracy": 0.9044325587114226,
+          "recall": 0.7731454472019028,
+          "precision": 0.9110925036358027,
+          "roc_auc": 0.9510598355985437,
+          "rule_accuracy": 0.8905621920192189,
+          "rows": 422916
+        },
+        "type2": {
+          "accuracy": 0.937793153023632,
+          "recall": 0.8009392516285412,
+          "precision": 0.9269340346263423,
+          "roc_auc": 0.9741300980004217,
+          "rule_accuracy": 0.9201455656393207,
+          "rows": 111290
+        },
+        "brist": {
+          "accuracy": 0.8908948909860072,
+          "recall": 0.7649147207378669,
+          "precision": 0.9142969638638551,
+          "roc_auc": 0.941013199051585,
+          "rule_accuracy": 0.8774877969410999,
+          "rows": 76825
+        },
+        "hupa": {
+          "accuracy": 0.9138003380849049,
+          "recall": 0.7852389857782803,
+          "precision": 0.8891022800019698,
+          "roc_auc": 0.9568468059419737,
+          "rule_accuracy": 0.9013679250938126,
+          "rows": 83411
+        },
+        "uom": {
+          "accuracy": 0.9049356921908069,
+          "recall": 0.7749967801485425,
+          "precision": 0.910889090725603,
+          "roc_auc": 0.9508356913750333,
+          "rule_accuracy": 0.891416128507082,
+          "rows": 147416
+        },
+        "azt1d": {
+          "accuracy": 0.9011341643184485,
+          "recall": 0.7402042587277218,
+          "precision": 0.9144435739908465,
+          "roc_auc": 0.9460061300485911,
+          "rule_accuracy": 0.8864933163526239,
+          "rows": 99721
+        },
+        "sh_t1": {
+          "accuracy": 0.937463810075275,
+          "recall": 0.8971470373079736,
+          "precision": 0.9579753163568192,
+          "roc_auc": 0.984394660679129,
+          "rule_accuracy": 0.9152029852666795,
+          "rows": 15543
+        },
+        "sh_t2": {
+          "accuracy": 0.937793153023632,
+          "recall": 0.8009392516285412,
+          "precision": 0.9269340346263423,
+          "roc_auc": 0.9741300980004217,
+          "rule_accuracy": 0.9201455656393207,
+          "rows": 111290
+        },
+        "safety_mode": {
+          "accuracy": 0.8982620936492663,
+          "recall": 0.8528625501242958
+        },
+        "accuracy_ci95": [
+          0.9051,
+          0.9176
+        ]
+      },
+      "2h": {
+        "rows": 530807,
+        "people": 187,
+        "all_open": {
+          "accuracy": 0.8490034984467048,
+          "recall": 0.689228774852905,
+          "precision": 0.8822931607823967,
+          "roc_auc": 0.9134555882483092,
+          "rule_accuracy": 0.8248534778177379,
+          "rows": 530807
+        },
+        "type1": {
+          "accuracy": 0.8361452094917191,
+          "recall": 0.6806350389535443,
+          "precision": 0.8783395910261582,
+          "roc_auc": 0.9014414356323643,
+          "rule_accuracy": 0.8138970579480647,
+          "rows": 419945
+        },
+        "type2": {
+          "accuracy": 0.8977106673161227,
+          "recall": 0.7329884600079586,
+          "precision": 0.9014795015623235,
+          "roc_auc": 0.9506858376142674,
+          "rule_accuracy": 0.8663563709837455,
+          "rows": 110862
+        },
+        "brist": {
+          "accuracy": 0.8133774939301172,
+          "recall": 0.6749651345657399,
+          "precision": 0.8770434916718075,
+          "roc_auc": 0.886882977904581,
+          "rule_accuracy": 0.7921460994405152,
+          "rows": 75784
+        },
+        "hupa": {
+          "accuracy": 0.8533772652388797,
+          "recall": 0.6850117506752254,
+          "precision": 0.8587195497317738,
+          "roc_auc": 0.9046535549342744,
+          "rule_accuracy": 0.8373597566108298,
+          "rows": 83159
+        },
+        "uom": {
+          "accuracy": 0.8376345409537876,
+          "recall": 0.682486285063658,
+          "precision": 0.8810913140311804,
+          "roc_auc": 0.8995336115198218,
+          "rule_accuracy": 0.8154173333880387,
+          "rows": 146238
+        },
+        "azt1d": {
+          "accuracy": 0.8279852550157119,
+          "recall": 0.6472913578320459,
+          "precision": 0.8761881292684645,
+          "roc_auc": 0.8978521668103718,
+          "rule_accuracy": 0.8012851502699219,
+          "rows": 99288
+        },
+        "sh_t1": {
+          "accuracy": 0.8933186869992246,
+          "recall": 0.841294498381877,
+          "precision": 0.9386192952050838,
+          "roc_auc": 0.9613650603179295,
+          "rule_accuracy": 0.8608813646937193,
+          "rows": 15476
+        },
+        "sh_t2": {
+          "accuracy": 0.8977106673161227,
+          "recall": 0.7329884600079586,
+          "precision": 0.9014795015623235,
+          "roc_auc": 0.9506858376142674,
+          "rule_accuracy": 0.8663563709837455,
+          "rows": 110862
+        },
+        "safety_mode": {
+          "accuracy": 0.8417277842982478,
+          "recall": 0.766582420950553
+        },
+        "accuracy_ci95": [
+          0.8402,
+          0.8584
+        ]
+      }
+    },
+    "ohio": {
+      "30m": {
+        "accuracy": 0.9452691858768603,
+        "roc_auc": 0.9857803363046369,
+        "recall": 0.8942316875179066,
+        "rows": 54832,
+        "people": 12
+      },
+      "60m": {
+        "accuracy": 0.9063426960120116,
+        "roc_auc": 0.9627696158848775,
+        "recall": 0.8284655994550408,
+        "rows": 54614,
+        "people": 12
+      },
+      "2h": {
+        "accuracy": 0.8369953156368504,
+        "roc_auc": 0.9115677875579539,
+        "recall": 0.7542324040054751,
+        "rows": 53796,
+        "people": 12
+      }
+    },
+    "fingerstick": {
+      "pairs": 4010,
+      "people": 98,
+      "mard_pct": 13.9,
+      "median_ard_pct": 11.0,
+      "median_bias_pct": -7.0
+    },
+    "v9": {
+      "baseline": {
+        "accuracy": 0.8523573369565217,
+        "roc_auc": 0.9153814544461907,
+        "recall": 0.6876570088762352,
+        "precision": 0.8819149443940624,
+        "rows": 147200,
+        "type2_accuracy": 0.9040999719180005,
+        "alerts_v7_policy": {
+          "false_alerts_per_patient_day": 1.4647826086956524,
+          "serious_episodes": 2515,
+          "serious_warned": 1526,
+          "serious_recall": 0.6067594433399602,
+          "serious_lead_min_median": 60.0
+        },
+        "alerts_chosen_policy": {
+          "false_alerts_per_patient_day": 1.3356521739130436,
+          "serious_episodes": 2515,
+          "serious_warned": 1571,
+          "serious_recall": 0.6246520874751491,
+          "serious_lead_min_median": 60.0
+        }
+      },
+      "candidate": {
+        "accuracy": 0.8532676630434782,
+        "roc_auc": 0.9166544222183468,
+        "recall": 0.7008131896760267,
+        "precision": 0.8721458014913621,
+        "rows": 147200,
+        "type2_accuracy": 0.9037255452588224,
+        "alerts_v7_policy": {
+          "false_alerts_per_patient_day": 1.5815217391304348,
+          "serious_episodes": 2515,
+          "serious_warned": 1616,
+          "serious_recall": 0.642544731610338,
+          "serious_lead_min_median": 75.0
+        },
+        "alerts_chosen_policy": {
+          "false_alerts_per_patient_day": 1.3258695652173913,
+          "serious_episodes": 2515,
+          "serious_warned": 1569,
+          "serious_recall": 0.6238568588469184,
+          "serious_lead_min_median": 60.0
+        }
+      },
+      "promotion_rule": {
+        "1 AUC gain > 0 and CI low > -0.002": true,
+        "2 accuracy CI low >= -0.005": true,
+        "3 Ohio accuracy and AUC not down > 0.002": true,
+        "4 chronological accuracy not down": true,
+        "policy: more serious warned, no more false alerts": true
+      }
+    }
+  },
+  "checks": [
+    {
+      "check": "30m: every held-out row joined to its features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "30m: probabilities in [0,1] and thresholds present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "30m all_open accuracy = stage_cv",
+      "expected": 0.9473,
+      "actual": 0.9473,
+      "pass": true
+    },
+    {
+      "check": "30m all_open recall = stage_cv",
+      "expected": 0.8639,
+      "actual": 0.8639,
+      "pass": true
+    },
+    {
+      "check": "30m all_open precision = stage_cv",
+      "expected": 0.9266,
+      "actual": 0.9266,
+      "pass": true
+    },
+    {
+      "check": "30m all_open roc_auc = stage_cv",
+      "expected": 0.9832,
+      "actual": 0.9832,
+      "pass": true
+    },
+    {
+      "check": "30m all_open rule_accuracy = stage_cv",
+      "expected": 0.9366,
+      "actual": 0.9366,
+      "pass": true
+    },
+    {
+      "check": "30m type1 accuracy = stage_cv",
+      "expected": 0.9429,
+      "actual": 0.9429,
+      "pass": true
+    },
+    {
+      "check": "30m type1 recall = stage_cv",
+      "expected": 0.8601,
+      "actual": 0.8601,
+      "pass": true
+    },
+    {
+      "check": "30m type1 precision = stage_cv",
+      "expected": 0.9244,
+      "actual": 0.9244,
+      "pass": true
+    },
+    {
+      "check": "30m type1 roc_auc = stage_cv",
+      "expected": 0.9807,
+      "actual": 0.9807,
+      "pass": true
+    },
+    {
+      "check": "30m type1 rule_accuracy = stage_cv",
+      "expected": 0.9331,
+      "actual": 0.9331,
+      "pass": true
+    },
+    {
+      "check": "30m type2 accuracy = stage_cv",
+      "expected": 0.9638,
+      "actual": 0.9638,
+      "pass": true
+    },
+    {
+      "check": "30m type2 recall = stage_cv",
+      "expected": 0.8826,
+      "actual": 0.8826,
+      "pass": true
+    },
+    {
+      "check": "30m type2 precision = stage_cv",
+      "expected": 0.9372,
+      "actual": 0.9372,
+      "pass": true
+    },
+    {
+      "check": "30m type2 roc_auc = stage_cv",
+      "expected": 0.9911,
+      "actual": 0.9911,
+      "pass": true
+    },
+    {
+      "check": "30m type2 rule_accuracy = stage_cv",
+      "expected": 0.9497,
+      "actual": 0.9497,
+      "pass": true
+    },
+    {
+      "check": "30m brist accuracy = stage_cv",
+      "expected": 0.9365,
+      "actual": 0.9365,
+      "pass": true
+    },
+    {
+      "check": "30m brist recall = stage_cv",
+      "expected": 0.8559,
+      "actual": 0.8559,
+      "pass": true
+    },
+    {
+      "check": "30m brist precision = stage_cv",
+      "expected": 0.9293,
+      "actual": 0.9293,
+      "pass": true
+    },
+    {
+      "check": "30m brist roc_auc = stage_cv",
+      "expected": 0.9779,
+      "actual": 0.9779,
+      "pass": true
+    },
+    {
+      "check": "30m brist rule_accuracy = stage_cv",
+      "expected": 0.9263,
+      "actual": 0.9263,
+      "pass": true
+    },
+    {
+      "check": "30m hupa accuracy = stage_cv",
+      "expected": 0.9451,
+      "actual": 0.9451,
+      "pass": true
+    },
+    {
+      "check": "30m hupa recall = stage_cv",
+      "expected": 0.8672,
+      "actual": 0.8672,
+      "pass": true
+    },
+    {
+      "check": "30m hupa precision = stage_cv",
+      "expected": 0.9025,
+      "actual": 0.9025,
+      "pass": true
+    },
+    {
+      "check": "30m hupa roc_auc = stage_cv",
+      "expected": 0.9824,
+      "actual": 0.9824,
+      "pass": true
+    },
+    {
+      "check": "30m hupa rule_accuracy = stage_cv",
+      "expected": 0.9349,
+      "actual": 0.9349,
+      "pass": true
+    },
+    {
+      "check": "30m uom accuracy = stage_cv",
+      "expected": 0.9429,
+      "actual": 0.9429,
+      "pass": true
+    },
+    {
+      "check": "30m uom recall = stage_cv",
+      "expected": 0.862,
+      "actual": 0.862,
+      "pass": true
+    },
+    {
+      "check": "30m uom precision = stage_cv",
+      "expected": 0.9215,
+      "actual": 0.9215,
+      "pass": true
+    },
+    {
+      "check": "30m uom roc_auc = stage_cv",
+      "expected": 0.9808,
+      "actual": 0.9808,
+      "pass": true
+    },
+    {
+      "check": "30m uom rule_accuracy = stage_cv",
+      "expected": 0.9336,
+      "actual": 0.9336,
+      "pass": true
+    },
+    {
+      "check": "30m azt1d accuracy = stage_cv",
+      "expected": 0.9429,
+      "actual": 0.9429,
+      "pass": true
+    },
+    {
+      "check": "30m azt1d recall = stage_cv",
+      "expected": 0.8353,
+      "actual": 0.8353,
+      "pass": true
+    },
+    {
+      "check": "30m azt1d precision = stage_cv",
+      "expected": 0.9301,
+      "actual": 0.9301,
+      "pass": true
+    },
+    {
+      "check": "30m azt1d roc_auc = stage_cv",
+      "expected": 0.9779,
+      "actual": 0.9779,
+      "pass": true
+    },
+    {
+      "check": "30m azt1d rule_accuracy = stage_cv",
+      "expected": 0.9341,
+      "actual": 0.9341,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t1 accuracy = stage_cv",
+      "expected": 0.9629,
+      "actual": 0.9629,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t1 recall = stage_cv",
+      "expected": 0.941,
+      "actual": 0.941,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t1 precision = stage_cv",
+      "expected": 0.9667,
+      "actual": 0.9667,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t1 roc_auc = stage_cv",
+      "expected": 0.9946,
+      "actual": 0.9946,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t1 rule_accuracy = stage_cv",
+      "expected": 0.9457,
+      "actual": 0.9457,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t2 accuracy = stage_cv",
+      "expected": 0.9638,
+      "actual": 0.9638,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t2 recall = stage_cv",
+      "expected": 0.8826,
+      "actual": 0.8826,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t2 precision = stage_cv",
+      "expected": 0.9372,
+      "actual": 0.9372,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t2 roc_auc = stage_cv",
+      "expected": 0.9911,
+      "actual": 0.9911,
+      "pass": true
+    },
+    {
+      "check": "30m sh_t2 rule_accuracy = stage_cv",
+      "expected": 0.9497,
+      "actual": 0.9497,
+      "pass": true
+    },
+    {
+      "check": "30m safety-mode accuracy = stage_cv",
+      "expected": 0.9353,
+      "actual": 0.9353,
+      "pass": true
+    },
+    {
+      "check": "30m safety-mode recall = stage_cv",
+      "expected": 0.9228,
+      "actual": 0.9228,
+      "pass": true
+    },
+    {
+      "check": "60m: every held-out row joined to its features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "60m: probabilities in [0,1] and thresholds present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "60m all_open accuracy = stage_cv",
+      "expected": 0.9114,
+      "actual": 0.9114,
+      "pass": true
+    },
+    {
+      "check": "60m all_open recall = stage_cv",
+      "expected": 0.7777,
+      "actual": 0.7777,
+      "pass": true
+    },
+    {
+      "check": "60m all_open precision = stage_cv",
+      "expected": 0.9137,
+      "actual": 0.9137,
+      "pass": true
+    },
+    {
+      "check": "60m all_open roc_auc = stage_cv",
+      "expected": 0.9564,
+      "actual": 0.9564,
+      "pass": true
+    },
+    {
+      "check": "60m all_open rule_accuracy = stage_cv",
+      "expected": 0.8967,
+      "actual": 0.8967,
+      "pass": true
+    },
+    {
+      "check": "60m type1 accuracy = stage_cv",
+      "expected": 0.9044,
+      "actual": 0.9044,
+      "pass": true
+    },
+    {
+      "check": "60m type1 recall = stage_cv",
+      "expected": 0.7731,
+      "actual": 0.7731,
+      "pass": true
+    },
+    {
+      "check": "60m type1 precision = stage_cv",
+      "expected": 0.9111,
+      "actual": 0.9111,
+      "pass": true
+    },
+    {
+      "check": "60m type1 roc_auc = stage_cv",
+      "expected": 0.9511,
+      "actual": 0.9511,
+      "pass": true
+    },
+    {
+      "check": "60m type1 rule_accuracy = stage_cv",
+      "expected": 0.8906,
+      "actual": 0.8906,
+      "pass": true
+    },
+    {
+      "check": "60m type2 accuracy = stage_cv",
+      "expected": 0.9378,
+      "actual": 0.9378,
+      "pass": true
+    },
+    {
+      "check": "60m type2 recall = stage_cv",
+      "expected": 0.8009,
+      "actual": 0.8009,
+      "pass": true
+    },
+    {
+      "check": "60m type2 precision = stage_cv",
+      "expected": 0.9269,
+      "actual": 0.9269,
+      "pass": true
+    },
+    {
+      "check": "60m type2 roc_auc = stage_cv",
+      "expected": 0.9741,
+      "actual": 0.9741,
+      "pass": true
+    },
+    {
+      "check": "60m type2 rule_accuracy = stage_cv",
+      "expected": 0.9201,
+      "actual": 0.9201,
+      "pass": true
+    },
+    {
+      "check": "60m brist accuracy = stage_cv",
+      "expected": 0.8909,
+      "actual": 0.8909,
+      "pass": true
+    },
+    {
+      "check": "60m brist recall = stage_cv",
+      "expected": 0.7649,
+      "actual": 0.7649,
+      "pass": true
+    },
+    {
+      "check": "60m brist precision = stage_cv",
+      "expected": 0.9143,
+      "actual": 0.9143,
+      "pass": true
+    },
+    {
+      "check": "60m brist roc_auc = stage_cv",
+      "expected": 0.941,
+      "actual": 0.941,
+      "pass": true
+    },
+    {
+      "check": "60m brist rule_accuracy = stage_cv",
+      "expected": 0.8775,
+      "actual": 0.8775,
+      "pass": true
+    },
+    {
+      "check": "60m hupa accuracy = stage_cv",
+      "expected": 0.9138,
+      "actual": 0.9138,
+      "pass": true
+    },
+    {
+      "check": "60m hupa recall = stage_cv",
+      "expected": 0.7852,
+      "actual": 0.7852,
+      "pass": true
+    },
+    {
+      "check": "60m hupa precision = stage_cv",
+      "expected": 0.8891,
+      "actual": 0.8891,
+      "pass": true
+    },
+    {
+      "check": "60m hupa roc_auc = stage_cv",
+      "expected": 0.9568,
+      "actual": 0.9568,
+      "pass": true
+    },
+    {
+      "check": "60m hupa rule_accuracy = stage_cv",
+      "expected": 0.9014,
+      "actual": 0.9014,
+      "pass": true
+    },
+    {
+      "check": "60m uom accuracy = stage_cv",
+      "expected": 0.9049,
+      "actual": 0.9049,
+      "pass": true
+    },
+    {
+      "check": "60m uom recall = stage_cv",
+      "expected": 0.775,
+      "actual": 0.775,
+      "pass": true
+    },
+    {
+      "check": "60m uom precision = stage_cv",
+      "expected": 0.9109,
+      "actual": 0.9109,
+      "pass": true
+    },
+    {
+      "check": "60m uom roc_auc = stage_cv",
+      "expected": 0.9508,
+      "actual": 0.9508,
+      "pass": true
+    },
+    {
+      "check": "60m uom rule_accuracy = stage_cv",
+      "expected": 0.8914,
+      "actual": 0.8914,
+      "pass": true
+    },
+    {
+      "check": "60m azt1d accuracy = stage_cv",
+      "expected": 0.9011,
+      "actual": 0.9011,
+      "pass": true
+    },
+    {
+      "check": "60m azt1d recall = stage_cv",
+      "expected": 0.7402,
+      "actual": 0.7402,
+      "pass": true
+    },
+    {
+      "check": "60m azt1d precision = stage_cv",
+      "expected": 0.9144,
+      "actual": 0.9144,
+      "pass": true
+    },
+    {
+      "check": "60m azt1d roc_auc = stage_cv",
+      "expected": 0.946,
+      "actual": 0.946,
+      "pass": true
+    },
+    {
+      "check": "60m azt1d rule_accuracy = stage_cv",
+      "expected": 0.8865,
+      "actual": 0.8865,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t1 accuracy = stage_cv",
+      "expected": 0.9375,
+      "actual": 0.9375,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t1 recall = stage_cv",
+      "expected": 0.8971,
+      "actual": 0.8971,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t1 precision = stage_cv",
+      "expected": 0.958,
+      "actual": 0.958,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t1 roc_auc = stage_cv",
+      "expected": 0.9844,
+      "actual": 0.9844,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t1 rule_accuracy = stage_cv",
+      "expected": 0.9152,
+      "actual": 0.9152,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t2 accuracy = stage_cv",
+      "expected": 0.9378,
+      "actual": 0.9378,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t2 recall = stage_cv",
+      "expected": 0.8009,
+      "actual": 0.8009,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t2 precision = stage_cv",
+      "expected": 0.9269,
+      "actual": 0.9269,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t2 roc_auc = stage_cv",
+      "expected": 0.9741,
+      "actual": 0.9741,
+      "pass": true
+    },
+    {
+      "check": "60m sh_t2 rule_accuracy = stage_cv",
+      "expected": 0.9201,
+      "actual": 0.9201,
+      "pass": true
+    },
+    {
+      "check": "60m safety-mode accuracy = stage_cv",
+      "expected": 0.8983,
+      "actual": 0.8983,
+      "pass": true
+    },
+    {
+      "check": "60m safety-mode recall = stage_cv",
+      "expected": 0.8529,
+      "actual": 0.8529,
+      "pass": true
+    },
+    {
+      "check": "2h: every held-out row joined to its features",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "2h: probabilities in [0,1] and thresholds present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "2h all_open accuracy = stage_cv",
+      "expected": 0.849,
+      "actual": 0.849,
+      "pass": true
+    },
+    {
+      "check": "2h all_open recall = stage_cv",
+      "expected": 0.6892,
+      "actual": 0.6892,
+      "pass": true
+    },
+    {
+      "check": "2h all_open precision = stage_cv",
+      "expected": 0.8823,
+      "actual": 0.8823,
+      "pass": true
+    },
+    {
+      "check": "2h all_open roc_auc = stage_cv",
+      "expected": 0.9135,
+      "actual": 0.9135,
+      "pass": true
+    },
+    {
+      "check": "2h all_open rule_accuracy = stage_cv",
+      "expected": 0.8249,
+      "actual": 0.8249,
+      "pass": true
+    },
+    {
+      "check": "2h type1 accuracy = stage_cv",
+      "expected": 0.8361,
+      "actual": 0.8361,
+      "pass": true
+    },
+    {
+      "check": "2h type1 recall = stage_cv",
+      "expected": 0.6806,
+      "actual": 0.6806,
+      "pass": true
+    },
+    {
+      "check": "2h type1 precision = stage_cv",
+      "expected": 0.8783,
+      "actual": 0.8783,
+      "pass": true
+    },
+    {
+      "check": "2h type1 roc_auc = stage_cv",
+      "expected": 0.9014,
+      "actual": 0.9014,
+      "pass": true
+    },
+    {
+      "check": "2h type1 rule_accuracy = stage_cv",
+      "expected": 0.8139,
+      "actual": 0.8139,
+      "pass": true
+    },
+    {
+      "check": "2h type2 accuracy = stage_cv",
+      "expected": 0.8977,
+      "actual": 0.8977,
+      "pass": true
+    },
+    {
+      "check": "2h type2 recall = stage_cv",
+      "expected": 0.733,
+      "actual": 0.733,
+      "pass": true
+    },
+    {
+      "check": "2h type2 precision = stage_cv",
+      "expected": 0.9015,
+      "actual": 0.9015,
+      "pass": true
+    },
+    {
+      "check": "2h type2 roc_auc = stage_cv",
+      "expected": 0.9507,
+      "actual": 0.9507,
+      "pass": true
+    },
+    {
+      "check": "2h type2 rule_accuracy = stage_cv",
+      "expected": 0.8664,
+      "actual": 0.8664,
+      "pass": true
+    },
+    {
+      "check": "2h brist accuracy = stage_cv",
+      "expected": 0.8134,
+      "actual": 0.8134,
+      "pass": true
+    },
+    {
+      "check": "2h brist recall = stage_cv",
+      "expected": 0.675,
+      "actual": 0.675,
+      "pass": true
+    },
+    {
+      "check": "2h brist precision = stage_cv",
+      "expected": 0.877,
+      "actual": 0.877,
+      "pass": true
+    },
+    {
+      "check": "2h brist roc_auc = stage_cv",
+      "expected": 0.8869,
+      "actual": 0.8869,
+      "pass": true
+    },
+    {
+      "check": "2h brist rule_accuracy = stage_cv",
+      "expected": 0.7921,
+      "actual": 0.7921,
+      "pass": true
+    },
+    {
+      "check": "2h hupa accuracy = stage_cv",
+      "expected": 0.8534,
+      "actual": 0.8534,
+      "pass": true
+    },
+    {
+      "check": "2h hupa recall = stage_cv",
+      "expected": 0.685,
+      "actual": 0.685,
+      "pass": true
+    },
+    {
+      "check": "2h hupa precision = stage_cv",
+      "expected": 0.8587,
+      "actual": 0.8587,
+      "pass": true
+    },
+    {
+      "check": "2h hupa roc_auc = stage_cv",
+      "expected": 0.9047,
+      "actual": 0.9047,
+      "pass": true
+    },
+    {
+      "check": "2h hupa rule_accuracy = stage_cv",
+      "expected": 0.8374,
+      "actual": 0.8374,
+      "pass": true
+    },
+    {
+      "check": "2h uom accuracy = stage_cv",
+      "expected": 0.8376,
+      "actual": 0.8376,
+      "pass": true
+    },
+    {
+      "check": "2h uom recall = stage_cv",
+      "expected": 0.6825,
+      "actual": 0.6825,
+      "pass": true
+    },
+    {
+      "check": "2h uom precision = stage_cv",
+      "expected": 0.8811,
+      "actual": 0.8811,
+      "pass": true
+    },
+    {
+      "check": "2h uom roc_auc = stage_cv",
+      "expected": 0.8995,
+      "actual": 0.8995,
+      "pass": true
+    },
+    {
+      "check": "2h uom rule_accuracy = stage_cv",
+      "expected": 0.8154,
+      "actual": 0.8154,
+      "pass": true
+    },
+    {
+      "check": "2h azt1d accuracy = stage_cv",
+      "expected": 0.828,
+      "actual": 0.828,
+      "pass": true
+    },
+    {
+      "check": "2h azt1d recall = stage_cv",
+      "expected": 0.6473,
+      "actual": 0.6473,
+      "pass": true
+    },
+    {
+      "check": "2h azt1d precision = stage_cv",
+      "expected": 0.8762,
+      "actual": 0.8762,
+      "pass": true
+    },
+    {
+      "check": "2h azt1d roc_auc = stage_cv",
+      "expected": 0.8979,
+      "actual": 0.8979,
+      "pass": true
+    },
+    {
+      "check": "2h azt1d rule_accuracy = stage_cv",
+      "expected": 0.8013,
+      "actual": 0.8013,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t1 accuracy = stage_cv",
+      "expected": 0.8933,
+      "actual": 0.8933,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t1 recall = stage_cv",
+      "expected": 0.8413,
+      "actual": 0.8413,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t1 precision = stage_cv",
+      "expected": 0.9386,
+      "actual": 0.9386,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t1 roc_auc = stage_cv",
+      "expected": 0.9614,
+      "actual": 0.9614,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t1 rule_accuracy = stage_cv",
+      "expected": 0.8609,
+      "actual": 0.8609,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t2 accuracy = stage_cv",
+      "expected": 0.8977,
+      "actual": 0.8977,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t2 recall = stage_cv",
+      "expected": 0.733,
+      "actual": 0.733,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t2 precision = stage_cv",
+      "expected": 0.9015,
+      "actual": 0.9015,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t2 roc_auc = stage_cv",
+      "expected": 0.9507,
+      "actual": 0.9507,
+      "pass": true
+    },
+    {
+      "check": "2h sh_t2 rule_accuracy = stage_cv",
+      "expected": 0.8664,
+      "actual": 0.8664,
+      "pass": true
+    },
+    {
+      "check": "2h safety-mode accuracy = stage_cv",
+      "expected": 0.8417,
+      "actual": 0.8417,
+      "pass": true
+    },
+    {
+      "check": "2h safety-mode recall = stage_cv",
+      "expected": 0.7666,
+      "actual": 0.7666,
+      "pass": true
+    },
+    {
+      "check": "Ohio 30m accuracy = stage_final",
+      "expected": 0.9453,
+      "actual": 0.9453,
+      "pass": true
+    },
+    {
+      "check": "Ohio 30m ROC-AUC = stage_final",
+      "expected": 0.9858,
+      "actual": 0.9858,
+      "pass": true
+    },
+    {
+      "check": "Ohio 30m: no Ohio person in the training folds",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Ohio 60m accuracy = stage_final",
+      "expected": 0.9063,
+      "actual": 0.9063,
+      "pass": true
+    },
+    {
+      "check": "Ohio 60m ROC-AUC = stage_final",
+      "expected": 0.9628,
+      "actual": 0.9628,
+      "pass": true
+    },
+    {
+      "check": "Ohio 60m: no Ohio person in the training folds",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Ohio 2h accuracy = stage_final",
+      "expected": 0.837,
+      "actual": 0.837,
+      "pass": true
+    },
+    {
+      "check": "Ohio 2h ROC-AUC = stage_final",
+      "expected": 0.9116,
+      "actual": 0.9116,
+      "pass": true
+    },
+    {
+      "check": "Ohio 2h: no Ohio person in the training folds",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "fingerstick pairs (independent recompute) = analysis.json",
+      "expected": 4010,
+      "actual": 4010,
+      "pass": true
+    },
+    {
+      "check": "fingerstick people (independent recompute) = analysis.json",
+      "expected": 98,
+      "actual": 98,
+      "pass": true
+    },
+    {
+      "check": "fingerstick mard_pct (independent recompute) = analysis.json",
+      "expected": 13.9,
+      "actual": 13.9,
+      "pass": true
+    },
+    {
+      "check": "fingerstick median_ard_pct (independent recompute) = analysis.json",
+      "expected": 11.0,
+      "actual": 11.0,
+      "pass": true
+    },
+    {
+      "check": "fingerstick median_bias_pct (independent recompute) = analysis.json",
+      "expected": -7.0,
+      "actual": -7.0,
+      "pass": true
+    },
+    {
+      "check": "label reliability all_open: weighted clear/uncertain = overall",
+      "expected": 0.849,
+      "actual": 0.8489559999999999,
+      "pass": true
+    },
+    {
+      "check": "label reliability all_open: overall = held-out accuracy",
+      "expected": 0.849,
+      "actual": 0.849,
+      "pass": true
+    },
+    {
+      "check": "label reliability all_open: uncertain share = rows ratio",
+      "expected": 0.2275,
+      "actual": 0.22747062491640088,
+      "pass": true
+    },
+    {
+      "check": "label reliability type2: weighted clear/uncertain = overall",
+      "expected": 0.8977,
+      "actual": 0.8977401,
+      "pass": true
+    },
+    {
+      "check": "label reliability type2: overall = held-out accuracy",
+      "expected": 0.8977,
+      "actual": 0.8977,
+      "pass": true
+    },
+    {
+      "check": "label reliability type2: uncertain share = rows ratio",
+      "expected": 0.1994,
+      "actual": 0.199419097616857,
+      "pass": true
+    },
+    {
+      "check": "label reliability type1: weighted clear/uncertain = overall",
+      "expected": 0.8361,
+      "actual": 0.8361206499999999,
+      "pass": true
+    },
+    {
+      "check": "label reliability type1: overall = held-out accuracy",
+      "expected": 0.8361,
+      "actual": 0.8361,
+      "pass": true
+    },
+    {
+      "check": "label reliability type1: uncertain share = rows ratio",
+      "expected": 0.2349,
+      "actual": 0.23487599566609912,
+      "pass": true
+    },
+    {
+      "check": "label reliability: rows = held-out 2-h rows",
+      "expected": 530807,
+      "actual": 530807,
+      "pass": true
+    },
+    {
+      "check": "moments: miss rate = missed / positives",
+      "expected": 0.3108,
+      "actual": 0.31077122514709504,
+      "pass": true
+    },
+    {
+      "check": "moments: serious miss rate = missed / positives",
+      "expected": 0.2377,
+      "actual": 0.23767603238315532,
+      "pass": true
+    },
+    {
+      "check": "moments: 1 - miss rate = held-out recall",
+      "expected": 0.6892,
+      "actual": 0.689228774852905,
+      "pass": true
+    },
+    {
+      "check": "episodes all: warned + missed = episodes",
+      "expected": 12535,
+      "actual": 12535,
+      "pass": true
+    },
+    {
+      "check": "episodes all: miss rate = missed / episodes",
+      "expected": 0.3836,
+      "actual": 0.38364579178300756,
+      "pass": true
+    },
+    {
+      "check": "episodes serious: warned + missed = episodes",
+      "expected": 9503,
+      "actual": 9503,
+      "pass": true
+    },
+    {
+      "check": "episodes serious: miss rate = missed / episodes",
+      "expected": 0.3678,
+      "actual": 0.3677785962327686,
+      "pass": true
+    },
+    {
+      "check": "episodes non_serious: warned + missed = episodes",
+      "expected": 3032,
+      "actual": 3032,
+      "pass": true
+    },
+    {
+      "check": "episodes non_serious: miss rate = missed / episodes",
+      "expected": 0.4334,
+      "actual": 0.433377308707124,
+      "pass": true
+    },
+    {
+      "check": "episodes: serious + non-serious = all",
+      "expected": 12535,
+      "actual": 12535,
+      "pass": true
+    },
+    {
+      "check": "calibration 30m: rows = held-out rows",
+      "expected": 526103,
+      "actual": 526103,
+      "pass": true
+    },
+    {
+      "check": "calibration 30m: ECE inside its person-bootstrap CI",
+      "pass": true,
+      "detail": "0.0012 <= 0.0015 <= 0.0034"
+    },
+    {
+      "check": "calibration 60m: rows = held-out rows",
+      "expected": 534206,
+      "actual": 534206,
+      "pass": true
+    },
+    {
+      "check": "calibration 60m: ECE inside its person-bootstrap CI",
+      "pass": true,
+      "detail": "0.0027 <= 0.0034 <= 0.0055"
+    },
+    {
+      "check": "calibration 2h: rows = held-out rows",
+      "expected": 530807,
+      "actual": 530807,
+      "pass": true
+    },
+    {
+      "check": "calibration 2h: ECE inside its person-bootstrap CI",
+      "pass": true,
+      "detail": "0.0034 <= 0.0038 <= 0.0098"
+    },
+    {
+      "check": "patients: beats-rule share recomputed from per_patient.csv",
+      "expected": 0.919,
+      "actual": 0.919,
+      "pass": true
+    },
+    {
+      "check": "fingerstick: pairs by type add up",
+      "expected": 4010,
+      "actual": 4010,
+      "pass": true
+    },
+    {
+      "check": "v9 split: no person in both DEV and TEST",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 split: DEV + TEST = the 187 open-data people",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 split: OhioT1DM in neither",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 validation predictions cover DEV people only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 accuracy threshold of base (v7 inputs) = median of DEV inner-fold thresholds",
+      "expected": 0.52,
+      "actual": 0.52,
+      "pass": true
+    },
+    {
+      "check": "v9 DEV accuracy of base (v7 inputs) = stage_cv",
+      "expected": 0.8466,
+      "actual": 0.8466,
+      "pass": true
+    },
+    {
+      "check": "v9 accuracy threshold of combined: +C1 person = median of DEV inner-fold thresholds",
+      "expected": 0.5,
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "check": "v9 DEV accuracy of combined: +C1 person = stage_cv",
+      "expected": 0.8481,
+      "actual": 0.8481,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST predictions (baseline) are TEST people only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 TEST baseline accuracy = stage_final",
+      "expected": 0.8524,
+      "actual": 0.8524,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline roc_auc = stage_final",
+      "expected": 0.9154,
+      "actual": 0.9154,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline recall = stage_final",
+      "expected": 0.6877,
+      "actual": 0.6877,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline precision = stage_final",
+      "expected": 0.8819,
+      "actual": 0.8819,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline Type 2 accuracy = stage_final",
+      "expected": 0.9041,
+      "actual": 0.9041,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline alerts_v7_policy serious_episodes (independent)",
+      "expected": 2515,
+      "actual": 2515,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline alerts_v7_policy serious_warned (independent)",
+      "expected": 1526,
+      "actual": 1526,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline alerts_v7_policy false alerts/day (independent)",
+      "expected": 1.465,
+      "actual": 1.465,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline alerts_v7_policy median lead (independent)",
+      "expected": 60.0,
+      "actual": 60.0,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline alerts_chosen_policy serious_episodes (independent)",
+      "expected": 2515,
+      "actual": 2515,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline alerts_chosen_policy serious_warned (independent)",
+      "expected": 1571,
+      "actual": 1571,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline alerts_chosen_policy false alerts/day (independent)",
+      "expected": 1.336,
+      "actual": 1.336,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST baseline alerts_chosen_policy median lead (independent)",
+      "expected": 60.0,
+      "actual": 60.0,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST predictions (candidate) are TEST people only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 TEST candidate accuracy = stage_final",
+      "expected": 0.8533,
+      "actual": 0.8533,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate roc_auc = stage_final",
+      "expected": 0.9167,
+      "actual": 0.9167,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate recall = stage_final",
+      "expected": 0.7008,
+      "actual": 0.7008,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate precision = stage_final",
+      "expected": 0.8721,
+      "actual": 0.8721,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate Type 2 accuracy = stage_final",
+      "expected": 0.9037,
+      "actual": 0.9037,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate alerts_v7_policy serious_episodes (independent)",
+      "expected": 2515,
+      "actual": 2515,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate alerts_v7_policy serious_warned (independent)",
+      "expected": 1616,
+      "actual": 1616,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate alerts_v7_policy false alerts/day (independent)",
+      "expected": 1.582,
+      "actual": 1.582,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate alerts_v7_policy median lead (independent)",
+      "expected": 75.0,
+      "actual": 75.0,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate alerts_chosen_policy serious_episodes (independent)",
+      "expected": 2515,
+      "actual": 2515,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate alerts_chosen_policy serious_warned (independent)",
+      "expected": 1569,
+      "actual": 1569,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate alerts_chosen_policy false alerts/day (independent)",
+      "expected": 1.326,
+      "actual": 1.326,
+      "pass": true
+    },
+    {
+      "check": "v9 TEST candidate alerts_chosen_policy median lead (independent)",
+      "expected": 60.0,
+      "actual": 60.0,
+      "pass": true
+    },
+    {
+      "check": "v9 promotion rule 1 AUC gain > 0 and CI low > -0.002",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 promotion rule 2 accuracy CI low >= -0.005",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 promotion rule 3 Ohio accuracy and AUC not down > 0.002",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 promotion rule 4 chronological accuracy not down",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 promotion rule policy: more serious warned, no more false alerts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v9 report baseline + v7 policy: warned episodes = stage_final",
+      "expected": 1526,
+      "actual": 1526,
+      "pass": true
+    },
+    {
+      "check": "v9 report baseline + v7 policy: false alerts/day = stage_final",
+      "expected": 1.465,
+      "actual": 1.465,
+      "pass": true
+    },
+    {
+      "check": "v9 report baseline + v9 policy: warned episodes = stage_final",
+      "expected": 1571,
+      "actual": 1571,
+      "pass": true
+    },
+    {
+      "check": "v9 report baseline + v9 policy: false alerts/day = stage_final",
+      "expected": 1.336,
+      "actual": 1.336,
+      "pass": true
+    },
+    {
+      "check": "v9 report candidate + v7 policy: warned episodes = stage_final",
+      "expected": 1616,
+      "actual": 1616,
+      "pass": true
+    },
+    {
+      "check": "v9 report candidate + v7 policy: false alerts/day = stage_final",
+      "expected": 1.582,
+      "actual": 1.582,
+      "pass": true
+    },
+    {
+      "check": "v9 report candidate + v9 policy: warned episodes = stage_final",
+      "expected": 1569,
+      "actual": 1569,
+      "pass": true
+    },
+    {
+      "check": "v9 report candidate + v9 policy: false alerts/day = stage_final",
+      "expected": 1.326,
+      "actual": 1.326,
+      "pass": true
+    },
+    {
+      "check": "served v9 2 h accuracy threshold = DEV",
+      "expected": 0.5,
+      "actual": 0.5,
+      "pass": true
+    },
+    {
+      "check": "served v9 early-warning threshold = DEV policy",
+      "expected": 0.51,
+      "actual": 0.51,
+      "pass": true
+    },
+    {
+      "check": "served v9 features = the selected feature set",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "served v9 demo model excluded exactly the demo patients",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dashboard summary 30m all_open accuracy",
+      "expected": 0.9473,
+      "actual": 0.9473,
+      "pass": true
+    },
+    {
+      "check": "dashboard summary 30m type2 accuracy",
+      "expected": 0.9638,
+      "actual": 0.9638,
+      "pass": true
+    },
+    {
+      "check": "dashboard summary 30m Ohio accuracy",
+      "expected": 0.9453,
+      "actual": 0.9453,
+      "pass": true
+    },
+    {
+      "check": "dashboard summary 60m all_open accuracy",
+      "expected": 0.9114,
+      "actual": 0.9114,
+      "pass": true
+    },
+    {
+      "check": "dashboard summary 60m type2 accuracy",
+      "expected": 0.9378,
+      "actual": 0.9378,
+      "pass": true
+    },
+    {
+      "check": "dashboard summary 60m Ohio accuracy",
+      "expected": 0.9063,
+      "actual": 0.9063,
+      "pass": true
+    },
+    {
+      "check": "dashboard summary 2h all_open accuracy",
+      "expected": 0.849,
+      "actual": 0.849,
+      "pass": true
+    },
+    {
+      "check": "dashboard summary 2h type2 accuracy",
+      "expected": 0.8977,
+      "actual": 0.8977,
+      "pass": true
+    },
+    {
+      "check": "dashboard summary 2h Ohio accuracy",
+      "expected": 0.837,
+      "actual": 0.837,
+      "pass": true
+    },
+    {
+      "check": "model card 30m accuracy",
+      "expected": 0.9473,
+      "actual": 0.9473,
+      "pass": true
+    },
+    {
+      "check": "model card 60m accuracy",
+      "expected": 0.9114,
+      "actual": 0.9114,
+      "pass": true
+    },
+    {
+      "check": "model card 2h accuracy",
+      "expected": 0.849,
+      "actual": 0.849,
+      "pass": true
+    },
+    {
+      "check": "README 30m accuracy (94.7 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 30m Type 2 accuracy (96.4 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 30m Ohio accuracy (94.5 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 30m recall (86.4 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 30m precision (92.7 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 30m safety recall (92.3 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 30m ROC-AUC (0.983) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 30m Ohio AUC 0.986 quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 60m accuracy (91.1 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 60m Type 2 accuracy (93.8 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 60m Ohio accuracy (90.6 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 60m recall (77.8 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 60m precision (91.4 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 60m safety recall (85.3 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 60m ROC-AUC (0.956) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 60m Ohio AUC 0.963 quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 2h accuracy (84.9 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 2h Type 2 accuracy (89.8 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 2h Ohio accuracy (83.7 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 2h recall (68.9 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 2h precision (88.2 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 2h safety recall (76.7 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 2h ROC-AUC (0.913) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README 2h Ohio AUC 0.912 quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README errors near 180 (49.9 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README accuracy on clear outcomes (90.2 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README serious-episode miss rate (36.8 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README fingerstick MARD quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README no longer quotes the unverifiable '65 %' meal claim",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "v6 claim: future meals add about +0.2 points",
+      "pass": true,
+      "detail": "0.0024"
+    },
+    {
+      "check": "v6 claim: learning curve flat after ~20 patients",
+      "pass": true,
+      "detail": "{'5': 0.8143, '10': 0.8274, '20': 0.8309, '40': 0.8314, '60': 0.8327, 'all (~75)': 0.833}"
+    },
+    {
+      "check": "README v9 TEST accuracy v7 config (85.24 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 TEST accuracy v9 (85.33 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 Ohio accuracy v7 config (83.72 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 Ohio accuracy v9 (83.98 %) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 TEST AUC v7 config (0.9154) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 TEST AUC v9 (0.9167) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 baseline alerts_v7_policy warned count (1,526) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 baseline alerts_v7_policy false alerts/day (1.46) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 baseline alerts_chosen_policy warned count (1,571) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 baseline alerts_chosen_policy false alerts/day (1.34) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 candidate alerts_chosen_policy warned count (1,569) quoted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "README v9 candidate alerts_chosen_policy false alerts/day (1.33) quoted",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}
