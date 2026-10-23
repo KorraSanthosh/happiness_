@@ -1,0 +1,739 @@
+{
+  "protocol": {
+    "predictions": "models/combined_v7/oof_*.parquet (7-fold person-grouped nested CV, 187 people)",
+    "threshold": "accuracy mode, per fold (thr_acc)",
+    "unit": "15-min prediction moment",
+    "label": "max CGM over next 2 h > 180 mg/dL",
+    "rows_2h": 530807,
+    "people": 187
+  },
+  "A_label_reliability": {
+    "band_mg_dl": [
+      162,
+      198
+    ],
+    "assumption": "180 \u00b1 10 %, a typical-CGM-error assumption, not measured on these sensors",
+    "stratified_by": "the ACTUAL future peak - an error decomposition, not a subset a model could pick in advance",
+    "all_open": {
+      "rows": 530807,
+      "people": 187,
+      "accuracy_all": 0.849,
+      "uncertain_rows": 120743,
+      "uncertain_share_of_rows": 0.2275,
+      "accuracy_clear": 0.9021,
+      "accuracy_uncertain": 0.6685,
+      "errors": 80150,
+      "uncertain_share_of_errors": 0.4994
+    },
+    "type2": {
+      "rows": 110862,
+      "people": 100,
+      "accuracy_all": 0.8977,
+      "uncertain_rows": 22108,
+      "uncertain_share_of_rows": 0.1994,
+      "accuracy_clear": 0.9443,
+      "accuracy_uncertain": 0.7108,
+      "errors": 11340,
+      "uncertain_share_of_errors": 0.5638
+    },
+    "type1": {
+      "rows": 419945,
+      "people": 87,
+      "accuracy_all": 0.8361,
+      "uncertain_rows": 98635,
+      "uncertain_share_of_rows": 0.2349,
+      "accuracy_clear": 0.8905,
+      "accuracy_uncertain": 0.659,
+      "errors": 68810,
+      "uncertain_share_of_errors": 0.4887
+    },
+    "check_weighted_average": 0.849,
+    "errors_total": 80150
+  },
+  "A_data_quality_by_dataset": {
+    "azt1d": {
+      "days": 44.0,
+      "cgm_coverage": 0.989,
+      "gaps_over_1h_per_day": 0.103,
+      "jumps_over_45_per_day": 1.25,
+      "flatlines_per_day": 0.023,
+      "mean_glucose": 142.5,
+      "cv_pct": 31.0,
+      "time_above_180_pct": 15.7,
+      "carb_logs_per_day": 3.45
+    },
+    "brist": {
+      "days": 92.7,
+      "cgm_coverage": 0.989,
+      "gaps_over_1h_per_day": 0.099,
+      "jumps_over_45_per_day": 2.239,
+      "flatlines_per_day": 0.108,
+      "mean_glucose": 154.4,
+      "cv_pct": 36.1,
+      "time_above_180_pct": 28.2,
+      "carb_logs_per_day": 3.98
+    },
+    "hupa": {
+      "days": 13.1,
+      "cgm_coverage": 0.914,
+      "gaps_over_1h_per_day": 0.211,
+      "jumps_over_45_per_day": 1.823,
+      "flatlines_per_day": 0.0,
+      "mean_glucose": 159.5,
+      "cv_pct": 38.9,
+      "time_above_180_pct": 34.8,
+      "carb_logs_per_day": 3.16
+    },
+    "sh_t1": {
+      "days": 11.35,
+      "cgm_coverage": 1.0,
+      "gaps_over_1h_per_day": 0.0,
+      "jumps_over_45_per_day": 0.408,
+      "flatlines_per_day": 0.481,
+      "mean_glucose": 177.6,
+      "cv_pct": 39.05,
+      "time_above_180_pct": 47.8,
+      "carb_logs_per_day": null
+    },
+    "sh_t2": {
+      "days": 12.7,
+      "cgm_coverage": 1.0,
+      "gaps_over_1h_per_day": 0.0,
+      "jumps_over_45_per_day": 0.079,
+      "flatlines_per_day": 0.488,
+      "mean_glucose": 139.6,
+      "cv_pct": 28.3,
+      "time_above_180_pct": 14.35,
+      "carb_logs_per_day": null
+    },
+    "uom": {
+      "days": 91.7,
+      "cgm_coverage": 0.986,
+      "gaps_over_1h_per_day": 0.1,
+      "jumps_over_45_per_day": 1.407,
+      "flatlines_per_day": 0.143,
+      "mean_glucose": 151.5,
+      "cv_pct": 35.8,
+      "time_above_180_pct": 26.1,
+      "carb_logs_per_day": 2.52
+    }
+  },
+  "B_missed_moments": {
+    "unit": "prediction moment (overlapping 2-h windows: one spike is counted at several moments)",
+    "positives": 199021,
+    "missed": 61850,
+    "miss_rate": 0.3108,
+    "serious_definition": "actual 2-h peak >= 250 mg/dL OR >= 3 consecutive 15-min bins with a reading > 180",
+    "serious_positives": 146990,
+    "serious_missed": 34936,
+    "serious_miss_rate": 0.2377,
+    "false_negatives": {
+      "rows": 61850,
+      "peak_180_200": 0.47,
+      "peak_250_plus": 0.104,
+      "spike_starts_after_60min": 0.551,
+      "glucose_now_median": 131.4,
+      "rows_with_meal_logging": 48319,
+      "meal_logged_in_next_2h": 0.371
+    },
+    "true_positives": {
+      "rows": 137171,
+      "peak_180_200": 0.213,
+      "peak_250_plus": 0.345,
+      "spike_starts_after_60min": 0.044,
+      "glucose_now_median": 207.2,
+      "rows_with_meal_logging": 102206,
+      "meal_logged_in_next_2h": 0.221
+    }
+  },
+  "B_missed_episodes": {
+    "definition": "Distinct hyperglycaemia episodes: a run of consecutive 15-min bins with a reading > 180, preceded by an observed bin <= 180. An episode is WARNED if any held-out 2-h prediction made 30-120 min before onset (bins onset-8 .. onset-2, while glucose was <= 180) was at or above its fold threshold. Episodes with no held-out prediction in that window are not evaluable and are counted separately.",
+    "serious_definition": "peak >= 250 mg/dL OR >= 3 consecutive bins above 180",
+    "episodes_found": 12879,
+    "episodes_evaluable": 12535,
+    "all": {
+      "episodes": 12535,
+      "warned": 7726,
+      "missed": 4809,
+      "miss_rate": 0.3836
+    },
+    "serious": {
+      "episodes": 9503,
+      "warned": 6008,
+      "missed": 3495,
+      "miss_rate": 0.3678
+    },
+    "non_serious": {
+      "episodes": 3032,
+      "warned": 1718,
+      "missed": 1314,
+      "miss_rate": 0.4334
+    },
+    "serious_warned_lead_min_median": 30.0,
+    "serious_miss_rate_ci95_by_person": [
+      0.3425,
+      0.3967
+    ],
+    "note": "Alarm burden is not captured here: a warning counts even if many other alarms were false."
+  },
+  "C_calibration": {
+    "method": "Held-out (out-of-fold) probabilities; ECE = 10 equal-width bins weighted by row count; slope/intercept from logistic regression of y on logit(p); 95 % CI by resampling people",
+    "limitations": [
+      "Rows within a person are autocorrelated, so row counts overstate the effective sample size; CIs resample people to account for this.",
+      "These are the 7 fold models' predictions pooled, not the final model trained on all people.",
+      "Per-person gaps use people with >= 200 rows."
+    ],
+    "30m": {
+      "all": {
+        "rows": 526103,
+        "ece": 0.0015,
+        "mean_pred": 0.2584,
+        "observed": 0.2577,
+        "slope": 1.013,
+        "intercept": -0.006,
+        "ece_ci95_by_person": [
+          0.0012,
+          0.0034
+        ]
+      },
+      "source=azt1d": {
+        "rows": 99730,
+        "ece": 0.0034,
+        "mean_pred": 0.249,
+        "observed": 0.2511,
+        "slope": 1.061,
+        "intercept": 0.106
+      },
+      "source=brist": {
+        "rows": 76984,
+        "ece": 0.0035,
+        "mean_pred": 0.3011,
+        "observed": 0.3036,
+        "slope": 1.021,
+        "intercept": 0.069
+      },
+      "source=hupa": {
+        "rows": 75338,
+        "ece": 0.0083,
+        "mean_pred": 0.2497,
+        "observed": 0.2423,
+        "slope": 0.96,
+        "intercept": -0.215
+      },
+      "source=sh_t1": {
+        "rows": 15574,
+        "ece": 0.0066,
+        "mean_pred": 0.4054,
+        "observed": 0.4057,
+        "slope": 1.164,
+        "intercept": 0.115
+      },
+      "source=sh_t2": {
+        "rows": 111501,
+        "ece": 0.0026,
+        "mean_pred": 0.2049,
+        "observed": 0.2053,
+        "slope": 1.075,
+        "intercept": 0.078
+      },
+      "source=uom": {
+        "rows": 146976,
+        "ece": 0.0034,
+        "mean_pred": 0.2719,
+        "observed": 0.2701,
+        "slope": 0.972,
+        "intercept": -0.067
+      },
+      "diabetes_type=T1D": {
+        "rows": 414602,
+        "ece": 0.0016,
+        "mean_pred": 0.2728,
+        "observed": 0.2718,
+        "slope": 1.002,
+        "intercept": -0.021
+      },
+      "diabetes_type=T2D": {
+        "rows": 111501,
+        "ece": 0.0026,
+        "mean_pred": 0.2049,
+        "observed": 0.2053,
+        "slope": 1.075,
+        "intercept": 0.078
+      },
+      "per_person": {
+        "people": 186,
+        "excluded_small": 1,
+        "median_abs_gap": 0.0053,
+        "share_over_5pts": 0.005,
+        "share_over_10pts": 0.0,
+        "largest": {
+          "hupa_0001": -0.07,
+          "sh_t2_2013": 0.031,
+          "uom_2307": -0.03,
+          "brist_p11": -0.028,
+          "sh_t2_2020": -0.024
+        }
+      }
+    },
+    "60m": {
+      "all": {
+        "rows": 534206,
+        "ece": 0.0034,
+        "mean_pred": 0.3011,
+        "observed": 0.2997,
+        "slope": 1.023,
+        "intercept": 0.003,
+        "ece_ci95_by_person": [
+          0.0027,
+          0.0055
+        ]
+      },
+      "source=azt1d": {
+        "rows": 99721,
+        "ece": 0.005,
+        "mean_pred": 0.2975,
+        "observed": 0.3005,
+        "slope": 1.07,
+        "intercept": 0.112
+      },
+      "source=brist": {
+        "rows": 76825,
+        "ece": 0.0082,
+        "mean_pred": 0.3506,
+        "observed": 0.3556,
+        "slope": 0.993,
+        "intercept": 0.056
+      },
+      "source=hupa": {
+        "rows": 83411,
+        "ece": 0.0137,
+        "mean_pred": 0.2894,
+        "observed": 0.2757,
+        "slope": 0.991,
+        "intercept": -0.218
+      },
+      "source=sh_t1": {
+        "rows": 15543,
+        "ece": 0.0109,
+        "mean_pred": 0.4397,
+        "observed": 0.4397,
+        "slope": 1.163,
+        "intercept": 0.141
+      },
+      "source=sh_t2": {
+        "rows": 111290,
+        "ece": 0.0033,
+        "mean_pred": 0.2358,
+        "observed": 0.2373,
+        "slope": 1.065,
+        "intercept": 0.103
+      },
+      "source=uom": {
+        "rows": 147416,
+        "ece": 0.005,
+        "mean_pred": 0.3192,
+        "observed": 0.316,
+        "slope": 0.997,
+        "intercept": -0.047
+      },
+      "diabetes_type=T1D": {
+        "rows": 422916,
+        "ece": 0.0039,
+        "mean_pred": 0.3183,
+        "observed": 0.3161,
+        "slope": 1.015,
+        "intercept": -0.015
+      },
+      "diabetes_type=T2D": {
+        "rows": 111290,
+        "ece": 0.0033,
+        "mean_pred": 0.2358,
+        "observed": 0.2373,
+        "slope": 1.065,
+        "intercept": 0.103
+      },
+      "per_person": {
+        "people": 186,
+        "excluded_small": 1,
+        "median_abs_gap": 0.0116,
+        "share_over_5pts": 0.016,
+        "share_over_10pts": 0.0,
+        "largest": {
+          "hupa_0001": -0.08,
+          "sh_t2_2013": 0.056,
+          "sh_t2_2020": -0.055,
+          "uom_2307": -0.048,
+          "azt1d_04": -0.046
+        }
+      }
+    },
+    "2h": {
+      "all": {
+        "rows": 530807,
+        "ece": 0.0038,
+        "mean_pred": 0.3781,
+        "observed": 0.3749,
+        "slope": 1.031,
+        "intercept": -0.005,
+        "ece_ci95_by_person": [
+          0.0034,
+          0.0098
+        ]
+      },
+      "source=azt1d": {
+        "rows": 99288,
+        "ece": 0.0081,
+        "mean_pred": 0.3821,
+        "observed": 0.3873,
+        "slope": 1.083,
+        "intercept": 0.106
+      },
+      "source=brist": {
+        "rows": 75784,
+        "ece": 0.0148,
+        "mean_pred": 0.4377,
+        "observed": 0.4447,
+        "slope": 0.982,
+        "intercept": 0.044
+      },
+      "source=hupa": {
+        "rows": 83159,
+        "ece": 0.0246,
+        "mean_pred": 0.3674,
+        "observed": 0.3428,
+        "slope": 0.984,
+        "intercept": -0.237
+      },
+      "source=sh_t1": {
+        "rows": 15476,
+        "ece": 0.0129,
+        "mean_pred": 0.5005,
+        "observed": 0.4992,
+        "slope": 1.129,
+        "intercept": 0.072
+      },
+      "source=sh_t2": {
+        "rows": 110862,
+        "ece": 0.0093,
+        "mean_pred": 0.2907,
+        "observed": 0.2947,
+        "slope": 1.094,
+        "intercept": 0.142
+      },
+      "source=uom": {
+        "rows": 146238,
+        "ece": 0.0076,
+        "mean_pred": 0.404,
+        "observed": 0.3964,
+        "slope": 0.996,
+        "intercept": -0.068
+      },
+      "diabetes_type=T1D": {
+        "rows": 419945,
+        "ece": 0.0052,
+        "mean_pred": 0.4012,
+        "observed": 0.3961,
+        "slope": 1.017,
+        "intercept": -0.031
+      },
+      "diabetes_type=T2D": {
+        "rows": 110862,
+        "ece": 0.0093,
+        "mean_pred": 0.2907,
+        "observed": 0.2947,
+        "slope": 1.094,
+        "intercept": 0.142
+      },
+      "per_person": {
+        "people": 186,
+        "excluded_small": 1,
+        "median_abs_gap": 0.0224,
+        "share_over_5pts": 0.124,
+        "share_over_10pts": 0.0,
+        "largest": {
+          "hupa_0001": -0.096,
+          "sh_t2_2052": -0.095,
+          "sh_t2_2059": -0.095,
+          "azt1d_04": -0.084,
+          "uom_2307": -0.077
+        }
+      }
+    }
+  },
+  "D_patients": {
+    "people_total": 187,
+    "people_with_min_rows": 186,
+    "beats_rule_share": 0.919,
+    "accuracy_p05_p50_p95": [
+      0.782,
+      0.867,
+      0.968
+    ],
+    "auc_p05_p50_p95": [
+      0.837,
+      0.908,
+      0.97
+    ],
+    "within_dataset_spearman": {
+      "prevalence": {
+        "azt1d": {
+          "acc_r": -0.74,
+          "acc_p": 0.0,
+          "auc_r": 0.72,
+          "auc_p": 0.0,
+          "people": 25
+        },
+        "brist": {
+          "acc_r": -0.55,
+          "acc_p": 0.125,
+          "auc_r": 0.3,
+          "auc_p": 0.433,
+          "people": 9
+        },
+        "hupa": {
+          "acc_r": -0.49,
+          "acc_p": 0.019,
+          "auc_r": 0.22,
+          "auc_p": 0.304,
+          "people": 23
+        },
+        "sh_t1": {
+          "acc_r": -0.37,
+          "acc_p": 0.236,
+          "auc_r": 0.43,
+          "auc_p": 0.167,
+          "people": 12
+        },
+        "sh_t2": {
+          "acc_r": -0.58,
+          "acc_p": 0.0,
+          "auc_r": 0.56,
+          "auc_p": 0.0,
+          "people": 100
+        },
+        "uom": {
+          "acc_r": -0.64,
+          "acc_p": 0.006,
+          "auc_r": 0.77,
+          "auc_p": 0.0,
+          "people": 17
+        }
+      },
+      "cv_pct": {
+        "azt1d": {
+          "acc_r": -0.28,
+          "acc_p": 0.179,
+          "auc_r": 0.54,
+          "auc_p": 0.005,
+          "people": 25
+        },
+        "brist": {
+          "acc_r": 0.0,
+          "acc_p": 1.0,
+          "auc_r": 0.37,
+          "auc_p": 0.332,
+          "people": 9
+        },
+        "hupa": {
+          "acc_r": 0.07,
+          "acc_p": 0.764,
+          "auc_r": 0.6,
+          "auc_p": 0.002,
+          "people": 23
+        },
+        "sh_t1": {
+          "acc_r": 0.13,
+          "acc_p": 0.681,
+          "auc_r": -0.13,
+          "auc_p": 0.697,
+          "people": 12
+        },
+        "sh_t2": {
+          "acc_r": -0.11,
+          "acc_p": 0.296,
+          "auc_r": 0.38,
+          "auc_p": 0.0,
+          "people": 100
+        },
+        "uom": {
+          "acc_r": -0.2,
+          "acc_p": 0.445,
+          "auc_r": 0.8,
+          "auc_p": 0.0,
+          "people": 17
+        }
+      },
+      "jumps_over_45_per_day": {
+        "azt1d": {
+          "acc_r": -0.62,
+          "acc_p": 0.001,
+          "auc_r": 0.41,
+          "auc_p": 0.042,
+          "people": 25
+        },
+        "brist": {
+          "acc_r": -0.9,
+          "acc_p": 0.001,
+          "auc_r": -0.33,
+          "auc_p": 0.381,
+          "people": 9
+        },
+        "hupa": {
+          "acc_r": -0.6,
+          "acc_p": 0.002,
+          "auc_r": -0.1,
+          "auc_p": 0.654,
+          "people": 23
+        },
+        "sh_t1": {
+          "acc_r": -0.45,
+          "acc_p": 0.138,
+          "auc_r": -0.07,
+          "auc_p": 0.829,
+          "people": 12
+        },
+        "sh_t2": {
+          "acc_r": -0.26,
+          "acc_p": 0.01,
+          "auc_r": 0.0,
+          "auc_p": 0.97,
+          "people": 100
+        },
+        "uom": {
+          "acc_r": -0.64,
+          "acc_p": 0.005,
+          "auc_r": 0.57,
+          "auc_p": 0.016,
+          "people": 17
+        }
+      },
+      "cgm_coverage": {
+        "azt1d": {
+          "acc_r": -0.18,
+          "acc_p": 0.398,
+          "auc_r": -0.05,
+          "auc_p": 0.8,
+          "people": 25
+        },
+        "brist": {
+          "acc_r": -0.25,
+          "acc_p": 0.509,
+          "auc_r": -0.12,
+          "auc_p": 0.761,
+          "people": 9
+        },
+        "hupa": {
+          "acc_r": -0.56,
+          "acc_p": 0.006,
+          "auc_r": -0.37,
+          "auc_p": 0.082,
+          "people": 23
+        },
+        "sh_t1": {
+          "acc_r": -0.22,
+          "acc_p": 0.495,
+          "auc_r": -0.39,
+          "auc_p": 0.206,
+          "people": 12
+        },
+        "sh_t2": {
+          "acc_r": -0.05,
+          "acc_p": 0.636,
+          "auc_r": -0.04,
+          "auc_p": 0.683,
+          "people": 100
+        },
+        "uom": {
+          "acc_r": 0.02,
+          "acc_p": 0.937,
+          "auc_r": 0.44,
+          "auc_p": 0.076,
+          "people": 17
+        }
+      }
+    }
+  },
+  "E_cgm_vs_fingerstick": {
+    "source": "ShanghaiT1DM/T2DM files: 'CGM (mg / dl)' and 'CBG (mg / dl)' (capillary blood glucose) columns",
+    "pairing": "A CBG value is recorded on a row of the 15-min CGM grid; that row's CGM value is its pair. The true fingerstick time is not given, so time alignment is only to within the grid step.",
+    "method": "relative difference (CGM - CBG) / CBG per pair; MARD = mean |diff|; bias = median diff; duplicate timestamps dropped; CBG outside 40-600 mg/dL dropped; 95 % CI by resampling people",
+    "overall": {
+      "pairs": 4010,
+      "people": 98,
+      "mard_pct": 13.9,
+      "median_ard_pct": 11.0,
+      "median_bias_pct": -7.0,
+      "mean_bias_pct": -7.4,
+      "within_15pct": 0.636,
+      "within_20pct": 0.759
+    },
+    "median_ard_ci95_pct": [
+      9.6,
+      12.5
+    ],
+    "median_bias_ci95_pct": [
+      -10.6,
+      -3.8
+    ],
+    "by_type": {
+      "T1DM": {
+        "pairs": 749,
+        "people": 10,
+        "mard_pct": 18.4,
+        "median_ard_pct": 14.8,
+        "median_bias_pct": -12.6,
+        "mean_bias_pct": -13.4,
+        "within_15pct": 0.505,
+        "within_20pct": 0.615
+      },
+      "T2DM": {
+        "pairs": 3261,
+        "people": 88,
+        "mard_pct": 12.8,
+        "median_ard_pct": 10.2,
+        "median_bias_pct": -5.8,
+        "mean_bias_pct": -6.1,
+        "within_15pct": 0.666,
+        "within_20pct": 0.792
+      }
+    },
+    "by_cbg_range": {
+      "<70": {
+        "pairs": 36,
+        "people": 15,
+        "mard_pct": 20.6,
+        "median_ard_pct": 14.6,
+        "median_bias_pct": 10.0,
+        "mean_bias_pct": 14.5,
+        "within_15pct": 0.5,
+        "within_20pct": 0.667
+      },
+      "70-180": {
+        "pairs": 2543,
+        "people": 95,
+        "mard_pct": 13.6,
+        "median_ard_pct": 10.4,
+        "median_bias_pct": -4.8,
+        "mean_bias_pct": -5.8,
+        "within_15pct": 0.648,
+        "within_20pct": 0.769
+      },
+      ">180": {
+        "pairs": 1431,
+        "people": 82,
+        "mard_pct": 14.1,
+        "median_ard_pct": 11.8,
+        "median_bias_pct": -10.4,
+        "mean_bias_pct": -11.0,
+        "within_15pct": 0.616,
+        "within_20pct": 0.745
+      }
+    },
+    "pairs_per_person_median": 37,
+    "caveats": [
+      "Fingersticks were taken at clinical times (often around meals), not at random moments.",
+      "Glucose meters have their own error (ISO 15197 allows \u00b115 %), so this is CGM-meter disagreement, not the CGM's true error.",
+      "Applies to the Shanghai sensors only; the other datasets use different CGM devices and have no reference readings."
+    ]
+  }
+}
