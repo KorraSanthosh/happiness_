@@ -1,0 +1,308 @@
+{
+  "model": "GlucoTwin v9 2-h spike model",
+  "version": "v9.0-open-data",
+  "intended_use": "Research prototype - not for clinical use.",
+  "verified": {
+    "source": "models/combined_v9 (verified by app/verify_results.py)",
+    "protocol": "187 open-data people split once into DEV 150 / TEST 37 (seed 2026). Feature groups, thresholds and the alert policy were chosen on DEV only (5-fold person CV); TEST, OhioT1DM and a chronological holdout were scored once. Label unchanged (max CGM in next 2 h > 180).",
+    "selected": "combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics",
+    "served_2h_model": "v9 (30 min / 1 h stay v7)",
+    "dev_cv": {
+      "base (v7 inputs)": {
+        "accuracy": 0.8466,
+        "roc_auc": 0.911,
+        "retained": null,
+        "accuracy_diff_ci95": null,
+        "roc_auc_diff_ci95": null
+      },
+      "+C1 personal history": {
+        "accuracy": 0.8476,
+        "roc_auc": 0.9126,
+        "retained": true,
+        "accuracy_diff_ci95": [
+          0.0001,
+          0.0018
+        ],
+        "roc_auc_diff_ci95": [
+          0.0008,
+          0.0022
+        ]
+      },
+      "+C2 recorded meals & oral drugs": {
+        "accuracy": 0.8473,
+        "roc_auc": 0.9119,
+        "retained": true,
+        "accuracy_diff_ci95": [
+          0.0002,
+          0.0013
+        ],
+        "roc_auc_diff_ci95": [
+          0.0005,
+          0.0011
+        ]
+      },
+      "+C3 multi-window dynamics": {
+        "accuracy": 0.8471,
+        "roc_auc": 0.9115,
+        "retained": true,
+        "accuracy_diff_ci95": [
+          -0.0002,
+          0.0011
+        ],
+        "roc_auc_diff_ci95": [
+          0.0001,
+          0.0007
+        ]
+      },
+      "combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics": {
+        "accuracy": 0.8481,
+        "roc_auc": 0.9133,
+        "retained": true,
+        "accuracy_diff_ci95": [
+          0.0009,
+          0.0022
+        ],
+        "roc_auc_diff_ci95": [
+          0.0014,
+          0.003
+        ]
+      }
+    },
+    "test": {
+      "v7_config": {
+        "accuracy": 0.8524,
+        "roc_auc": 0.9154,
+        "pr_auc": 0.8933,
+        "recall": 0.6877,
+        "precision": 0.8819,
+        "specificity": 0.9471,
+        "f1": 0.7728,
+        "brier": 0.1046,
+        "ece": 0.0085,
+        "accuracy_ci95_by_person": [
+          0.8287,
+          0.8689
+        ],
+        "type2_accuracy": 0.9041,
+        "ohio_accuracy": 0.8372,
+        "ohio_roc_auc": 0.9125
+      },
+      "v9": {
+        "accuracy": 0.8533,
+        "roc_auc": 0.9167,
+        "pr_auc": 0.8946,
+        "recall": 0.7008,
+        "precision": 0.8721,
+        "specificity": 0.9409,
+        "f1": 0.7771,
+        "brier": 0.104,
+        "ece": 0.0066,
+        "accuracy_ci95_by_person": [
+          0.8301,
+          0.8695
+        ],
+        "type2_accuracy": 0.9037,
+        "ohio_accuracy": 0.8398,
+        "ohio_roc_auc": 0.914
+      }
+    },
+    "test_v9_vs_v7_config": {
+      "accuracy_diff_mean": 0.0009,
+      "accuracy_diff_ci95": [
+        -0.0005,
+        0.0025
+      ],
+      "roc_auc_diff_mean": 0.0013,
+      "roc_auc_diff_ci95": [
+        0.0004,
+        0.0021
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "chronological_holdout": {
+      "v7_config": {
+        "accuracy": 0.8544,
+        "roc_auc": 0.9177
+      },
+      "v9": {
+        "accuracy": 0.8545,
+        "roc_auc": 0.9191
+      }
+    },
+    "test_people": 37,
+    "test_rows": 147200,
+    "alert_policy": {
+      "rule": "maximise serious-episode recall subject to false alerts per patient-day <= the v7 policy's on the same validation data; alerts suppressed while glucose > 180",
+      "thresholds": {
+        "baseline (v7 config, DEV-trained)": {
+          "accuracy": 0.52,
+          "policy": 0.51
+        },
+        "candidate: combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics": {
+          "accuracy": 0.5,
+          "policy": 0.51
+        }
+      },
+      "population": "TEST people (37), saved TEST predictions",
+      "bootstrap": "2000 person resamples",
+      "arms": {
+        "baseline + v7 policy": {
+          "serious_episodes": 2515,
+          "serious_warned": 1526,
+          "serious_recall": 0.6068,
+          "serious_recall_ci95": [
+            0.5396,
+            0.6812
+          ],
+          "false_alerts": 2246,
+          "false_alerts_per_patient_day": 1.465,
+          "false_alerts_per_patient_day_ci95": [
+            1.2184,
+            1.7465
+          ]
+        },
+        "baseline + v9 policy": {
+          "serious_episodes": 2515,
+          "serious_warned": 1571,
+          "serious_recall": 0.6247,
+          "serious_recall_ci95": [
+            0.5566,
+            0.6992
+          ],
+          "false_alerts": 2048,
+          "false_alerts_per_patient_day": 1.336,
+          "false_alerts_per_patient_day_ci95": [
+            1.1156,
+            1.6591
+          ]
+        },
+        "candidate + v7 policy": {
+          "serious_episodes": 2515,
+          "serious_warned": 1616,
+          "serious_recall": 0.6425,
+          "serious_recall_ci95": [
+            0.5733,
+            0.718
+          ],
+          "false_alerts": 2425,
+          "false_alerts_per_patient_day": 1.582,
+          "false_alerts_per_patient_day_ci95": [
+            1.3084,
+            1.9397
+          ]
+        },
+        "candidate + v9 policy": {
+          "serious_episodes": 2515,
+          "serious_warned": 1569,
+          "serious_recall": 0.6239,
+          "serious_recall_ci95": [
+            0.5508,
+            0.7058
+          ],
+          "false_alerts": 2033,
+          "false_alerts_per_patient_day": 1.326,
+          "false_alerts_per_patient_day_ci95": [
+            1.0819,
+            1.6995
+          ]
+        }
+      },
+      "paired_vs_baseline_v7_policy": {
+        "baseline + v9 policy": {
+          "serious_recall_diff": 0.0179,
+          "serious_recall_diff_ci95": [
+            0.0133,
+            0.0215
+          ],
+          "false_alerts_per_day_diff": -0.129,
+          "false_alerts_per_day_diff_ci95": [
+            -0.214,
+            -0.0012
+          ]
+        },
+        "candidate + v7 policy": {
+          "serious_recall_diff": 0.0358,
+          "serious_recall_diff_ci95": [
+            0.022,
+            0.0521
+          ],
+          "false_alerts_per_day_diff": 0.117,
+          "false_alerts_per_day_diff_ci95": [
+            0.0485,
+            0.2115
+          ]
+        },
+        "candidate + v9 policy": {
+          "serious_recall_diff": 0.0171,
+          "serious_recall_diff_ci95": [
+            0.0013,
+            0.0385
+          ],
+          "false_alerts_per_day_diff": -0.139,
+          "false_alerts_per_day_diff_ci95": [
+            -0.2494,
+            0.0362
+          ]
+        }
+      },
+      "alerts_per_patient_day": {
+        "baseline + v7 policy": 8.61,
+        "baseline + v9 policy": 3.638,
+        "candidate + v7 policy": 8.81,
+        "candidate + v9 policy": 3.652
+      }
+    },
+    "label_sensitivity": {
+      "peak > 170": {
+        "prevalence": 0.429,
+        "accuracy": 0.821,
+        "recall": 0.6231,
+        "roc_auc": 0.911
+      },
+      "peak > 180 (primary)": {
+        "prevalence": 0.3651,
+        "accuracy": 0.8524,
+        "recall": 0.6877,
+        "roc_auc": 0.9154
+      },
+      "peak > 190": {
+        "prevalence": 0.3098,
+        "accuracy": 0.8586,
+        "recall": 0.7311,
+        "roc_auc": 0.9166
+      },
+      "peak > 198 (180 + 10 %)": {
+        "prevalence": 0.2693,
+        "accuracy": 0.8548,
+        "recall": 0.759,
+        "roc_auc": 0.9162
+      },
+      "> 180 for >= 2 consecutive bins": {
+        "prevalence": 0.3168,
+        "accuracy": 0.8546,
+        "recall": 0.7198,
+        "roc_auc": 0.913
+      }
+    },
+    "uncertainty_bands": {
+      "\u00b15 % (171-189)": {
+        "coverage_clear": 0.887,
+        "accuracy_clear": 0.8829,
+        "accuracy_near": 0.6129,
+        "share_of_errors_near": 0.2964
+      },
+      "\u00b110 % (162-198)": {
+        "coverage_clear": 0.782,
+        "accuracy_clear": 0.9044,
+        "accuracy_near": 0.6657,
+        "share_of_errors_near": 0.4937
+      },
+      "\u00b115 % (153-207)": {
+        "coverage_clear": 0.6821,
+        "accuracy_clear": 0.9179,
+        "accuracy_near": 0.7118,
+        "share_of_errors_near": 0.6206
+      }
+    }
+  }
+}
