@@ -1,0 +1,455 @@
+{
+  "evaluated_on": "100 Type 2 people (ShanghaiT2DM), 2-hour horizon, person-held-out (v7 folds)",
+  "variants": {
+    "V0 v7 as shipped": {
+      "n": 110862,
+      "prevalence": 0.2947,
+      "threshold": 0.51,
+      "accuracy": 0.8977,
+      "balanced_accuracy": 0.8498,
+      "precision": 0.9015,
+      "recall": 0.733,
+      "specificity": 0.9665,
+      "f1": 0.8085,
+      "mcc": 0.7471,
+      "roc_auc": 0.9507,
+      "pr_auc": 0.9156,
+      "brier": 0.0742,
+      "log_loss": 0.2414,
+      "ece": 0.0093,
+      "mean_pred": 0.2907,
+      "confusion": {
+        "tp": 23946,
+        "tn": 75576,
+        "fp": 2617,
+        "fn": 8723
+      },
+      "per_person_accuracy": {
+        "mean": 0.8966,
+        "std": 0.0473,
+        "min": 0.7985,
+        "max": 1.0
+      }
+    },
+    "V1 + person-grouped early stopping, T2D threshold": {
+      "n": 110862,
+      "prevalence": 0.2947,
+      "threshold": 0.5,
+      "accuracy": 0.8971,
+      "balanced_accuracy": 0.8514,
+      "precision": 0.892,
+      "recall": 0.7403,
+      "specificity": 0.9626,
+      "f1": 0.8091,
+      "mcc": 0.7455,
+      "roc_auc": 0.95,
+      "pr_auc": 0.9147,
+      "brier": 0.0746,
+      "log_loss": 0.2425,
+      "ece": 0.0081,
+      "mean_pred": 0.2901,
+      "confusion": {
+        "tp": 24186,
+        "tn": 75265,
+        "fp": 2928,
+        "fn": 8483
+      },
+      "per_person_accuracy": {
+        "mean": 0.8961,
+        "std": 0.0478,
+        "min": 0.7912,
+        "max": 1.0
+      },
+      "trees_per_fold": [
+        480,
+        570,
+        730,
+        420,
+        430,
+        620,
+        620
+      ],
+      "overfit_gap_t2d": 0.0135,
+      "folds": [
+        {
+          "fold": 0,
+          "trees": 480,
+          "threshold": 0.49,
+          "train_acc_t2d": 0.9093,
+          "test_acc_t2d": 0.8893
+        },
+        {
+          "fold": 1,
+          "trees": 570,
+          "threshold": 0.52,
+          "train_acc_t2d": 0.9058,
+          "test_acc_t2d": 0.9202
+        },
+        {
+          "fold": 2,
+          "trees": 730,
+          "threshold": 0.51,
+          "train_acc_t2d": 0.9102,
+          "test_acc_t2d": 0.9116
+        },
+        {
+          "fold": 3,
+          "trees": 420,
+          "threshold": 0.5,
+          "train_acc_t2d": 0.91,
+          "test_acc_t2d": 0.8752
+        },
+        {
+          "fold": 4,
+          "trees": 430,
+          "threshold": 0.5,
+          "train_acc_t2d": 0.9099,
+          "test_acc_t2d": 0.8789
+        },
+        {
+          "fold": 5,
+          "trees": 620,
+          "threshold": 0.47,
+          "train_acc_t2d": 0.9124,
+          "test_acc_t2d": 0.8955
+        },
+        {
+          "fold": 6,
+          "trees": 620,
+          "threshold": 0.47,
+          "train_acc_t2d": 0.9101,
+          "test_acc_t2d": 0.9027
+        }
+      ]
+    },
+    "V2 + Type 2 meal carbs & oral-drug features": {
+      "n": 110862,
+      "prevalence": 0.2947,
+      "threshold": 0.48,
+      "accuracy": 0.8983,
+      "balanced_accuracy": 0.8557,
+      "precision": 0.8853,
+      "recall": 0.7522,
+      "specificity": 0.9593,
+      "f1": 0.8133,
+      "mcc": 0.7487,
+      "roc_auc": 0.9512,
+      "pr_auc": 0.9163,
+      "brier": 0.0738,
+      "log_loss": 0.2402,
+      "ece": 0.0075,
+      "mean_pred": 0.2909,
+      "confusion": {
+        "tp": 24572,
+        "tn": 75010,
+        "fp": 3183,
+        "fn": 8097
+      },
+      "per_person_accuracy": {
+        "mean": 0.897,
+        "std": 0.0469,
+        "min": 0.8022,
+        "max": 1.0
+      },
+      "trees_per_fold": [
+        540,
+        530,
+        870,
+        450,
+        480,
+        550,
+        630
+      ],
+      "overfit_gap_t2d": 0.0152,
+      "folds": [
+        {
+          "fold": 0,
+          "trees": 540,
+          "threshold": 0.49,
+          "train_acc_t2d": 0.912,
+          "test_acc_t2d": 0.8887
+        },
+        {
+          "fold": 1,
+          "trees": 530,
+          "threshold": 0.51,
+          "train_acc_t2d": 0.9073,
+          "test_acc_t2d": 0.9216
+        },
+        {
+          "fold": 2,
+          "trees": 870,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.9159,
+          "test_acc_t2d": 0.9124
+        },
+        {
+          "fold": 3,
+          "trees": 450,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.9124,
+          "test_acc_t2d": 0.8765
+        },
+        {
+          "fold": 4,
+          "trees": 480,
+          "threshold": 0.46,
+          "train_acc_t2d": 0.9137,
+          "test_acc_t2d": 0.8815
+        },
+        {
+          "fold": 5,
+          "trees": 550,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.9131,
+          "test_acc_t2d": 0.8969
+        },
+        {
+          "fold": 6,
+          "trees": 630,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.913,
+          "test_acc_t2d": 0.9035
+        }
+      ]
+    },
+    "V3 = V2 with Type 2 rows weighted x3": {
+      "n": 110862,
+      "prevalence": 0.2947,
+      "threshold": 0.48,
+      "accuracy": 0.8982,
+      "balanced_accuracy": 0.856,
+      "precision": 0.8841,
+      "recall": 0.7532,
+      "specificity": 0.9588,
+      "f1": 0.8134,
+      "mcc": 0.7485,
+      "roc_auc": 0.9509,
+      "pr_auc": 0.9162,
+      "brier": 0.0739,
+      "log_loss": 0.2403,
+      "ece": 0.0062,
+      "mean_pred": 0.2911,
+      "confusion": {
+        "tp": 24605,
+        "tn": 74968,
+        "fp": 3225,
+        "fn": 8064
+      },
+      "per_person_accuracy": {
+        "mean": 0.8971,
+        "std": 0.0475,
+        "min": 0.795,
+        "max": 1.0
+      },
+      "trees_per_fold": [
+        370,
+        420,
+        510,
+        360,
+        430,
+        450,
+        470
+      ],
+      "overfit_gap_t2d": 0.0175,
+      "folds": [
+        {
+          "fold": 0,
+          "trees": 370,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.9129,
+          "test_acc_t2d": 0.8904
+        },
+        {
+          "fold": 1,
+          "trees": 420,
+          "threshold": 0.49,
+          "train_acc_t2d": 0.9109,
+          "test_acc_t2d": 0.9208
+        },
+        {
+          "fold": 2,
+          "trees": 510,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.9143,
+          "test_acc_t2d": 0.9123
+        },
+        {
+          "fold": 3,
+          "trees": 360,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.9153,
+          "test_acc_t2d": 0.8764
+        },
+        {
+          "fold": 4,
+          "trees": 430,
+          "threshold": 0.46,
+          "train_acc_t2d": 0.918,
+          "test_acc_t2d": 0.8812
+        },
+        {
+          "fold": 5,
+          "trees": 450,
+          "threshold": 0.49,
+          "train_acc_t2d": 0.9174,
+          "test_acc_t2d": 0.8965
+        },
+        {
+          "fold": 6,
+          "trees": 470,
+          "threshold": 0.51,
+          "train_acc_t2d": 0.9148,
+          "test_acc_t2d": 0.9036
+        }
+      ]
+    },
+    "V4 = V2 trained on Type 2 people only": {
+      "n": 110862,
+      "prevalence": 0.2947,
+      "threshold": 0.47,
+      "accuracy": 0.8973,
+      "balanced_accuracy": 0.8565,
+      "precision": 0.8778,
+      "recall": 0.757,
+      "specificity": 0.956,
+      "f1": 0.8129,
+      "mcc": 0.7466,
+      "roc_auc": 0.9506,
+      "pr_auc": 0.916,
+      "brier": 0.0739,
+      "log_loss": 0.2409,
+      "ece": 0.0057,
+      "mean_pred": 0.2917,
+      "confusion": {
+        "tp": 24729,
+        "tn": 74750,
+        "fp": 3443,
+        "fn": 7940
+      },
+      "per_person_accuracy": {
+        "mean": 0.8966,
+        "std": 0.0471,
+        "min": 0.7912,
+        "max": 1.0
+      },
+      "trees_per_fold": [
+        310,
+        300,
+        340,
+        290,
+        300,
+        330,
+        250
+      ],
+      "overfit_gap_t2d": 0.017,
+      "folds": [
+        {
+          "fold": 0,
+          "trees": 310,
+          "threshold": 0.47,
+          "train_acc_t2d": 0.914,
+          "test_acc_t2d": 0.8898
+        },
+        {
+          "fold": 1,
+          "trees": 300,
+          "threshold": 0.44,
+          "train_acc_t2d": 0.9101,
+          "test_acc_t2d": 0.9196
+        },
+        {
+          "fold": 2,
+          "trees": 340,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.9123,
+          "test_acc_t2d": 0.9133
+        },
+        {
+          "fold": 3,
+          "trees": 290,
+          "threshold": 0.48,
+          "train_acc_t2d": 0.9158,
+          "test_acc_t2d": 0.8754
+        },
+        {
+          "fold": 4,
+          "trees": 300,
+          "threshold": 0.52,
+          "train_acc_t2d": 0.9149,
+          "test_acc_t2d": 0.8788
+        },
+        {
+          "fold": 5,
+          "trees": 330,
+          "threshold": 0.47,
+          "train_acc_t2d": 0.9167,
+          "test_acc_t2d": 0.896
+        },
+        {
+          "fold": 6,
+          "trees": 250,
+          "threshold": 0.45,
+          "train_acc_t2d": 0.9106,
+          "test_acc_t2d": 0.9022
+        }
+      ]
+    }
+  },
+  "paired_vs_V0_on_type2": {
+    "V1": {
+      "accuracy_diff_mean": -0.0007,
+      "accuracy_diff_ci95": [
+        -0.0016,
+        0.0002
+      ],
+      "roc_auc_diff_mean": -0.0007,
+      "roc_auc_diff_ci95": [
+        -0.0013,
+        -0.0002
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "V2": {
+      "accuracy_diff_mean": 0.0005,
+      "accuracy_diff_ci95": [
+        -0.0007,
+        0.002
+      ],
+      "roc_auc_diff_mean": 0.0005,
+      "roc_auc_diff_ci95": [
+        -0.0004,
+        0.0013
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "V3": {
+      "accuracy_diff_mean": 0.0004,
+      "accuracy_diff_ci95": [
+        -0.001,
+        0.0019
+      ],
+      "roc_auc_diff_mean": 0.0003,
+      "roc_auc_diff_ci95": [
+        -0.0007,
+        0.0011
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "V4": {
+      "accuracy_diff_mean": -0.0004,
+      "accuracy_diff_ci95": [
+        -0.0021,
+        0.0013
+      ],
+      "roc_auc_diff_mean": -0.0001,
+      "roc_auc_diff_ci95": [
+        -0.0016,
+        0.0014
+      ],
+      "accuracy_diff_excludes_0": false
+    }
+  },
+  "rule_accuracy_type2": 0.8664,
+  "rescored": "metrics recomputed from saved predictions with per-row fold thresholds (no retraining)"
+}
