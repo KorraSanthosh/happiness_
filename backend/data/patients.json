@@ -1,0 +1,7442 @@
+[
+  {
+    "patient_id": "P0001",
+    "name": "Karthik Singh",
+    "age": 23,
+    "gender": "Male",
+    "weight_kg": 63.4,
+    "height_cm": 179.0,
+    "bmi": 19.8,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-12-06"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2023-06-16"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2021-05-01"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2019-02-15"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-27",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 128.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-25",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 204.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.22,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-12",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.4,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.189325"
+  },
+  {
+    "patient_id": "P0002",
+    "name": "Kavya Iyer",
+    "age": 30,
+    "gender": "Male",
+    "weight_kg": 78.9,
+    "height_cm": 182.0,
+    "bmi": 23.8,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2021-09-15"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2022-10-21"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-06-20"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2021-03-12"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 105.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-26",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 203.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-02",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.83,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189378"
+  },
+  {
+    "patient_id": "P0003",
+    "name": "Daniel Martinez",
+    "age": 22,
+    "gender": "Male",
+    "weight_kg": 75.8,
+    "height_cm": 169.6,
+    "bmi": 26.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2022-02-17"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-08-17"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2021-06-22"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-09-15"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 96.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 286.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-27",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.87,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-11",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.3,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189422"
+  },
+  {
+    "patient_id": "P0004",
+    "name": "Ashley Smith",
+    "age": 78,
+    "gender": "Female",
+    "weight_kg": 75.6,
+    "height_cm": 170.0,
+    "bmi": 26.2,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-07-18"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2021-08-01"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-02",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 148.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-11",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 233.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.71,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-04",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.4,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.189459"
+  },
+  {
+    "patient_id": "P0005",
+    "name": "Emily Singh",
+    "age": 24,
+    "gender": "Female",
+    "weight_kg": 57.7,
+    "height_cm": 162.9,
+    "bmi": 21.7,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2019-07-04"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2022-07-03"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-10",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 139.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-01",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 230.8,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.07,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-30",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.6,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.189496"
+  },
+  {
+    "patient_id": "P0006",
+    "name": "Aditya Patel",
+    "age": 70,
+    "gender": "Male",
+    "weight_kg": 57.6,
+    "height_cm": 170.4,
+    "bmi": 19.8,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2021-06-08"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2021-02-15"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-09-27"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-19",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 117.9,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-22",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 241.8,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.58,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-17",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.2,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189535"
+  },
+  {
+    "patient_id": "P0007",
+    "name": "Manish Chen",
+    "age": 69,
+    "gender": "Female",
+    "weight_kg": 69.3,
+    "height_cm": 165.7,
+    "bmi": 25.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-06-05"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-12-15"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2023-10-08"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2022-03-19"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-23",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 105.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 156.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-19",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.72,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-06",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189576"
+  },
+  {
+    "patient_id": "P0008",
+    "name": "Vikram Patel",
+    "age": 21,
+    "gender": "Female",
+    "weight_kg": 74.0,
+    "height_cm": 162.1,
+    "bmi": 28.1,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2021-03-08"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-17",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 100.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-23",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 193.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.83,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-08",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189609"
+  },
+  {
+    "patient_id": "P0009",
+    "name": "Nikhil Singh",
+    "age": 40,
+    "gender": "Male",
+    "weight_kg": 72.7,
+    "height_cm": 163.4,
+    "bmi": 27.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-05-24"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-17",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 88.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 222.0,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-04",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.17,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-02",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189641"
+  },
+  {
+    "patient_id": "P0010",
+    "name": "Robert Nair",
+    "age": 43,
+    "gender": "Female",
+    "weight_kg": 61.1,
+    "height_cm": 160.4,
+    "bmi": 23.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2023-06-28"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2022-03-28"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2023-05-05"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-04-03"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 96.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-17",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 190.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-28",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.32,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-14",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189682"
+  },
+  {
+    "patient_id": "P0011",
+    "name": "Arjun Davis",
+    "age": 70,
+    "gender": "Female",
+    "weight_kg": 77.3,
+    "height_cm": 153.5,
+    "bmi": 32.8,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-06-12"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-22",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 151.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-12",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 139.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.06,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-07",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.189715"
+  },
+  {
+    "patient_id": "P0012",
+    "name": "Amanda Williams",
+    "age": 54,
+    "gender": "Male",
+    "weight_kg": 57.8,
+    "height_cm": 173.6,
+    "bmi": 19.2,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2020-08-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-23",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 135.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-19",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 195.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.74,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.0,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.189748"
+  },
+  {
+    "patient_id": "P0013",
+    "name": "Nikhil Patel",
+    "age": 45,
+    "gender": "Female",
+    "weight_kg": 70.1,
+    "height_cm": 171.9,
+    "bmi": 23.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2023-03-18"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-08-03"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-05-31"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-16",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 75.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 169.8,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.66,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189786"
+  },
+  {
+    "patient_id": "P0014",
+    "name": "Sofia Ali",
+    "age": 59,
+    "gender": "Female",
+    "weight_kg": 63.9,
+    "height_cm": 149.2,
+    "bmi": 28.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2021-08-16"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-01-27"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2023-08-08"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 127.9,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-02",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 220.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-05",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.75,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-25",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189825"
+  },
+  {
+    "patient_id": "P0015",
+    "name": "Amanda Reddy",
+    "age": 49,
+    "gender": "Female",
+    "weight_kg": 70.7,
+    "height_cm": 154.5,
+    "bmi": 29.6,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-10-06"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-07-10"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2023-10-25"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2022-02-18"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-19",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 138.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-13",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 165.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-06",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.58,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-03",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.1,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.189867"
+  },
+  {
+    "patient_id": "P0016",
+    "name": "Kofi Davis",
+    "age": 63,
+    "gender": "Female",
+    "weight_kg": 66.2,
+    "height_cm": 175.1,
+    "bmi": 21.6,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-05-23"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-11-24"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-11",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 111.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-10",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 177.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.53,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-06",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.6,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.189902"
+  },
+  {
+    "patient_id": "P0017",
+    "name": "Nikhil Reddy",
+    "age": 73,
+    "gender": "Female",
+    "weight_kg": 78.7,
+    "height_cm": 153.8,
+    "bmi": 33.3,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2022-06-28"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2020-11-11"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2021-05-22"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-12",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 74.9,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 222.0,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-27",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.69,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-23",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.8,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.189940"
+  },
+  {
+    "patient_id": "P0018",
+    "name": "Meera Chen",
+    "age": 82,
+    "gender": "Female",
+    "weight_kg": 69.4,
+    "height_cm": 173.6,
+    "bmi": 23.0,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-10-27"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2019-07-13"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-05-08"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2021-05-15"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-20",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 139.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-03",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 189.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-19",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.11,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-26",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.7,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.189982"
+  },
+  {
+    "patient_id": "P0019",
+    "name": "Michael Wilson",
+    "age": 67,
+    "gender": "Male",
+    "weight_kg": 80.6,
+    "height_cm": 163.2,
+    "bmi": 30.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2023-10-06"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-04-26"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2023-08-03"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-19",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 84.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-26",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 260.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-29",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.72,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-11",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.9,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190022"
+  },
+  {
+    "patient_id": "P0020",
+    "name": "Aarav Wang",
+    "age": 38,
+    "gender": "Female",
+    "weight_kg": 76.0,
+    "height_cm": 157.8,
+    "bmi": 30.5,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2023-03-19"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2019-04-30"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-30",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 116.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 229.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-08",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.49,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-08",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.4,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190056"
+  },
+  {
+    "patient_id": "P0021",
+    "name": "Ashley Gupta",
+    "age": 51,
+    "gender": "Male",
+    "weight_kg": 66.2,
+    "height_cm": 163.2,
+    "bmi": 24.8,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2019-12-20"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2023-10-18"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-05-27"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2023-07-04"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-27",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 88.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-23",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 223.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.88,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-10",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190096"
+  },
+  {
+    "patient_id": "P0022",
+    "name": "Pooja Miller",
+    "age": 38,
+    "gender": "Female",
+    "weight_kg": 81.0,
+    "height_cm": 165.3,
+    "bmi": 29.7,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-07-06"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2019-03-15"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2019-05-17"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-17",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 139.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-29",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 211.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.02,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-13",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.8,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190134"
+  },
+  {
+    "patient_id": "P0023",
+    "name": "Meera Johnson",
+    "age": 68,
+    "gender": "Male",
+    "weight_kg": 113.2,
+    "height_cm": 188.0,
+    "bmi": 32.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2020-04-16"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-12-20"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-23",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 76.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 217.0,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-04",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.82,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-12",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.1,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190172"
+  },
+  {
+    "patient_id": "P0024",
+    "name": "Priya Singh",
+    "age": 34,
+    "gender": "Male",
+    "weight_kg": 47.9,
+    "height_cm": 171.7,
+    "bmi": 16.3,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2019-05-02"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2019-08-28"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-03-20"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2020-12-15"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-06",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 70.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 201.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.63,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-29",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190212"
+  },
+  {
+    "patient_id": "P0025",
+    "name": "Sneha Iyer",
+    "age": 53,
+    "gender": "Female",
+    "weight_kg": 49.0,
+    "height_cm": 152.2,
+    "bmi": 21.1,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-03-17"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 6.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-22",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 64.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-19",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 218.0,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-16",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.43,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-04",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 6.1,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.190244"
+  },
+  {
+    "patient_id": "P0026",
+    "name": "Wei Kumar",
+    "age": 38,
+    "gender": "Male",
+    "weight_kg": 74.6,
+    "height_cm": 179.2,
+    "bmi": 23.2,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-07-09"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-10",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 107.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-18",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 195.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-27",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.06,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-22",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.9,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190276"
+  },
+  {
+    "patient_id": "P0027",
+    "name": "Chen Davis",
+    "age": 73,
+    "gender": "Male",
+    "weight_kg": 84.6,
+    "height_cm": 181.1,
+    "bmi": 25.8,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2019-11-07"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-03",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 136.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-27",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 177.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-28",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.08,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-04",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.7,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190308"
+  },
+  {
+    "patient_id": "P0028",
+    "name": "Siddharth Ali",
+    "age": 30,
+    "gender": "Male",
+    "weight_kg": 117.4,
+    "height_cm": 189.7,
+    "bmi": 32.6,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-11-15"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2022-07-14"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2023-09-05"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2023-11-20"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 6.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-28",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 93.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 250.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.07,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-20",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 6.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190350"
+  },
+  {
+    "patient_id": "P0029",
+    "name": "Daniel Miller",
+    "age": 79,
+    "gender": "Female",
+    "weight_kg": 42.6,
+    "height_cm": 168.4,
+    "bmi": 15.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2019-02-08"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 93.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-21",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 207.0,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.97,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-14",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190383"
+  },
+  {
+    "patient_id": "P0030",
+    "name": "Vikram Smith",
+    "age": 73,
+    "gender": "Female",
+    "weight_kg": 69.1,
+    "height_cm": 172.8,
+    "bmi": 23.2,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-01-25"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2022-01-10"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2020-07-19"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-05",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 140.9,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-26",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 138.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-06",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.08,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-14",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.9,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.190421"
+  },
+  {
+    "patient_id": "P0031",
+    "name": "Mateo Iyer",
+    "age": 33,
+    "gender": "Male",
+    "weight_kg": 56.5,
+    "height_cm": 179.9,
+    "bmi": 17.5,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2022-01-20"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2023-01-08"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-31",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 81.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-22",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 227.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-15",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.43,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-16",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.3,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190455"
+  },
+  {
+    "patient_id": "P0032",
+    "name": "Sneha Iyer",
+    "age": 40,
+    "gender": "Male",
+    "weight_kg": 84.1,
+    "height_cm": 187.0,
+    "bmi": 24.1,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2019-12-20"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-12",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 136.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-14",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 178.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-30",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.71,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-22",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.9,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190487"
+  },
+  {
+    "patient_id": "P0033",
+    "name": "Fatima Iyer",
+    "age": 58,
+    "gender": "Male",
+    "weight_kg": 75.3,
+    "height_cm": 182.4,
+    "bmi": 22.6,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-11-11"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2020-05-09"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2021-01-24"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-24",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 103.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-28",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 160.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.87,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-20",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190524"
+  },
+  {
+    "patient_id": "P0034",
+    "name": "Amara Reddy",
+    "age": 57,
+    "gender": "Female",
+    "weight_kg": 75.9,
+    "height_cm": 155.4,
+    "bmi": 31.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2022-09-04"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-28",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 74.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 216.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-08",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.15,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-21",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190557"
+  },
+  {
+    "patient_id": "P0035",
+    "name": "David Nair",
+    "age": 49,
+    "gender": "Female",
+    "weight_kg": 71.3,
+    "height_cm": 161.6,
+    "bmi": 27.3,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-05-17"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2021-07-02"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-11",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 123.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-08",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 227.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.37,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-11",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.9,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190592"
+  },
+  {
+    "patient_id": "P0036",
+    "name": "Ashley Brown",
+    "age": 50,
+    "gender": "Male",
+    "weight_kg": 89.9,
+    "height_cm": 168.4,
+    "bmi": 31.7,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-04-30"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2022-04-13"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2020-04-16"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-13",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 139.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-05",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 172.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.96,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-05",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190629"
+  },
+  {
+    "patient_id": "P0037",
+    "name": "Jessica Smith",
+    "age": 28,
+    "gender": "Female",
+    "weight_kg": 72.4,
+    "height_cm": 169.0,
+    "bmi": 25.3,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-01-13"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2023-04-17"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2020-05-02"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-16",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 118.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-12",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 212.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.0,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-07",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.4,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.190667"
+  },
+  {
+    "patient_id": "P0038",
+    "name": "Daniel Reddy",
+    "age": 61,
+    "gender": "Male",
+    "weight_kg": 90.0,
+    "height_cm": 179.7,
+    "bmi": 27.9,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2022-08-03"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2019-09-28"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-08-10"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-10-15"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-21",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 167.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-21",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 187.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.33,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-29",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.1,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190707"
+  },
+  {
+    "patient_id": "P0039",
+    "name": "Vikram Jones",
+    "age": 66,
+    "gender": "Female",
+    "weight_kg": 49.5,
+    "height_cm": 148.2,
+    "bmi": 22.5,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-11-11"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2022-06-09"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2021-05-21"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-05-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-27",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 106.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-23",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 117.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.88,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-27",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.7,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190750"
+  },
+  {
+    "patient_id": "P0040",
+    "name": "Arjun Brown",
+    "age": 70,
+    "gender": "Male",
+    "weight_kg": 87.8,
+    "height_cm": 174.1,
+    "bmi": 29.0,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-07-29"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2019-07-06"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2019-09-05"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2023-10-11"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-10",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 131.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-10",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 212.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.9,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-26",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190821"
+  },
+  {
+    "patient_id": "P0041",
+    "name": "Arjun Williams",
+    "age": 37,
+    "gender": "Female",
+    "weight_kg": 63.3,
+    "height_cm": 160.1,
+    "bmi": 24.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-11-22"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-12-10"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2019-02-07"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-21",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 58.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-06",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 179.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-01",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.19,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-11",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190856"
+  },
+  {
+    "patient_id": "P0042",
+    "name": "Manish Brown",
+    "age": 80,
+    "gender": "Male",
+    "weight_kg": 80.8,
+    "height_cm": 181.7,
+    "bmi": 24.5,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2023-09-21"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2021-09-05"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-14",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 115.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 173.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-10",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.85,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-08",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.9,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190887"
+  },
+  {
+    "patient_id": "P0043",
+    "name": "Kavya Patel",
+    "age": 67,
+    "gender": "Female",
+    "weight_kg": 54.6,
+    "height_cm": 158.1,
+    "bmi": 21.8,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2019-02-07"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-03-27"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2020-11-30"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-16",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 114.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-27",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 223.0,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-22",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.54,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-26",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.190922"
+  },
+  {
+    "patient_id": "P0044",
+    "name": "Sneha Martinez",
+    "age": 45,
+    "gender": "Male",
+    "weight_kg": 69.5,
+    "height_cm": 168.7,
+    "bmi": 24.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-01-04"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-21",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 96.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 217.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.09,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-17",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190952"
+  },
+  {
+    "patient_id": "P0045",
+    "name": "Sneha Miller",
+    "age": 81,
+    "gender": "Female",
+    "weight_kg": 62.2,
+    "height_cm": 149.2,
+    "bmi": 27.9,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2020-09-23"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2021-09-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-09",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 95.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 218.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-02",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.49,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-08",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.8,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.190983"
+  },
+  {
+    "patient_id": "P0046",
+    "name": "Vikram Wang",
+    "age": 25,
+    "gender": "Male",
+    "weight_kg": 79.0,
+    "height_cm": 174.3,
+    "bmi": 26.0,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-10-25"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2020-01-22"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-12-01"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-26",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 141.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-05",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 173.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.48,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-23",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.6,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.191017"
+  },
+  {
+    "patient_id": "P0047",
+    "name": "Mateo Wilson",
+    "age": 58,
+    "gender": "Male",
+    "weight_kg": 71.6,
+    "height_cm": 170.7,
+    "bmi": 24.6,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-03-12"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2022-10-24"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 6.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-23",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 95.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-11",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 189.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.05,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-07",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 6.2,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.191049"
+  },
+  {
+    "patient_id": "P0048",
+    "name": "Mateo Martinez",
+    "age": 59,
+    "gender": "Male",
+    "weight_kg": 73.3,
+    "height_cm": 181.5,
+    "bmi": 22.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2021-04-26"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-11-04"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-15",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 92.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-29",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 259.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-23",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.15,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-26",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.9,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191080"
+  },
+  {
+    "patient_id": "P0049",
+    "name": "Aditya Williams",
+    "age": 74,
+    "gender": "Female",
+    "weight_kg": 64.6,
+    "height_cm": 154.8,
+    "bmi": 27.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2021-05-14"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2019-10-21"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-01-12"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 100.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-27",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 246.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-19",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.09,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191113"
+  },
+  {
+    "patient_id": "P0050",
+    "name": "James Kumar",
+    "age": 36,
+    "gender": "Male",
+    "weight_kg": 84.4,
+    "height_cm": 170.5,
+    "bmi": 29.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2020-04-08"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-12",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 48.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-30",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 148.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.22,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-26",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.8,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191143"
+  },
+  {
+    "patient_id": "P0051",
+    "name": "Amara Nair",
+    "age": 34,
+    "gender": "Male",
+    "weight_kg": 57.0,
+    "height_cm": 149.3,
+    "bmi": 25.6,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2023-07-18"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2019-01-11"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-09-17"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 76.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 145.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-30",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.93,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-19",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.2,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191177"
+  },
+  {
+    "patient_id": "P0052",
+    "name": "Vikram Iyer",
+    "age": 60,
+    "gender": "Female",
+    "weight_kg": 65.8,
+    "height_cm": 167.3,
+    "bmi": 23.5,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-02-12"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2020-06-03"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-17",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 153.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-11",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 168.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.78,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-10",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.8,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.191209"
+  },
+  {
+    "patient_id": "P0053",
+    "name": "Amara Ali",
+    "age": 84,
+    "gender": "Female",
+    "weight_kg": 64.3,
+    "height_cm": 172.2,
+    "bmi": 21.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2023-07-12"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2019-10-25"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 93.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-19",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 191.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-08",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.76,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.2,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191242"
+  },
+  {
+    "patient_id": "P0054",
+    "name": "Aarav Wang",
+    "age": 78,
+    "gender": "Female",
+    "weight_kg": 73.3,
+    "height_cm": 148.5,
+    "bmi": 33.3,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-07-06"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-04",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 40.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 175.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.79,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191270"
+  },
+  {
+    "patient_id": "P0055",
+    "name": "Divya Singh",
+    "age": 75,
+    "gender": "Female",
+    "weight_kg": 64.5,
+    "height_cm": 159.0,
+    "bmi": 25.5,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-11-26"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2023-08-20"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2020-05-10"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-29",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 149.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-14",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 219.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-01",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.14,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-27",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.191306"
+  },
+  {
+    "patient_id": "P0056",
+    "name": "Emily Nair",
+    "age": 69,
+    "gender": "Male",
+    "weight_kg": 106.5,
+    "height_cm": 172.3,
+    "bmi": 35.9,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2021-01-13"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2023-05-01"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-17",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 63.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-10",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 185.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.78,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-28",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.3,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191337"
+  },
+  {
+    "patient_id": "P0057",
+    "name": "Aditya Patel",
+    "age": 44,
+    "gender": "Female",
+    "weight_kg": 71.7,
+    "height_cm": 161.4,
+    "bmi": 27.5,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2022-04-03"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 84.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 180.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-30",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.05,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-12",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.1,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191366"
+  },
+  {
+    "patient_id": "P0058",
+    "name": "Emily Reddy",
+    "age": 27,
+    "gender": "Male",
+    "weight_kg": 77.0,
+    "height_cm": 175.1,
+    "bmi": 25.1,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2021-05-03"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2020-10-21"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2020-05-31"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-05",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 114.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 195.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.09,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-30",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191400"
+  },
+  {
+    "patient_id": "P0059",
+    "name": "Daniel Davis",
+    "age": 66,
+    "gender": "Female",
+    "weight_kg": 50.8,
+    "height_cm": 158.6,
+    "bmi": 20.2,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-05-12"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-16",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 111.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-27",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 173.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.4,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-05",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.4,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.191429"
+  },
+  {
+    "patient_id": "P0060",
+    "name": "Meera Davis",
+    "age": 25,
+    "gender": "Female",
+    "weight_kg": 70.5,
+    "height_cm": 175.6,
+    "bmi": 22.9,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2022-06-16"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-09-20"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-06-03"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-02-06"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 104.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 214.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.13,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-09",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191466"
+  },
+  {
+    "patient_id": "P0061",
+    "name": "Karthik Patel",
+    "age": 22,
+    "gender": "Male",
+    "weight_kg": 95.8,
+    "height_cm": 168.0,
+    "bmi": 34.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-08-12"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2019-05-18"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2021-09-26"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-11-17"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-10",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 54.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-28",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 225.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-26",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.06,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-12",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.1,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191504"
+  },
+  {
+    "patient_id": "P0062",
+    "name": "Riya Wang",
+    "age": 69,
+    "gender": "Female",
+    "weight_kg": 73.2,
+    "height_cm": 154.5,
+    "bmi": 30.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-12-26"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2019-12-26"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2022-01-16"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-27",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 75.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-22",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 188.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-11",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.01,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-14",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.9,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191538"
+  },
+  {
+    "patient_id": "P0063",
+    "name": "Riya Gupta",
+    "age": 52,
+    "gender": "Male",
+    "weight_kg": 69.3,
+    "height_cm": 176.8,
+    "bmi": 22.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2019-07-09"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-12-01"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2020-08-14"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 39.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-10",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 266.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.9,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-01",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.2,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191573"
+  },
+  {
+    "patient_id": "P0064",
+    "name": "David Wang",
+    "age": 65,
+    "gender": "Male",
+    "weight_kg": 73.7,
+    "height_cm": 170.7,
+    "bmi": 25.3,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2019-08-30"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2022-12-31"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-07-31"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 98.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-21",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 231.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.51,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-08",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.3,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191607"
+  },
+  {
+    "patient_id": "P0065",
+    "name": "Rohan Williams",
+    "age": 37,
+    "gender": "Male",
+    "weight_kg": 73.3,
+    "height_cm": 171.9,
+    "bmi": 24.8,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2019-01-07"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-16",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 53.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-30",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 211.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-04",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.46,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-21",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191640"
+  },
+  {
+    "patient_id": "P0066",
+    "name": "Siddharth Jones",
+    "age": 41,
+    "gender": "Male",
+    "weight_kg": 101.4,
+    "height_cm": 164.2,
+    "bmi": 37.6,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2021-03-12"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-30",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 70.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 251.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.92,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-26",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191673"
+  },
+  {
+    "patient_id": "P0067",
+    "name": "Priya Wang",
+    "age": 82,
+    "gender": "Female",
+    "weight_kg": 66.8,
+    "height_cm": 153.8,
+    "bmi": 28.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-07-06"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-01-08"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-11",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 55.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 185.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-22",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.4,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-23",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.3,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191708"
+  },
+  {
+    "patient_id": "P0068",
+    "name": "Vikram Mehta",
+    "age": 57,
+    "gender": "Male",
+    "weight_kg": 81.8,
+    "height_cm": 167.3,
+    "bmi": 29.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2022-05-03"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2023-01-18"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 135.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-26",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 219.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-22",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.96,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-09",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.9,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191742"
+  },
+  {
+    "patient_id": "P0069",
+    "name": "Emily Sharma",
+    "age": 47,
+    "gender": "Female",
+    "weight_kg": 75.8,
+    "height_cm": 171.0,
+    "bmi": 25.9,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2019-12-01"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2020-08-14"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 79.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 235.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-28",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.37,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-16",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.2,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191778"
+  },
+  {
+    "patient_id": "P0070",
+    "name": "Mateo Mehta",
+    "age": 61,
+    "gender": "Male",
+    "weight_kg": 72.1,
+    "height_cm": 175.5,
+    "bmi": 23.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2023-09-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-09",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 71.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 175.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-22",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.76,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-17",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.3,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191809"
+  },
+  {
+    "patient_id": "P0071",
+    "name": "Robert Smith",
+    "age": 83,
+    "gender": "Male",
+    "weight_kg": 75.2,
+    "height_cm": 181.9,
+    "bmi": 22.7,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2019-09-25"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-05-16"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-05",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 156.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-27",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 167.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.14,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-24",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.191843"
+  },
+  {
+    "patient_id": "P0072",
+    "name": "Michael Martinez",
+    "age": 50,
+    "gender": "Female",
+    "weight_kg": 76.1,
+    "height_cm": 160.9,
+    "bmi": 29.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-11-18"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2019-09-06"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-17",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 83.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-31",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 158.8,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-26",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.17,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-02",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191877"
+  },
+  {
+    "patient_id": "P0073",
+    "name": "Amara Wang",
+    "age": 54,
+    "gender": "Male",
+    "weight_kg": 63.7,
+    "height_cm": 172.2,
+    "bmi": 21.5,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2020-12-25"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2022-09-23"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2019-06-06"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2021-07-24"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-16",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 117.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-01",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 215.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-17",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.71,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.9,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191917"
+  },
+  {
+    "patient_id": "P0074",
+    "name": "Emily Wilson",
+    "age": 51,
+    "gender": "Male",
+    "weight_kg": 84.3,
+    "height_cm": 173.5,
+    "bmi": 28.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2022-05-09"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-03-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-30",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 91.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-11",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 234.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.6,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-26",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.191953"
+  },
+  {
+    "patient_id": "P0075",
+    "name": "Nisha Wang",
+    "age": 65,
+    "gender": "Female",
+    "weight_kg": 81.0,
+    "height_cm": 170.5,
+    "bmi": 27.9,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-07-16"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2019-09-30"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2021-06-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.5,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-31",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 153.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-14",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 224.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.91,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-06",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.5,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.191991"
+  },
+  {
+    "patient_id": "P0076",
+    "name": "David Wang",
+    "age": 75,
+    "gender": "Female",
+    "weight_kg": 67.2,
+    "height_cm": 158.6,
+    "bmi": 26.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-12-14"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2019-06-14"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2019-01-30"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-07-13"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-29",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 69.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 229.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-05",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.11,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-08",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192030"
+  },
+  {
+    "patient_id": "P0077",
+    "name": "Aarav Joshi",
+    "age": 32,
+    "gender": "Female",
+    "weight_kg": 75.9,
+    "height_cm": 166.9,
+    "bmi": 27.2,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-10-10"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-04-21"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2022-03-21"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-01-13"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-30",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 123.9,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-03",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 268.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.43,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-06",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.1,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192071"
+  },
+  {
+    "patient_id": "P0078",
+    "name": "James Jones",
+    "age": 39,
+    "gender": "Female",
+    "weight_kg": 70.6,
+    "height_cm": 171.8,
+    "bmi": 23.9,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-03-20"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2020-08-16"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2020-07-06"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2023-08-16"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.5,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-16",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 136.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-21",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 203.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.98,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-23",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.5,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192113"
+  },
+  {
+    "patient_id": "P0079",
+    "name": "Fatima Garcia",
+    "age": 84,
+    "gender": "Female",
+    "weight_kg": 79.5,
+    "height_cm": 161.1,
+    "bmi": 30.6,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-08-05"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.5,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 66.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 199.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.69,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-22",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.5,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192144"
+  },
+  {
+    "patient_id": "P0080",
+    "name": "Fatima Wang",
+    "age": 26,
+    "gender": "Male",
+    "weight_kg": 83.5,
+    "height_cm": 158.7,
+    "bmi": 33.1,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-08-31"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-12-28"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-18",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 155.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-11",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 206.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.73,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-13",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.4,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192180"
+  },
+  {
+    "patient_id": "P0081",
+    "name": "Nisha Iyer",
+    "age": 53,
+    "gender": "Female",
+    "weight_kg": 72.3,
+    "height_cm": 171.3,
+    "bmi": 24.6,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-08-09"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-03-11"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-29",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 128.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-05",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 213.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-16",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.86,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-29",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.6,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192214"
+  },
+  {
+    "patient_id": "P0082",
+    "name": "Riya Garcia",
+    "age": 42,
+    "gender": "Male",
+    "weight_kg": 70.9,
+    "height_cm": 168.0,
+    "bmi": 25.1,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2020-09-08"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2021-12-23"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2023-02-18"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-01",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 140.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-29",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 186.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.36,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-20",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.8,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192252"
+  },
+  {
+    "patient_id": "P0083",
+    "name": "Jessica Iyer",
+    "age": 75,
+    "gender": "Male",
+    "weight_kg": 82.5,
+    "height_cm": 163.7,
+    "bmi": 30.8,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-04-25"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2020-10-02"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2019-08-09"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2020-09-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-28",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 85.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 103.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-21",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.1,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-14",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192292"
+  },
+  {
+    "patient_id": "P0084",
+    "name": "Nikhil Gupta",
+    "age": 56,
+    "gender": "Male",
+    "weight_kg": 62.2,
+    "height_cm": 170.0,
+    "bmi": 21.5,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2019-12-31"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2021-06-13"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-06-06"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2023-11-27"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-13",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 171.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-21",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 277.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-27",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.01,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-09",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.7,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192334"
+  },
+  {
+    "patient_id": "P0085",
+    "name": "Divya Jones",
+    "age": 66,
+    "gender": "Female",
+    "weight_kg": 65.7,
+    "height_cm": 162.0,
+    "bmi": 25.0,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-12-05"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2021-02-10"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-10",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 120.9,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-31",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 191.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-15",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.88,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-19",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.9,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192368"
+  },
+  {
+    "patient_id": "P0086",
+    "name": "James Jones",
+    "age": 31,
+    "gender": "Male",
+    "weight_kg": 78.4,
+    "height_cm": 175.2,
+    "bmi": 25.5,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-02-13"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-05-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-01",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 49.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-29",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 167.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.64,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-08",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.4,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192402"
+  },
+  {
+    "patient_id": "P0087",
+    "name": "Aditya Iyer",
+    "age": 68,
+    "gender": "Female",
+    "weight_kg": 68.2,
+    "height_cm": 155.5,
+    "bmi": 28.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2023-01-03"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2021-07-26"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2021-05-09"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2023-08-22"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 87.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 166.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-23",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.18,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.7,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192442"
+  },
+  {
+    "patient_id": "P0088",
+    "name": "Riya Mehta",
+    "age": 61,
+    "gender": "Female",
+    "weight_kg": 40.5,
+    "height_cm": 145.3,
+    "bmi": 19.2,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2022-06-21"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-04",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 87.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 213.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.72,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-08",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.4,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192473"
+  },
+  {
+    "patient_id": "P0089",
+    "name": "Emily Smith",
+    "age": 41,
+    "gender": "Female",
+    "weight_kg": 51.7,
+    "height_cm": 163.3,
+    "bmi": 19.4,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-10-29"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2021-03-15"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2021-10-30"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2023-06-11"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.7,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-20",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 118.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-17",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 183.8,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-29",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.01,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-02",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.7,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192514"
+  },
+  {
+    "patient_id": "P0090",
+    "name": "Meera Iyer",
+    "age": 48,
+    "gender": "Male",
+    "weight_kg": 92.7,
+    "height_cm": 167.6,
+    "bmi": 33.0,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2020-04-14"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-05",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 104.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-18",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 208.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.96,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-24",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.6,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192553"
+  },
+  {
+    "patient_id": "P0091",
+    "name": "David Brown",
+    "age": 31,
+    "gender": "Female",
+    "weight_kg": 58.3,
+    "height_cm": 177.5,
+    "bmi": 18.5,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-06-05"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2022-01-11"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2022-08-15"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-16",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 120.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-17",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 220.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.84,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-12",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192590"
+  },
+  {
+    "patient_id": "P0092",
+    "name": "Kavya Brown",
+    "age": 76,
+    "gender": "Female",
+    "weight_kg": 83.2,
+    "height_cm": 172.5,
+    "bmi": 28.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2020-05-19"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2022-09-13"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2022-04-14"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-10",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 81.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-28",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 209.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-16",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.86,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-03",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192627"
+  },
+  {
+    "patient_id": "P0093",
+    "name": "Robert Joshi",
+    "age": 52,
+    "gender": "Female",
+    "weight_kg": 93.4,
+    "height_cm": 159.6,
+    "bmi": 36.6,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-10-13"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2022-02-22"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2023-04-10"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-02-25"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 97.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 267.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-06",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.08,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-26",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192667"
+  },
+  {
+    "patient_id": "P0094",
+    "name": "Nikhil Garcia",
+    "age": 55,
+    "gender": "Female",
+    "weight_kg": 50.9,
+    "height_cm": 160.3,
+    "bmi": 19.8,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-05-03"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2023-02-24"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-11",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 105.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-11",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 250.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.07,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-28",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.8,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192701"
+  },
+  {
+    "patient_id": "P0095",
+    "name": "Emily Wang",
+    "age": 53,
+    "gender": "Male",
+    "weight_kg": 82.7,
+    "height_cm": 149.6,
+    "bmi": 37.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-04-10"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2022-02-05"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-08-13"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-10-18"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 97.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-01",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 177.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-31",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.34,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-21",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192742"
+  },
+  {
+    "patient_id": "P0096",
+    "name": "Amara Sharma",
+    "age": 71,
+    "gender": "Female",
+    "weight_kg": 98.4,
+    "height_cm": 161.0,
+    "bmi": 38.0,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2022-11-17"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-11-19"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-05-19"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2021-04-23"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-23",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 132.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-25",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 153.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-31",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.94,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-27",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.9,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192783"
+  },
+  {
+    "patient_id": "P0097",
+    "name": "Ashley Reddy",
+    "age": 22,
+    "gender": "Female",
+    "weight_kg": 79.9,
+    "height_cm": 161.3,
+    "bmi": 30.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2020-10-24"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-06-24"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2021-12-27"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2023-03-03"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-10",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 68.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 247.0,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.9,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-05",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.3,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192822"
+  },
+  {
+    "patient_id": "P0098",
+    "name": "Michael Smith",
+    "age": 58,
+    "gender": "Female",
+    "weight_kg": 73.2,
+    "height_cm": 164.7,
+    "bmi": 27.0,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2023-01-18"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2023-06-23"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2020-08-02"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-05",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 147.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-17",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 151.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-10",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.92,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-25",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.0,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.192864"
+  },
+  {
+    "patient_id": "P0099",
+    "name": "Shreya Brown",
+    "age": 68,
+    "gender": "Male",
+    "weight_kg": 90.2,
+    "height_cm": 184.8,
+    "bmi": 26.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-04-23"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2020-04-16"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2021-12-25"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 6.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-26",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 95.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-18",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 209.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.03,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-02",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 6.1,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.192901"
+  },
+  {
+    "patient_id": "P0100",
+    "name": "Priya Davis",
+    "age": 46,
+    "gender": "Female",
+    "weight_kg": 66.2,
+    "height_cm": 155.2,
+    "bmi": 27.5,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2021-10-04"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-08-25"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-20",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 141.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-03",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 190.8,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.19,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-07",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.1,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.192937"
+  },
+  {
+    "patient_id": "P0101",
+    "name": "Priya Iyer",
+    "age": 19,
+    "gender": "Male",
+    "weight_kg": 60.7,
+    "height_cm": 184.5,
+    "bmi": 17.8,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-09-10"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-03-24"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2022-09-16"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2019-06-07"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-02",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 89.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-15",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 192.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.15,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-11",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.2,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.192976"
+  },
+  {
+    "patient_id": "P0102",
+    "name": "Karthik Garcia",
+    "age": 63,
+    "gender": "Male",
+    "weight_kg": 82.4,
+    "height_cm": 176.3,
+    "bmi": 26.5,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2020-06-22"
+      },
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2020-02-21"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-03-28"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 9.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-10",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 135.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-07",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 204.8,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.3,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-04",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 9.1,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.193014"
+  },
+  {
+    "patient_id": "P0103",
+    "name": "Aditya Johnson",
+    "age": 52,
+    "gender": "Male",
+    "weight_kg": 71.0,
+    "height_cm": 176.9,
+    "bmi": 22.7,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2020-06-23"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2019-08-15"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 76.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 235.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-02",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.76,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-01",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.2,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193051"
+  },
+  {
+    "patient_id": "P0104",
+    "name": "Nisha Singh",
+    "age": 75,
+    "gender": "Male",
+    "weight_kg": 87.8,
+    "height_cm": 173.8,
+    "bmi": 29.1,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2019-12-11"
+      },
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2022-09-20"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2021-12-09"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.1,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-11",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 98.9,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 221.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.69,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-06",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.1,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193088"
+  },
+  {
+    "patient_id": "P0105",
+    "name": "Siddharth Kumar",
+    "age": 69,
+    "gender": "Male",
+    "weight_kg": 79.5,
+    "height_cm": 192.6,
+    "bmi": 21.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-09-27"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-12-09"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2020-10-01"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-05",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 90.4,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-06",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 221.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-28",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.36,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-10-19",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.8,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193125"
+  },
+  {
+    "patient_id": "P0106",
+    "name": "Divya Martinez",
+    "age": 62,
+    "gender": "Male",
+    "weight_kg": 93.9,
+    "height_cm": 167.8,
+    "bmi": 33.3,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2023-09-23"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2022-04-08"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-09-08"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2020-01-01"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-20",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 133.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-18",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 197.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.94,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-11",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.4,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.193165"
+  },
+  {
+    "patient_id": "P0107",
+    "name": "Fatima Chen",
+    "age": 48,
+    "gender": "Male",
+    "weight_kg": 65.2,
+    "height_cm": 174.8,
+    "bmi": 21.3,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-12-13"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2020-11-15"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2019-08-10"
+      },
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2019-05-03"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-06",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 92.9,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-05",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 199.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-17",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.02,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-12",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.9,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193205"
+  },
+  {
+    "patient_id": "P0108",
+    "name": "Rohan Brown",
+    "age": 49,
+    "gender": "Female",
+    "weight_kg": 61.3,
+    "height_cm": 149.8,
+    "bmi": 27.3,
+    "diabetes_type": "Type 1",
+    "diagnoses": [
+      {
+        "code": "E10",
+        "description": "Type 1 Diabetes Mellitus",
+        "diagnosed_date": "2021-02-02"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-01-20"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2023-02-26"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2021-11-02"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-16",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 135.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-12",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 235.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-11",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.84,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-06",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.0,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.193246"
+  },
+  {
+    "patient_id": "P0109",
+    "name": "Omar Chen",
+    "age": 19,
+    "gender": "Female",
+    "weight_kg": 66.1,
+    "height_cm": 173.6,
+    "bmi": 21.9,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2023-05-04"
+      },
+      {
+        "code": "K21",
+        "description": "GERD",
+        "diagnosed_date": "2019-02-13"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-05-06"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2022-05-10"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-05",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 100.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 227.7,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-26",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.73,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-02",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193285"
+  },
+  {
+    "patient_id": "P0110",
+    "name": "Mateo Mehta",
+    "age": 39,
+    "gender": "Female",
+    "weight_kg": 48.0,
+    "height_cm": 154.6,
+    "bmi": 20.1,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2021-12-24"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2022-05-04"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-10-06"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2020-03-28"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.9,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-29",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 65.0,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-21",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 195.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.02,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-06",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.9,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193322"
+  },
+  {
+    "patient_id": "P0111",
+    "name": "Ananya Mehta",
+    "age": 79,
+    "gender": "Female",
+    "weight_kg": 61.9,
+    "height_cm": 163.8,
+    "bmi": 23.1,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-05-31"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 7.5,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-27",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 135.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-24",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 196.0,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-14",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.95,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-01",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 7.5,
+    "risk_level": "moderate",
+    "last_updated": "2026-10-20T17:24:10.193350"
+  },
+  {
+    "patient_id": "P0112",
+    "name": "Amanda Martinez",
+    "age": 61,
+    "gender": "Female",
+    "weight_kg": 91.8,
+    "height_cm": 160.2,
+    "bmi": 35.8,
+    "diabetes_type": "Type 2",
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2019-09-09"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 8.3,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-08",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 129.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-19",
+        "abnormal": true
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 178.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-24",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.96,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-15",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 8.3,
+    "risk_level": "high",
+    "last_updated": "2026-10-20T17:24:10.193391"
+  },
+  {
+    "patient_id": "P0113",
+    "name": "Pooja Garcia",
+    "age": 54,
+    "gender": "Female",
+    "weight_kg": 67.9,
+    "height_cm": 161.3,
+    "bmi": 26.1,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-04-09"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2020-03-26"
+      },
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2020-05-29"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-20",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 41.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-25",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 184.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-22",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.0,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-12",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.4,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193426"
+  },
+  {
+    "patient_id": "P0114",
+    "name": "Emily Mehta",
+    "age": 25,
+    "gender": "Male",
+    "weight_kg": 84.6,
+    "height_cm": 169.9,
+    "bmi": 29.3,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E66",
+        "description": "Obesity",
+        "diagnosed_date": "2019-11-16"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.8,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-26",
+        "abnormal": true
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 107.3,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-26",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 215.4,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-07-08",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.17,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-09-06",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.8,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193454"
+  },
+  {
+    "patient_id": "P0115",
+    "name": "Siddharth Kumar",
+    "age": 79,
+    "gender": "Female",
+    "weight_kg": 67.0,
+    "height_cm": 172.8,
+    "bmi": 22.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-09-08"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2022-12-22"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 4.4,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 80.7,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-12",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 195.3,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-16",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.75,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-08-22",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 4.4,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193486"
+  },
+  {
+    "patient_id": "P0116",
+    "name": "Chen Chen",
+    "age": 67,
+    "gender": "Male",
+    "weight_kg": 112.4,
+    "height_cm": 187.4,
+    "bmi": 32.0,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2021-04-24"
+      },
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2023-09-05"
+      },
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-05-06"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.2,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-11-08",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 49.8,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-06",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 167.1,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-11-15",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.98,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-13",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.2,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193520"
+  },
+  {
+    "patient_id": "P0117",
+    "name": "Ananya Joshi",
+    "age": 73,
+    "gender": "Female",
+    "weight_kg": 56.3,
+    "height_cm": 162.2,
+    "bmi": 21.4,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E11",
+        "description": "Type 2 Diabetes Mellitus",
+        "diagnosed_date": "2021-05-10"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.5,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-12-17",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 105.1,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-03",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 174.6,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-08-02",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.0,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-12-20",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.5,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193549"
+  },
+  {
+    "patient_id": "P0118",
+    "name": "Nisha Wang",
+    "age": 18,
+    "gender": "Male",
+    "weight_kg": 73.6,
+    "height_cm": 175.9,
+    "bmi": 23.8,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "E78.5",
+        "description": "Hyperlipidemia",
+        "diagnosed_date": "2019-10-17"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.6,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 118.6,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-10-19",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 195.2,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-10-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 1.19,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-01",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.6,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193577"
+  },
+  {
+    "patient_id": "P0119",
+    "name": "Omar Johnson",
+    "age": 32,
+    "gender": "Female",
+    "weight_kg": 94.4,
+    "height_cm": 151.2,
+    "bmi": 41.3,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "F32.9",
+        "description": "Major Depressive Disorder",
+        "diagnosed_date": "2022-11-13"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-13",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 61.5,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-12-23",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 186.5,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-09-29",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.97,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-11-30",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193606"
+  },
+  {
+    "patient_id": "P0120",
+    "name": "Nisha Mehta",
+    "age": 61,
+    "gender": "Female",
+    "weight_kg": 57.6,
+    "height_cm": 155.3,
+    "bmi": 23.9,
+    "diabetes_type": null,
+    "diagnoses": [
+      {
+        "code": "J45",
+        "description": "Asthma",
+        "diagnosed_date": "2021-05-04"
+      },
+      {
+        "code": "N18.3",
+        "description": "Chronic Kidney Disease Stage 3",
+        "diagnosed_date": "2022-03-01"
+      },
+      {
+        "code": "M54.5",
+        "description": "Low Back Pain",
+        "diagnosed_date": "2022-03-28"
+      },
+      {
+        "code": "I10",
+        "description": "Essential Hypertension",
+        "diagnosed_date": "2022-08-14"
+      }
+    ],
+    "lab_results": [
+      {
+        "test_name": "HbA1c",
+        "value": 5.0,
+        "unit": "%",
+        "reference_range": "4.0\u20135.6",
+        "date": "2023-10-10",
+        "abnormal": false
+      },
+      {
+        "test_name": "Fasting Glucose",
+        "value": 78.2,
+        "unit": "mg/dL",
+        "reference_range": "70\u201399",
+        "date": "2023-11-07",
+        "abnormal": false
+      },
+      {
+        "test_name": "Total Cholesterol",
+        "value": 197.9,
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "date": "2023-12-26",
+        "abnormal": false
+      },
+      {
+        "test_name": "Creatinine",
+        "value": 0.4,
+        "unit": "mg/dL",
+        "reference_range": "0.6\u20131.2",
+        "date": "2023-07-18",
+        "abnormal": false
+      }
+    ],
+    "hba1c": 5.0,
+    "risk_level": "low",
+    "last_updated": "2026-10-20T17:24:10.193643"
+  }
+]
