@@ -1,0 +1,62 @@
+# GlucoTwin AI — Git ignore rules
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# ML model artifacts (large binary files — optional)
+# backend/models/*.pkl
+# backend/data/*.parquet
+
+# Raw datasets: NEVER commit (OhioT1DM is under a data-use agreement; the rest are re-downloadable
+# with backend/scripts/download_open_data.py). The small CC BY 4.0 demo pack in backend/data/twin_v7 IS committed.
+ohiot1dm_raw/
+brist1d_raw/
+brist1d (1)/
+*.zip
+external_data/
+
+# Generated experiment artefacts (large, and frames/OOF files contain OhioT1DM-derived rows)
+models/glucotwin_model.pkl
+models/combined_*/*.parquet
+models/combined_*/*.joblib
+
+# Node.js
+node_modules/
+.npm/
+npm-debug.log*
+
+# Vite build output
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
