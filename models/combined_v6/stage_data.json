@@ -1,0 +1,1070 @@
+{
+  "rule_glucose_gt_180": {
+    "original_21": 0.7967,
+    "external_66": 0.8167,
+    "all_87": 0.811,
+    "ohio": 0.803,
+    "brist": 0.7921,
+    "hupa": 0.8374,
+    "uom": 0.8154,
+    "azt1d": 0.8013
+  },
+  "variants": {
+    "v5_engineered|orig": {
+      "original_21": {
+        "n": 129580,
+        "prevalence": 0.4743,
+        "threshold": 0.5,
+        "accuracy": 0.8181,
+        "balanced_accuracy": 0.813,
+        "precision": 0.8794,
+        "recall": 0.7144,
+        "specificity": 0.9116,
+        "f1": 0.7883,
+        "mcc": 0.6423,
+        "roc_auc": 0.8841,
+        "pr_auc": 0.9034,
+        "brier": 0.1277,
+        "log_loss": 0.3907,
+        "ece": 0.0128,
+        "mean_pred": 0.4821,
+        "confusion": {
+          "tp": 43908,
+          "tn": 62095,
+          "fp": 6022,
+          "fn": 17555
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8226,
+          "std": 0.0354,
+          "min": 0.7614,
+          "max": 0.8973
+        },
+        "patients": 21
+      },
+      "external_66": {
+        "n": 328685,
+        "prevalence": 0.3801,
+        "threshold": 0.5,
+        "accuracy": 0.8113,
+        "balanced_accuracy": 0.794,
+        "precision": 0.7677,
+        "recall": 0.7219,
+        "specificity": 0.8661,
+        "f1": 0.7441,
+        "mcc": 0.5955,
+        "roc_auc": 0.8728,
+        "pr_auc": 0.8595,
+        "brier": 0.1345,
+        "log_loss": 0.4159,
+        "ece": 0.0774,
+        "mean_pred": 0.4575,
+        "confusion": {
+          "tp": 90185,
+          "tn": 176466,
+          "fp": 27293,
+          "fn": 34741
+        },
+        "per_patient_accuracy": {
+          "mean": 0.7976,
+          "std": 0.1071,
+          "min": 0.0,
+          "max": 0.9197
+        },
+        "patients": 66
+      },
+      "all_87": {
+        "n": 458265,
+        "prevalence": 0.4067,
+        "threshold": 0.5,
+        "accuracy": 0.8132,
+        "balanced_accuracy": 0.7984,
+        "precision": 0.801,
+        "recall": 0.7194,
+        "specificity": 0.8775,
+        "f1": 0.758,
+        "mcc": 0.6089,
+        "roc_auc": 0.8749,
+        "pr_auc": 0.8725,
+        "brier": 0.1326,
+        "log_loss": 0.4088,
+        "ece": 0.0577,
+        "mean_pred": 0.4644,
+        "confusion": {
+          "tp": 134093,
+          "tn": 238561,
+          "fp": 33315,
+          "fn": 52296
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8036,
+          "std": 0.0953,
+          "min": 0.0,
+          "max": 0.9197
+        },
+        "patients": 87
+      },
+      "ohio": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.5,
+        "accuracy": 0.8352,
+        "balanced_accuracy": 0.8376,
+        "precision": 0.9044,
+        "recall": 0.761,
+        "specificity": 0.9143,
+        "f1": 0.8265,
+        "mcc": 0.6808,
+        "roc_auc": 0.9092,
+        "pr_auc": 0.9329,
+        "brier": 0.115,
+        "log_loss": 0.3527,
+        "ece": 0.0104,
+        "mean_pred": 0.5216,
+        "confusion": {
+          "tp": 21126,
+          "tn": 23802,
+          "fp": 2232,
+          "fn": 6636
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8352,
+          "std": 0.026,
+          "min": 0.8054,
+          "max": 0.8973
+        },
+        "patients": 12
+      },
+      "brist": {
+        "n": 75784,
+        "prevalence": 0.4447,
+        "threshold": 0.5,
+        "accuracy": 0.8059,
+        "balanced_accuracy": 0.793,
+        "precision": 0.8574,
+        "recall": 0.676,
+        "specificity": 0.9099,
+        "f1": 0.756,
+        "mcc": 0.6102,
+        "roc_auc": 0.8638,
+        "pr_auc": 0.8765,
+        "brier": 0.1368,
+        "log_loss": 0.4177,
+        "ece": 0.0224,
+        "mean_pred": 0.454,
+        "confusion": {
+          "tp": 22782,
+          "tn": 38293,
+          "fp": 3790,
+          "fn": 10919
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8058,
+          "std": 0.0406,
+          "min": 0.7614,
+          "max": 0.8733
+        },
+        "patients": 9
+      },
+      "hupa": {
+        "n": 83159,
+        "prevalence": 0.3428,
+        "threshold": 0.5,
+        "accuracy": 0.8316,
+        "balanced_accuracy": 0.8113,
+        "precision": 0.7584,
+        "recall": 0.7467,
+        "specificity": 0.8759,
+        "f1": 0.7525,
+        "mcc": 0.6249,
+        "roc_auc": 0.8889,
+        "pr_auc": 0.8612,
+        "brier": 0.1251,
+        "log_loss": 0.3986,
+        "ece": 0.0953,
+        "mean_pred": 0.4382,
+        "confusion": {
+          "tp": 21287,
+          "tn": 47868,
+          "fp": 6782,
+          "fn": 7222
+        },
+        "per_patient_accuracy": {
+          "mean": 0.7855,
+          "std": 0.1738,
+          "min": 0.0,
+          "max": 0.8985
+        },
+        "patients": 24
+      },
+      "uom": {
+        "n": 146238,
+        "prevalence": 0.3964,
+        "threshold": 0.5,
+        "accuracy": 0.8042,
+        "balanced_accuracy": 0.7936,
+        "precision": 0.7585,
+        "recall": 0.7425,
+        "specificity": 0.8447,
+        "f1": 0.7504,
+        "mcc": 0.5895,
+        "roc_auc": 0.872,
+        "pr_auc": 0.8671,
+        "brier": 0.1383,
+        "log_loss": 0.4242,
+        "ece": 0.0841,
+        "mean_pred": 0.4805,
+        "confusion": {
+          "tp": 43040,
+          "tn": 74566,
+          "fp": 13706,
+          "fn": 14926
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8036,
+          "std": 0.032,
+          "min": 0.7568,
+          "max": 0.853
+        },
+        "patients": 17
+      },
+      "azt1d": {
+        "n": 99288,
+        "prevalence": 0.3873,
+        "threshold": 0.5,
+        "accuracy": 0.8046,
+        "balanced_accuracy": 0.7803,
+        "precision": 0.7917,
+        "recall": 0.6725,
+        "specificity": 0.8881,
+        "f1": 0.7272,
+        "mcc": 0.5813,
+        "roc_auc": 0.8611,
+        "pr_auc": 0.8495,
+        "brier": 0.1369,
+        "log_loss": 0.4181,
+        "ece": 0.0535,
+        "mean_pred": 0.4399,
+        "confusion": {
+          "tp": 25858,
+          "tn": 54032,
+          "fp": 6805,
+          "fn": 12593
+        },
+        "per_patient_accuracy": {
+          "mean": 0.805,
+          "std": 0.035,
+          "min": 0.7509,
+          "max": 0.9197
+        },
+        "patients": 25
+      }
+    },
+    "v5_engineered|orig+ext": {
+      "original_21": {
+        "n": 129580,
+        "prevalence": 0.4743,
+        "threshold": 0.5,
+        "accuracy": 0.8208,
+        "balanced_accuracy": 0.8148,
+        "precision": 0.9022,
+        "recall": 0.6978,
+        "specificity": 0.9318,
+        "f1": 0.7869,
+        "mcc": 0.6523,
+        "roc_auc": 0.8877,
+        "pr_auc": 0.9059,
+        "brier": 0.1261,
+        "log_loss": 0.3864,
+        "ece": 0.0103,
+        "mean_pred": 0.4647,
+        "confusion": {
+          "tp": 42887,
+          "tn": 63470,
+          "fp": 4647,
+          "fn": 18576
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8247,
+          "std": 0.0359,
+          "min": 0.7668,
+          "max": 0.8966
+        },
+        "patients": 21
+      },
+      "external_66": {
+        "n": 328685,
+        "prevalence": 0.3801,
+        "threshold": 0.5,
+        "accuracy": 0.8319,
+        "balanced_accuracy": 0.7993,
+        "precision": 0.8625,
+        "recall": 0.6635,
+        "specificity": 0.9352,
+        "f1": 0.75,
+        "mcc": 0.6389,
+        "roc_auc": 0.8814,
+        "pr_auc": 0.8673,
+        "brier": 0.1221,
+        "log_loss": 0.383,
+        "ece": 0.0215,
+        "mean_pred": 0.4016,
+        "confusion": {
+          "tp": 82887,
+          "tn": 190548,
+          "fp": 13211,
+          "fn": 42039
+        },
+        "per_patient_accuracy": {
+          "mean": 0.826,
+          "std": 0.0468,
+          "min": 0.721,
+          "max": 1.0
+        },
+        "patients": 66
+      },
+      "all_87": {
+        "n": 458265,
+        "prevalence": 0.4067,
+        "threshold": 0.5,
+        "accuracy": 0.8288,
+        "balanced_accuracy": 0.8046,
+        "precision": 0.8757,
+        "recall": 0.6748,
+        "specificity": 0.9343,
+        "f1": 0.7622,
+        "mcc": 0.645,
+        "roc_auc": 0.8838,
+        "pr_auc": 0.8801,
+        "brier": 0.1233,
+        "log_loss": 0.3839,
+        "ece": 0.0127,
+        "mean_pred": 0.4194,
+        "confusion": {
+          "tp": 125774,
+          "tn": 254018,
+          "fp": 17858,
+          "fn": 60615
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8257,
+          "std": 0.0442,
+          "min": 0.721,
+          "max": 1.0
+        },
+        "patients": 87
+      },
+      "ohio": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.5,
+        "accuracy": 0.8354,
+        "balanced_accuracy": 0.8385,
+        "precision": 0.9243,
+        "recall": 0.7419,
+        "specificity": 0.9352,
+        "f1": 0.8231,
+        "mcc": 0.6869,
+        "roc_auc": 0.9101,
+        "pr_auc": 0.9336,
+        "brier": 0.1147,
+        "log_loss": 0.3526,
+        "ece": 0.0146,
+        "mean_pred": 0.5029,
+        "confusion": {
+          "tp": 20597,
+          "tn": 24346,
+          "fp": 1688,
+          "fn": 7165
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8356,
+          "std": 0.0245,
+          "min": 0.8059,
+          "max": 0.8966
+        },
+        "patients": 12
+      },
+      "brist": {
+        "n": 75784,
+        "prevalence": 0.4447,
+        "threshold": 0.5,
+        "accuracy": 0.8104,
+        "balanced_accuracy": 0.7955,
+        "precision": 0.8828,
+        "recall": 0.6614,
+        "specificity": 0.9297,
+        "f1": 0.7562,
+        "mcc": 0.6232,
+        "roc_auc": 0.8695,
+        "pr_auc": 0.8806,
+        "brier": 0.1342,
+        "log_loss": 0.4104,
+        "ece": 0.0134,
+        "mean_pred": 0.4375,
+        "confusion": {
+          "tp": 22290,
+          "tn": 39124,
+          "fp": 2959,
+          "fn": 11411
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8103,
+          "std": 0.0445,
+          "min": 0.7668,
+          "max": 0.8893
+        },
+        "patients": 9
+      },
+      "hupa": {
+        "n": 83159,
+        "prevalence": 0.3428,
+        "threshold": 0.5,
+        "accuracy": 0.8484,
+        "balanced_accuracy": 0.8101,
+        "precision": 0.8403,
+        "recall": 0.6885,
+        "specificity": 0.9317,
+        "f1": 0.7569,
+        "mcc": 0.655,
+        "roc_auc": 0.8869,
+        "pr_auc": 0.8609,
+        "brier": 0.1155,
+        "log_loss": 0.3724,
+        "ece": 0.0508,
+        "mean_pred": 0.3936,
+        "confusion": {
+          "tp": 19628,
+          "tn": 50920,
+          "fp": 3730,
+          "fn": 8881
+        },
+        "per_patient_accuracy": {
+          "mean": 0.833,
+          "std": 0.0589,
+          "min": 0.721,
+          "max": 1.0
+        },
+        "patients": 24
+      },
+      "uom": {
+        "n": 146238,
+        "prevalence": 0.3964,
+        "threshold": 0.5,
+        "accuracy": 0.8309,
+        "balanced_accuracy": 0.804,
+        "precision": 0.8694,
+        "recall": 0.6746,
+        "specificity": 0.9335,
+        "f1": 0.7597,
+        "mcc": 0.6445,
+        "roc_auc": 0.8836,
+        "pr_auc": 0.8765,
+        "brier": 0.1223,
+        "log_loss": 0.3822,
+        "ece": 0.0184,
+        "mean_pred": 0.4148,
+        "confusion": {
+          "tp": 39104,
+          "tn": 82399,
+          "fp": 5873,
+          "fn": 18862
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8258,
+          "std": 0.0378,
+          "min": 0.759,
+          "max": 0.9029
+        },
+        "patients": 17
+      },
+      "azt1d": {
+        "n": 99288,
+        "prevalence": 0.3873,
+        "threshold": 0.5,
+        "accuracy": 0.8197,
+        "balanced_accuracy": 0.7844,
+        "precision": 0.87,
+        "recall": 0.6282,
+        "specificity": 0.9407,
+        "f1": 0.7296,
+        "mcc": 0.6175,
+        "roc_auc": 0.8742,
+        "pr_auc": 0.8605,
+        "brier": 0.1275,
+        "log_loss": 0.3928,
+        "ece": 0.011,
+        "mean_pred": 0.3888,
+        "confusion": {
+          "tp": 24155,
+          "tn": 57229,
+          "fp": 3608,
+          "fn": 14296
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8193,
+          "std": 0.0395,
+          "min": 0.7518,
+          "max": 0.9387
+        },
+        "patients": 25
+      }
+    },
+    "v6_all|orig": {
+      "original_21": {
+        "n": 129580,
+        "prevalence": 0.4743,
+        "threshold": 0.5,
+        "accuracy": 0.8194,
+        "balanced_accuracy": 0.8148,
+        "precision": 0.8729,
+        "recall": 0.7248,
+        "specificity": 0.9047,
+        "f1": 0.792,
+        "mcc": 0.6434,
+        "roc_auc": 0.8935,
+        "pr_auc": 0.9089,
+        "brier": 0.1245,
+        "log_loss": 0.3809,
+        "ece": 0.0099,
+        "mean_pred": 0.4835,
+        "confusion": {
+          "tp": 44550,
+          "tn": 61628,
+          "fp": 6489,
+          "fn": 16913
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8238,
+          "std": 0.0395,
+          "min": 0.7555,
+          "max": 0.9042
+        },
+        "patients": 21
+      },
+      "external_66": {
+        "n": 328685,
+        "prevalence": 0.3801,
+        "threshold": 0.5,
+        "accuracy": 0.8247,
+        "balanced_accuracy": 0.8036,
+        "precision": 0.8019,
+        "recall": 0.7155,
+        "specificity": 0.8916,
+        "f1": 0.7563,
+        "mcc": 0.6225,
+        "roc_auc": 0.8874,
+        "pr_auc": 0.8713,
+        "brier": 0.1244,
+        "log_loss": 0.3891,
+        "ece": 0.0544,
+        "mean_pred": 0.4345,
+        "confusion": {
+          "tp": 89390,
+          "tn": 181677,
+          "fp": 22082,
+          "fn": 35536
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8079,
+          "std": 0.1082,
+          "min": 0.0,
+          "max": 0.9479
+        },
+        "patients": 66
+      },
+      "all_87": {
+        "n": 458265,
+        "prevalence": 0.4067,
+        "threshold": 0.5,
+        "accuracy": 0.8232,
+        "balanced_accuracy": 0.8068,
+        "precision": 0.8242,
+        "recall": 0.7186,
+        "specificity": 0.8949,
+        "f1": 0.7678,
+        "mcc": 0.63,
+        "roc_auc": 0.8893,
+        "pr_auc": 0.8833,
+        "brier": 0.1244,
+        "log_loss": 0.3868,
+        "ece": 0.0416,
+        "mean_pred": 0.4483,
+        "confusion": {
+          "tp": 133940,
+          "tn": 243305,
+          "fp": 28571,
+          "fn": 52449
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8118,
+          "std": 0.0962,
+          "min": 0.0,
+          "max": 0.9479
+        },
+        "patients": 87
+      },
+      "ohio": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.5,
+        "accuracy": 0.836,
+        "balanced_accuracy": 0.8385,
+        "precision": 0.9045,
+        "recall": 0.7628,
+        "specificity": 0.9141,
+        "f1": 0.8276,
+        "mcc": 0.6823,
+        "roc_auc": 0.9129,
+        "pr_auc": 0.935,
+        "brier": 0.1133,
+        "log_loss": 0.3477,
+        "ece": 0.0079,
+        "mean_pred": 0.5168,
+        "confusion": {
+          "tp": 21178,
+          "tn": 23797,
+          "fp": 2237,
+          "fn": 6584
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8362,
+          "std": 0.026,
+          "min": 0.807,
+          "max": 0.9
+        },
+        "patients": 12
+      },
+      "brist": {
+        "n": 75784,
+        "prevalence": 0.4447,
+        "threshold": 0.5,
+        "accuracy": 0.8076,
+        "balanced_accuracy": 0.7962,
+        "precision": 0.8461,
+        "recall": 0.6935,
+        "specificity": 0.899,
+        "f1": 0.7622,
+        "mcc": 0.6117,
+        "roc_auc": 0.8776,
+        "pr_auc": 0.885,
+        "brier": 0.1324,
+        "log_loss": 0.4044,
+        "ece": 0.0176,
+        "mean_pred": 0.4599,
+        "confusion": {
+          "tp": 23372,
+          "tn": 37831,
+          "fp": 4252,
+          "fn": 10329
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8073,
+          "std": 0.0494,
+          "min": 0.7555,
+          "max": 0.9042
+        },
+        "patients": 9
+      },
+      "hupa": {
+        "n": 83159,
+        "prevalence": 0.3428,
+        "threshold": 0.5,
+        "accuracy": 0.8414,
+        "balanced_accuracy": 0.8164,
+        "precision": 0.7869,
+        "recall": 0.7369,
+        "specificity": 0.8959,
+        "f1": 0.7611,
+        "mcc": 0.6434,
+        "roc_auc": 0.8997,
+        "pr_auc": 0.8695,
+        "brier": 0.1163,
+        "log_loss": 0.3728,
+        "ece": 0.0723,
+        "mean_pred": 0.4151,
+        "confusion": {
+          "tp": 21008,
+          "tn": 48962,
+          "fp": 5688,
+          "fn": 7501
+        },
+        "per_patient_accuracy": {
+          "mean": 0.7899,
+          "std": 0.1741,
+          "min": 0.0,
+          "max": 0.9057
+        },
+        "patients": 24
+      },
+      "uom": {
+        "n": 146238,
+        "prevalence": 0.3964,
+        "threshold": 0.5,
+        "accuracy": 0.8203,
+        "balanced_accuracy": 0.806,
+        "precision": 0.7947,
+        "recall": 0.737,
+        "specificity": 0.875,
+        "f1": 0.7648,
+        "mcc": 0.6209,
+        "roc_auc": 0.8858,
+        "pr_auc": 0.8778,
+        "brier": 0.1277,
+        "log_loss": 0.3977,
+        "ece": 0.0635,
+        "mean_pred": 0.4599,
+        "confusion": {
+          "tp": 42721,
+          "tn": 77237,
+          "fp": 11035,
+          "fn": 15245
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8196,
+          "std": 0.0314,
+          "min": 0.7698,
+          "max": 0.8714
+        },
+        "patients": 17
+      },
+      "azt1d": {
+        "n": 99288,
+        "prevalence": 0.3873,
+        "threshold": 0.5,
+        "accuracy": 0.8172,
+        "balanced_accuracy": 0.7896,
+        "precision": 0.8272,
+        "recall": 0.6674,
+        "specificity": 0.9119,
+        "f1": 0.7388,
+        "mcc": 0.6088,
+        "roc_auc": 0.8814,
+        "pr_auc": 0.866,
+        "brier": 0.1264,
+        "log_loss": 0.3899,
+        "ece": 0.0276,
+        "mean_pred": 0.4133,
+        "confusion": {
+          "tp": 25661,
+          "tn": 55478,
+          "fp": 5359,
+          "fn": 12790
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8172,
+          "std": 0.0385,
+          "min": 0.7677,
+          "max": 0.9479
+        },
+        "patients": 25
+      }
+    },
+    "v6_all|orig+ext": {
+      "original_21": {
+        "n": 129580,
+        "prevalence": 0.4743,
+        "threshold": 0.5,
+        "accuracy": 0.8226,
+        "balanced_accuracy": 0.8175,
+        "precision": 0.887,
+        "recall": 0.7174,
+        "specificity": 0.9176,
+        "f1": 0.7933,
+        "mcc": 0.652,
+        "roc_auc": 0.8967,
+        "pr_auc": 0.9114,
+        "brier": 0.1227,
+        "log_loss": 0.3761,
+        "ece": 0.0088,
+        "mean_pred": 0.47,
+        "confusion": {
+          "tp": 44094,
+          "tn": 62501,
+          "fp": 5616,
+          "fn": 17369
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8267,
+          "std": 0.0381,
+          "min": 0.758,
+          "max": 0.9158
+        },
+        "patients": 21
+      },
+      "external_66": {
+        "n": 328685,
+        "prevalence": 0.3801,
+        "threshold": 0.5,
+        "accuracy": 0.838,
+        "balanced_accuracy": 0.8074,
+        "precision": 0.8648,
+        "recall": 0.6799,
+        "specificity": 0.9349,
+        "f1": 0.7613,
+        "mcc": 0.6519,
+        "roc_auc": 0.8991,
+        "pr_auc": 0.8819,
+        "brier": 0.1151,
+        "log_loss": 0.3625,
+        "ece": 0.0109,
+        "mean_pred": 0.3909,
+        "confusion": {
+          "tp": 84938,
+          "tn": 190485,
+          "fp": 13274,
+          "fn": 39988
+        },
+        "per_patient_accuracy": {
+          "mean": 0.833,
+          "std": 0.0441,
+          "min": 0.7506,
+          "max": 1.0
+        },
+        "patients": 66
+      },
+      "all_87": {
+        "n": 458265,
+        "prevalence": 0.4067,
+        "threshold": 0.5,
+        "accuracy": 0.8336,
+        "balanced_accuracy": 0.8114,
+        "precision": 0.8723,
+        "recall": 0.6923,
+        "specificity": 0.9305,
+        "f1": 0.7719,
+        "mcc": 0.6543,
+        "roc_auc": 0.8994,
+        "pr_auc": 0.8919,
+        "brier": 0.1172,
+        "log_loss": 0.3664,
+        "ece": 0.0066,
+        "mean_pred": 0.4133,
+        "confusion": {
+          "tp": 129032,
+          "tn": 252986,
+          "fp": 18890,
+          "fn": 57357
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8314,
+          "std": 0.0426,
+          "min": 0.7506,
+          "max": 1.0
+        },
+        "patients": 87
+      },
+      "ohio": {
+        "n": 53796,
+        "prevalence": 0.5161,
+        "threshold": 0.5,
+        "accuracy": 0.8378,
+        "balanced_accuracy": 0.8404,
+        "precision": 0.9108,
+        "recall": 0.7601,
+        "specificity": 0.9206,
+        "f1": 0.8287,
+        "mcc": 0.687,
+        "roc_auc": 0.9125,
+        "pr_auc": 0.9351,
+        "brier": 0.1133,
+        "log_loss": 0.3483,
+        "ece": 0.0102,
+        "mean_pred": 0.512,
+        "confusion": {
+          "tp": 21103,
+          "tn": 23966,
+          "fp": 2068,
+          "fn": 6659
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8379,
+          "std": 0.023,
+          "min": 0.8127,
+          "max": 0.8973
+        },
+        "patients": 12
+      },
+      "brist": {
+        "n": 75784,
+        "prevalence": 0.4447,
+        "threshold": 0.5,
+        "accuracy": 0.8119,
+        "balanced_accuracy": 0.7989,
+        "precision": 0.8663,
+        "recall": 0.6822,
+        "specificity": 0.9157,
+        "f1": 0.7633,
+        "mcc": 0.6228,
+        "roc_auc": 0.884,
+        "pr_auc": 0.8897,
+        "brier": 0.1295,
+        "log_loss": 0.3959,
+        "ece": 0.0145,
+        "mean_pred": 0.4401,
+        "confusion": {
+          "tp": 22991,
+          "tn": 38535,
+          "fp": 3548,
+          "fn": 10710
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8117,
+          "std": 0.0497,
+          "min": 0.758,
+          "max": 0.9158
+        },
+        "patients": 9
+      },
+      "hupa": {
+        "n": 83159,
+        "prevalence": 0.3428,
+        "threshold": 0.5,
+        "accuracy": 0.8525,
+        "balanced_accuracy": 0.8156,
+        "precision": 0.8442,
+        "recall": 0.6985,
+        "specificity": 0.9328,
+        "f1": 0.7645,
+        "mcc": 0.6647,
+        "roc_auc": 0.9042,
+        "pr_auc": 0.8745,
+        "brier": 0.1082,
+        "log_loss": 0.3486,
+        "ece": 0.033,
+        "mean_pred": 0.3759,
+        "confusion": {
+          "tp": 19914,
+          "tn": 50976,
+          "fp": 3674,
+          "fn": 8595
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8382,
+          "std": 0.0549,
+          "min": 0.7506,
+          "max": 1.0
+        },
+        "patients": 24
+      },
+      "uom": {
+        "n": 146238,
+        "prevalence": 0.3964,
+        "threshold": 0.5,
+        "accuracy": 0.8366,
+        "balanced_accuracy": 0.811,
+        "precision": 0.8735,
+        "recall": 0.6874,
+        "specificity": 0.9346,
+        "f1": 0.7693,
+        "mcc": 0.6567,
+        "roc_auc": 0.8987,
+        "pr_auc": 0.8883,
+        "brier": 0.1163,
+        "log_loss": 0.3653,
+        "ece": 0.0082,
+        "mean_pred": 0.404,
+        "confusion": {
+          "tp": 39844,
+          "tn": 82501,
+          "fp": 5771,
+          "fn": 18122
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8336,
+          "std": 0.0368,
+          "min": 0.7724,
+          "max": 0.9175
+        },
+        "patients": 17
+      },
+      "azt1d": {
+        "n": 99288,
+        "prevalence": 0.3873,
+        "threshold": 0.5,
+        "accuracy": 0.8278,
+        "balanced_accuracy": 0.796,
+        "precision": 0.868,
+        "recall": 0.6549,
+        "specificity": 0.9371,
+        "f1": 0.7465,
+        "mcc": 0.634,
+        "roc_auc": 0.8955,
+        "pr_auc": 0.879,
+        "brier": 0.1191,
+        "log_loss": 0.3699,
+        "ece": 0.0076,
+        "mean_pred": 0.3844,
+        "confusion": {
+          "tp": 25180,
+          "tn": 57008,
+          "fp": 3829,
+          "fn": 13271
+        },
+        "per_patient_accuracy": {
+          "mean": 0.8275,
+          "std": 0.0377,
+          "min": 0.7753,
+          "max": 0.9519
+        },
+        "patients": 25
+      }
+    }
+  },
+  "paired_on_original_21_vs_v5_baseline": {
+    "v5_engineered|orig+ext": {
+      "accuracy_diff_mean": 0.0025,
+      "accuracy_diff_ci95": [
+        0.0,
+        0.0049
+      ],
+      "roc_auc_diff_mean": 0.003,
+      "roc_auc_diff_ci95": [
+        -0.0014,
+        0.0078
+      ],
+      "accuracy_diff_excludes_0": true
+    },
+    "v6_all|orig": {
+      "accuracy_diff_mean": 0.0009,
+      "accuracy_diff_ci95": [
+        -0.0036,
+        0.0059
+      ],
+      "roc_auc_diff_mean": 0.0082,
+      "roc_auc_diff_ci95": [
+        0.0022,
+        0.017
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "v6_all|orig+ext": {
+      "accuracy_diff_mean": 0.004,
+      "accuracy_diff_ci95": [
+        -0.0012,
+        0.0111
+      ],
+      "roc_auc_diff_mean": 0.0107,
+      "roc_auc_diff_ci95": [
+        0.0006,
+        0.0254
+      ],
+      "accuracy_diff_excludes_0": false
+    }
+  },
+  "paired_on_external_66_vs_orig_only_v6": {
+    "v6_all|orig+ext": {
+      "accuracy_diff_mean": 0.0132,
+      "accuracy_diff_ci95": [
+        0.0104,
+        0.0173
+      ],
+      "roc_auc_diff_mean": 0.0116,
+      "roc_auc_diff_ci95": [
+        0.0077,
+        0.0155
+      ],
+      "accuracy_diff_excludes_0": true
+    }
+  }
+}
