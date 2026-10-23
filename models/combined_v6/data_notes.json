@@ -1,0 +1,369 @@
+{
+  "stitch_conflicts": 0,
+  "external": {
+    "hupa": [
+      {
+        "patient": "hupa_0001",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.13
+      },
+      {
+        "patient": "hupa_0002",
+        "carb_unit": "grams",
+        "interp_masked_frac": 0.705
+      },
+      {
+        "patient": "hupa_0003",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.673
+      },
+      {
+        "patient": "hupa_0004",
+        "carb_unit": "grams",
+        "interp_masked_frac": 0.734
+      },
+      {
+        "patient": "hupa_0005",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.677
+      },
+      {
+        "patient": "hupa_0006",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.703
+      },
+      {
+        "patient": "hupa_0007",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.663
+      },
+      {
+        "patient": "hupa_0009",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.982
+      },
+      {
+        "patient": "hupa_0010",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.923
+      },
+      {
+        "patient": "hupa_0011",
+        "carb_unit": "grams",
+        "interp_masked_frac": 0.676
+      },
+      {
+        "patient": "hupa_0014",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.731
+      },
+      {
+        "patient": "hupa_0015",
+        "carb_unit": "grams",
+        "interp_masked_frac": 0.699
+      },
+      {
+        "patient": "hupa_0016",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.726
+      },
+      {
+        "patient": "hupa_0017",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.7
+      },
+      {
+        "patient": "hupa_0018",
+        "carb_unit": "grams",
+        "interp_masked_frac": 0.704
+      },
+      {
+        "patient": "hupa_0019",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.684
+      },
+      {
+        "patient": "hupa_0020",
+        "carb_unit": "grams",
+        "interp_masked_frac": 0.684
+      },
+      {
+        "patient": "hupa_0021",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.682
+      },
+      {
+        "patient": "hupa_0022",
+        "carb_unit": "grams",
+        "interp_masked_frac": 0.696
+      },
+      {
+        "patient": "hupa_0023",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.683
+      },
+      {
+        "patient": "hupa_0024",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.695
+      },
+      {
+        "patient": "hupa_0025",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.694
+      },
+      {
+        "patient": "hupa_0026",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.732
+      },
+      {
+        "patient": "hupa_0027",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.709
+      },
+      {
+        "patient": "hupa_0028",
+        "carb_unit": "10g-portions",
+        "interp_masked_frac": 0.717
+      }
+    ],
+    "uom": [
+      {
+        "patient": "uom_2301",
+        "basal": "pump-rate",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2302",
+        "basal": "long-acting",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2303",
+        "basal": "none",
+        "has_bolus": false,
+        "has_carbs": false,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2304",
+        "basal": "pump-rate",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2305",
+        "basal": "long-acting",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2306",
+        "basal": "long-acting",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2307",
+        "basal": "pump-rate",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2308",
+        "basal": "pump-rate",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2309",
+        "basal": "pump-rate",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2310",
+        "basal": "pump-rate",
+        "has_bolus": true,
+        "has_carbs": false,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2313",
+        "basal": "long-acting",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2314",
+        "basal": "long-acting",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": false
+      },
+      {
+        "patient": "uom_2320",
+        "basal": "none",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2401",
+        "basal": "long-acting",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2403",
+        "basal": "long-acting",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": false
+      },
+      {
+        "patient": "uom_2404",
+        "basal": "none",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      },
+      {
+        "patient": "uom_2405",
+        "basal": "long-acting",
+        "has_bolus": true,
+        "has_carbs": true,
+        "has_hr_steps": true
+      }
+    ],
+    "azt1d": [
+      {
+        "patient": "azt1d_01",
+        "dropped_implausible_basal_rows": 12
+      },
+      {
+        "patient": "azt1d_02",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_03",
+        "dropped_implausible_basal_rows": 42
+      },
+      {
+        "patient": "azt1d_04",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_05",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_06",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_07",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_08",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_09",
+        "dropped_implausible_basal_rows": 12
+      },
+      {
+        "patient": "azt1d_10",
+        "dropped_implausible_basal_rows": 3835
+      },
+      {
+        "patient": "azt1d_11",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_12",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_13",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_14",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_15",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_16",
+        "dropped_implausible_basal_rows": 204
+      },
+      {
+        "patient": "azt1d_17",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_18",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_19",
+        "dropped_implausible_basal_rows": 84
+      },
+      {
+        "patient": "azt1d_20",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_21",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_22",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_23",
+        "dropped_implausible_basal_rows": 2268
+      },
+      {
+        "patient": "azt1d_24",
+        "dropped_implausible_basal_rows": 0
+      },
+      {
+        "patient": "azt1d_25",
+        "dropped_implausible_basal_rows": 1
+      }
+    ]
+  },
+  "rows_by_source": {
+    "uom": 146238,
+    "azt1d": 99288,
+    "hupa": 83159,
+    "brist": 75784,
+    "ohio": 53796
+  },
+  "patients_by_source": {
+    "azt1d": 25,
+    "brist": 9,
+    "hupa": 24,
+    "ohio": 12,
+    "uom": 17
+  }
+}
