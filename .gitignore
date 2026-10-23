@@ -60,3 +60,6 @@ logs/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Speaking script: kept locally by the team, not published
+docs/GlucoTwin_20_Minute_Speaking_Script.*
