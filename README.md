@@ -19,12 +19,11 @@
 | **Repository** | https://github.com/KorraSanthosh/happiness_ |
 | **Presentation** | [`docs/GlucoTwin_Presentation.pdf`](docs/GlucoTwin_Presentation.pdf) (editable: [`.pptx`](docs/GlucoTwin_Presentation.pptx)) |
 | **Architecture diagram** | [`docs/GlucoTwin_Architecture.pdf`](docs/GlucoTwin_Architecture.pdf) |
-| **20-minute speaking script** | [`docs/GlucoTwin_20_Minute_Speaking_Script.pdf`](docs/GlucoTwin_20_Minute_Speaking_Script.pdf) (editable: [`.md`](docs/GlucoTwin_20_Minute_Speaking_Script.md)) |
 | **Licence** | Code: MIT ([`LICENSE`](LICENSE)) · Data: per-dataset licences (see [Data & licences](#data--licences)) |
 
 ### Demonstration video
 
-**Demonstration video:** Pending recording by the team leader. The required 20-minute speaking script is available in [`docs/GlucoTwin_20_Minute_Speaking_Script.pdf`](docs/GlucoTwin_20_Minute_Speaking_Script.pdf). The recording checklist and the place to insert the final link are in [`docs/VIDEO_PENDING.md`](docs/VIDEO_PENDING.md).
+**Demonstration video:** Pending recording by the team leader. The recording checklist and the place to insert the final link are in [`docs/VIDEO_PENDING.md`](docs/VIDEO_PENDING.md).
 
 ---
 
@@ -315,7 +314,7 @@ frontend/src/
   components/               classic dashboard (layout mode "classic")
   services/api.js           API client
 docs/
-  GlucoTwin_Architecture.pdf, GlucoTwin_Presentation.pdf|pptx, GlucoTwin_20_Minute_Speaking_Script.pdf|md
+  GlucoTwin_Architecture.pdf, GlucoTwin_Presentation.pdf|pptx
   model_investigation.md, DATA_SOURCES.md, VIDEO_PENDING.md, screenshots/
 models/                     result summaries (JSON): combined_v5|v6|v7|v9|t2d, investigation/, baseline_v7/
 ```
