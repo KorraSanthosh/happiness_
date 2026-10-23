@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "model_id": "glucotwin-histgb-v2",
+  "model_name": "HistGradientBoosting",
+  "model_version": "2.0.0",
+  "artifact_path": "models/glucotwin_model.pkl",
+  "backup_path": "models/snapshots/v2_histgb_20241020/glucotwin_model.pkl",
+  "training_timestamp": "2026-10-20T12:51:00Z",
+  "dataset": {
+    "source": "synthetic",
+    "generator": "app/data_generator.py",
+    "seed": 42,
+    "num_patients": 120,
+    "total_readings": 17280,
+    "readings_per_patient": 144,
+    "sampling_interval_min": 10,
+    "time_window_hours": 24,
+    "spike_threshold_mgdl": 180.0,
+    "prediction_horizon_hours": 2,
+    "spike_prevalence": 0.167,
+    "data_note": "SYNTHETIC ONLY — no real patient data"
+  },
+  "feature_pipeline": {
+    "version": "2.0",
+    "module": "app/features.py",
+    "num_features": 30,
+    "leakage_prevention": "All rolling windows use shift(1) — future data never included. Rolling never crosses patient boundaries. Target column never used to derive any feature.",
+    "feature_list": [
+      "latest_glucose", "glucose_lag_1", "glucose_lag_3",
+      "glucose_change_30min", "glucose_change_1h", "glucose_change_2h",
+      "glucose_roc_1h", "glucose_rolling_mean_1h", "glucose_rolling_mean_2h",
+      "glucose_rolling_std_1h", "glucose_rolling_std_2h",
+      "glucose_rolling_min_2h", "glucose_rolling_max_2h",
+      "glucose_above_threshold", "glucose_in_range",
+      "heart_rate_mean_1h", "heart_rate_std_1h", "heart_rate_max_1h",
+      "steps_last_1h", "activity_score_mean_1h", "activity_score_max_1h",
+      "sleep_hours_last_night",
+      "time_of_day_sin", "time_of_day_cos", "hour_of_day",
+      "hba1c", "age", "bmi", "diabetes_flag", "gender_male"
+    ]
+  },
+  "split_strategy": {
+    "method": "GroupShuffleSplit",
+    "patient_aware": true,
+    "note": "Same patient NEVER appears in both train and test sets.",
+    "random_seed": 42,
+    "test_fraction": 0.20,
+    "val_fraction": 0.20,
+    "train_fraction": 0.60,
+    "train_size": 9504,
+    "val_size": 3168,
+    "test_size": 3168
+  },
+  "hyperparameters": {
+    "max_iter": 200,
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "min_samples_leaf": 20,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "selection_criterion": "PR-AUC on validation set — optimal for imbalanced clinical screening tasks",
+  "test_metrics": {
+    "accuracy":    0.9255,
+    "roc_auc":     0.9712,
+    "pr_auc":      0.8774,
+    "precision":   0.7500,
+    "recall":      0.9197,
+    "specificity": 0.9269,
+    "f1":          0.8262,
+    "brier_score": 0.0568,
+    "confusion_matrix": {"tn": 2371, "fp": 187, "fn": 49, "tp": 561},
+    "positive_count": 610,
+    "negative_count": 2558,
+    "support_total": 3168
+  },
+  "reproduction_verified": {
+    "reproduced_accuracy": 0.9255,
+    "delta_from_original_pp": 0.0000,
+    "status": "MATCHES — result is deterministic and reproducible",
+    "reproduction_timestamp": "2026-10-20T13:04:00Z"
+  },
+  "model_comparison": {
+    "candidates": [
+      {
+        "model": "Logistic Regression (baseline)",
+        "accuracy": 0.7844,
+        "roc_auc": 0.9474,
+        "pr_auc": 0.8043,
+        "recall": 0.9738,
+        "f1": 0.6350,
+        "precision": 0.4711,
+        "selected": false,
+        "reason_not_selected": "Lowest PR-AUC and accuracy despite high recall"
+      },
+      {
+        "model": "Random Forest",
+        "accuracy": 0.9018,
+        "roc_auc": 0.9719,
+        "pr_auc": 0.8657,
+        "recall": 0.9508,
+        "f1": 0.7886,
+        "precision": 0.6736,
+        "selected": false,
+        "reason_not_selected": "PR-AUC 0.046 lower than HistGradientBoosting on validation"
+      },
+      {
+        "model": "HistGradientBoosting",
+        "accuracy": 0.9255,
+        "roc_auc": 0.9712,
+        "pr_auc": 0.8774,
+        "recall": 0.9197,
+        "f1": 0.8262,
+        "precision": 0.7500,
+        "selected": true,
+        "reason_selected": "Best PR-AUC (0.913) on validation set — balanced recall and precision, no leakage detected"
+      }
+    ]
+  },
+  "leakage_audit": {
+    "rolling_window_leakage": "NONE — shift(1) applied before all rolling ops",
+    "patient_boundary_leakage": "NONE — GroupShuffleSplit prevents cross-patient contamination",
+    "target_leakage": "NONE — spike_target column excluded from feature matrix",
+    "test_set_used_for_tuning": "NO — model selected on validation set only",
+    "data_duplication_across_splits": "NONE — same patient never in train and test"
+  },
+  "limitations": [
+    "All metrics are on SYNTHETIC data only.",
+    "Performance on real patient CGM data is unknown.",
+    "Calibration not independently verified.",
+    "Spike threshold of 180 mg/dL is a prototype assumption, not clinically validated.",
+    "Dataset spans only 24h per patient — longer histories may produce different feature distributions."
+  ],
+  "rollback": {
+    "fallback_artifact": "models/snapshots/v2_histgb_20241020/glucotwin_model.pkl",
+    "fallback_metrics": "models/snapshots/v2_histgb_20241020/metrics.json",
+    "instruction": "To rollback: cp models/snapshots/v2_histgb_20241020/glucotwin_model.pkl models/glucotwin_model.pkl"
+  },
+  "data_type": "SYNTHETIC",
+  "clinical_status": "NOT FOR CLINICAL USE — EXPERIMENTAL PROTOTYPE",
+  "license": "MIT"
+}
