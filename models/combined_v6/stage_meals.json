@@ -1,0 +1,123 @@
+{
+  "rows": 429541,
+  "patients": 81,
+  "patients_by_source": {
+    "azt1d": 24,
+    "brist": 9,
+    "hupa": 21,
+    "ohio": 12,
+    "uom": 15
+  },
+  "rule_accuracy": 0.8092,
+  "variants": {
+    "v6 (no future info)": {
+      "accuracy": 0.8323,
+      "roc_auc": 0.9004,
+      "recall": 0.6994,
+      "precision": 0.8712,
+      "per_patient_accuracy": {
+        "mean": 0.8184,
+        "std": 0.1001,
+        "min": 0.0,
+        "max": 0.9512
+      },
+      "hard_rows_glucose_le_180": {
+        "accuracy": 0.7918,
+        "recall": 0.3104,
+        "roc_auc": 0.786
+      }
+    },
+    "+ meal-time habit (deployable)": {
+      "accuracy": 0.8326,
+      "roc_auc": 0.9006,
+      "recall": 0.6999,
+      "precision": 0.8715,
+      "per_patient_accuracy": {
+        "mean": 0.8187,
+        "std": 0.1001,
+        "min": 0.0,
+        "max": 0.9517
+      },
+      "hard_rows_glucose_le_180": {
+        "accuracy": 0.7922,
+        "recall": 0.3115,
+        "roc_auc": 0.7864
+      }
+    },
+    "+ meals announced 30 min ahead (what-if)": {
+      "accuracy": 0.8339,
+      "roc_auc": 0.9017,
+      "recall": 0.7034,
+      "precision": 0.8716,
+      "per_patient_accuracy": {
+        "mean": 0.8203,
+        "std": 0.0999,
+        "min": 0.0,
+        "max": 0.9508
+      },
+      "hard_rows_glucose_le_180": {
+        "accuracy": 0.7939,
+        "recall": 0.3197,
+        "roc_auc": 0.789
+      }
+    },
+    "+ meals announced 2 h ahead (what-if)": {
+      "accuracy": 0.8348,
+      "roc_auc": 0.9035,
+      "recall": 0.7088,
+      "precision": 0.869,
+      "per_patient_accuracy": {
+        "mean": 0.8215,
+        "std": 0.0995,
+        "min": 0.0,
+        "max": 0.9508
+      },
+      "hard_rows_glucose_le_180": {
+        "accuracy": 0.795,
+        "recall": 0.3326,
+        "roc_auc": 0.7933
+      }
+    }
+  },
+  "paired_vs_v6": {
+    "+ meal-time habit (deployable)": {
+      "accuracy_diff_mean": 0.0003,
+      "accuracy_diff_ci95": [
+        -0.0001,
+        0.0006
+      ],
+      "roc_auc_diff_mean": 0.0002,
+      "roc_auc_diff_ci95": [
+        -0.0001,
+        0.0004
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "+ meals announced 30 min ahead (what-if)": {
+      "accuracy_diff_mean": 0.0015,
+      "accuracy_diff_ci95": [
+        0.0009,
+        0.0024
+      ],
+      "roc_auc_diff_mean": 0.0013,
+      "roc_auc_diff_ci95": [
+        0.0008,
+        0.0019
+      ],
+      "accuracy_diff_excludes_0": true
+    },
+    "+ meals announced 2 h ahead (what-if)": {
+      "accuracy_diff_mean": 0.0024,
+      "accuracy_diff_ci95": [
+        0.0011,
+        0.004
+      ],
+      "roc_auc_diff_mean": 0.0032,
+      "roc_auc_diff_ci95": [
+        0.0014,
+        0.0051
+      ],
+      "accuracy_diff_excludes_0": true
+    }
+  }
+}
