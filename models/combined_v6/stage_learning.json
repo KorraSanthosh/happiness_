@@ -1,0 +1,58 @@
+{
+  "curve": [
+    {
+      "train_patients": 5,
+      "test_acc_all": 0.8143,
+      "test_acc_original": 0.8094,
+      "test_auc_all": 0.8722,
+      "train_acc": 0.8628,
+      "test_logloss": 0.4062,
+      "test_acc_all_std": 0.0095
+    },
+    {
+      "train_patients": 10,
+      "test_acc_all": 0.8274,
+      "test_acc_original": 0.8157,
+      "test_auc_all": 0.8876,
+      "train_acc": 0.8644,
+      "test_logloss": 0.3829,
+      "test_acc_all_std": 0.009
+    },
+    {
+      "train_patients": 20,
+      "test_acc_all": 0.8309,
+      "test_acc_original": 0.8223,
+      "test_auc_all": 0.8938,
+      "train_acc": 0.853,
+      "test_logloss": 0.373,
+      "test_acc_all_std": 0.0086
+    },
+    {
+      "train_patients": 40,
+      "test_acc_all": 0.8314,
+      "test_acc_original": 0.8205,
+      "test_auc_all": 0.897,
+      "train_acc": 0.8392,
+      "test_logloss": 0.3691,
+      "test_acc_all_std": 0.0086
+    },
+    {
+      "train_patients": 60,
+      "test_acc_all": 0.8327,
+      "test_acc_original": 0.8233,
+      "test_auc_all": 0.8989,
+      "train_acc": 0.84,
+      "test_logloss": 0.3659,
+      "test_acc_all_std": 0.0087
+    },
+    {
+      "train_patients": "all (~75)",
+      "test_acc_all": 0.833,
+      "test_acc_original": 0.8235,
+      "test_auc_all": 0.899,
+      "train_acc": 0.8394,
+      "test_logloss": 0.3656,
+      "test_acc_all_std": 0.0085
+    }
+  ]
+}
