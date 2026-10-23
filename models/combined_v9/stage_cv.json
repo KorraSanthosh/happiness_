@@ -1,0 +1,303 @@
+{
+  "population": "DEV people only (validation)",
+  "people": 150,
+  "rows": 383607,
+  "candidates": {
+    "base (v7 inputs)": {
+      "features": 111,
+      "metrics": {
+        "n": 383607,
+        "prevalence": 0.3787,
+        "threshold": 0.52,
+        "accuracy": 0.8466,
+        "balanced_accuracy": 0.8147,
+        "precision": 0.8862,
+        "recall": 0.6827,
+        "specificity": 0.9466,
+        "f1": 0.7713,
+        "mcc": 0.6715,
+        "roc_auc": 0.911,
+        "pr_auc": 0.893,
+        "brier": 0.1086,
+        "log_loss": 0.3406,
+        "ece": 0.0045,
+        "mean_pred": 0.3817,
+        "confusion": {
+          "tp": 99191,
+          "tn": 225587,
+          "fp": 12738,
+          "fn": 46091
+        },
+        "type2": {
+          "accuracy": 0.895,
+          "recall": 0.7277,
+          "precision": 0.9044,
+          "roc_auc": 0.9502
+        },
+        "people": 150
+      },
+      "alerts_baseline_policy": {
+        "patient_days": 3995.9,
+        "people": 150,
+        "alerts_fired": 35041,
+        "false_alerts": 5865,
+        "false_alerts_per_patient_day": 1.468,
+        "alerts_per_patient_day": 8.769,
+        "serious_episodes": 6988,
+        "serious_warned": 4306,
+        "serious_recall": 0.6162,
+        "all_episodes": 9203,
+        "all_recall": 0.6006,
+        "serious_lead_min_median": 30.0
+      }
+    },
+    "+C1 personal history": {
+      "features": 115,
+      "metrics": {
+        "n": 383607,
+        "prevalence": 0.3787,
+        "threshold": 0.51,
+        "accuracy": 0.8476,
+        "balanced_accuracy": 0.8181,
+        "precision": 0.8759,
+        "recall": 0.6962,
+        "specificity": 0.9399,
+        "f1": 0.7758,
+        "mcc": 0.6727,
+        "roc_auc": 0.9126,
+        "pr_auc": 0.8944,
+        "brier": 0.1079,
+        "log_loss": 0.3386,
+        "ece": 0.0044,
+        "mean_pred": 0.381,
+        "confusion": {
+          "tp": 101152,
+          "tn": 224000,
+          "fp": 14325,
+          "fn": 44130
+        },
+        "type2": {
+          "accuracy": 0.8962,
+          "recall": 0.7397,
+          "precision": 0.8971,
+          "roc_auc": 0.9505
+        },
+        "people": 150
+      },
+      "alerts_baseline_policy": {
+        "patient_days": 3995.9,
+        "people": 150,
+        "alerts_fired": 36027,
+        "false_alerts": 6461,
+        "false_alerts_per_patient_day": 1.617,
+        "alerts_per_patient_day": 9.016,
+        "serious_episodes": 6988,
+        "serious_warned": 4583,
+        "serious_recall": 0.6558,
+        "all_episodes": 9203,
+        "all_recall": 0.641,
+        "serious_lead_min_median": 30.0
+      },
+      "vs_base": {
+        "accuracy_diff_mean": 0.001,
+        "accuracy_diff_ci95": [
+          0.0001,
+          0.0018
+        ],
+        "roc_auc_diff_mean": 0.0015,
+        "roc_auc_diff_ci95": [
+          0.0008,
+          0.0022
+        ],
+        "accuracy_diff_excludes_0": true
+      },
+      "retained": true
+    },
+    "+C2 recorded meals & oral drugs": {
+      "features": 114,
+      "metrics": {
+        "n": 383607,
+        "prevalence": 0.3787,
+        "threshold": 0.52,
+        "accuracy": 0.8473,
+        "balanced_accuracy": 0.8166,
+        "precision": 0.8814,
+        "recall": 0.6897,
+        "specificity": 0.9434,
+        "f1": 0.7739,
+        "mcc": 0.6725,
+        "roc_auc": 0.9119,
+        "pr_auc": 0.8937,
+        "brier": 0.1082,
+        "log_loss": 0.3394,
+        "ece": 0.0048,
+        "mean_pred": 0.3817,
+        "confusion": {
+          "tp": 100204,
+          "tn": 224837,
+          "fp": 13488,
+          "fn": 45078
+        },
+        "type2": {
+          "accuracy": 0.8964,
+          "recall": 0.7388,
+          "precision": 0.8986,
+          "roc_auc": 0.9518
+        },
+        "people": 150
+      },
+      "alerts_baseline_policy": {
+        "patient_days": 3995.9,
+        "people": 150,
+        "alerts_fired": 35585,
+        "false_alerts": 6200,
+        "false_alerts_per_patient_day": 1.552,
+        "alerts_per_patient_day": 8.905,
+        "serious_episodes": 6988,
+        "serious_warned": 4461,
+        "serious_recall": 0.6384,
+        "all_episodes": 9203,
+        "all_recall": 0.6229,
+        "serious_lead_min_median": 30.0
+      },
+      "vs_base": {
+        "accuracy_diff_mean": 0.0007,
+        "accuracy_diff_ci95": [
+          0.0002,
+          0.0013
+        ],
+        "roc_auc_diff_mean": 0.0008,
+        "roc_auc_diff_ci95": [
+          0.0005,
+          0.0011
+        ],
+        "accuracy_diff_excludes_0": true
+      },
+      "retained": true
+    },
+    "+C3 multi-window dynamics": {
+      "features": 116,
+      "metrics": {
+        "n": 383607,
+        "prevalence": 0.3787,
+        "threshold": 0.5,
+        "accuracy": 0.8471,
+        "balanced_accuracy": 0.8176,
+        "precision": 0.8746,
+        "recall": 0.696,
+        "specificity": 0.9392,
+        "f1": 0.7751,
+        "mcc": 0.6714,
+        "roc_auc": 0.9115,
+        "pr_auc": 0.8933,
+        "brier": 0.1084,
+        "log_loss": 0.3401,
+        "ece": 0.0046,
+        "mean_pred": 0.3813,
+        "confusion": {
+          "tp": 101115,
+          "tn": 223823,
+          "fp": 14502,
+          "fn": 44167
+        },
+        "type2": {
+          "accuracy": 0.8961,
+          "recall": 0.7406,
+          "precision": 0.8958,
+          "roc_auc": 0.9503
+        },
+        "people": 150
+      },
+      "alerts_baseline_policy": {
+        "patient_days": 3995.9,
+        "people": 150,
+        "alerts_fired": 36102,
+        "false_alerts": 6519,
+        "false_alerts_per_patient_day": 1.631,
+        "alerts_per_patient_day": 9.035,
+        "serious_episodes": 6988,
+        "serious_warned": 4544,
+        "serious_recall": 0.6503,
+        "all_episodes": 9203,
+        "all_recall": 0.6334,
+        "serious_lead_min_median": 30.0
+      },
+      "vs_base": {
+        "accuracy_diff_mean": 0.0004,
+        "accuracy_diff_ci95": [
+          -0.0002,
+          0.0011
+        ],
+        "roc_auc_diff_mean": 0.0004,
+        "roc_auc_diff_ci95": [
+          0.0001,
+          0.0007
+        ],
+        "accuracy_diff_excludes_0": false
+      },
+      "retained": true
+    },
+    "combined: +C1 personal history + +C2 recorded meals & oral drugs + +C3 multi-window dynamics": {
+      "features": 123,
+      "metrics": {
+        "n": 383607,
+        "prevalence": 0.3787,
+        "threshold": 0.5,
+        "accuracy": 0.8481,
+        "balanced_accuracy": 0.8178,
+        "precision": 0.8809,
+        "recall": 0.6927,
+        "specificity": 0.9429,
+        "f1": 0.7756,
+        "mcc": 0.6742,
+        "roc_auc": 0.9133,
+        "pr_auc": 0.8951,
+        "brier": 0.1075,
+        "log_loss": 0.3374,
+        "ece": 0.0042,
+        "mean_pred": 0.3812,
+        "confusion": {
+          "tp": 100644,
+          "tn": 224712,
+          "fp": 13613,
+          "fn": 44638
+        },
+        "type2": {
+          "accuracy": 0.8971,
+          "recall": 0.7432,
+          "precision": 0.8968,
+          "roc_auc": 0.9518
+        },
+        "people": 150
+      },
+      "alerts_baseline_policy": {
+        "patient_days": 3995.9,
+        "people": 150,
+        "alerts_fired": 35656,
+        "false_alerts": 6171,
+        "false_alerts_per_patient_day": 1.544,
+        "alerts_per_patient_day": 8.923,
+        "serious_episodes": 6988,
+        "serious_warned": 4494,
+        "serious_recall": 0.6431,
+        "all_episodes": 9203,
+        "all_recall": 0.6258,
+        "serious_lead_min_median": 30.0
+      },
+      "vs_base": {
+        "accuracy_diff_mean": 0.0015,
+        "accuracy_diff_ci95": [
+          0.0009,
+          0.0022
+        ],
+        "roc_auc_diff_mean": 0.0022,
+        "roc_auc_diff_ci95": [
+          0.0014,
+          0.003
+        ],
+        "accuracy_diff_excludes_0": true
+      },
+      "retained": true
+    }
+  }
+}
