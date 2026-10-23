@@ -1,0 +1,20 @@
+# Tested with Python 3.9 (macOS). Install: pip install -r backend/requirements.txt
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+python-multipart==0.0.20
+joblib==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+pyarrow==21.0.0
+pytest==8.2.0
+pytest-asyncio==0.23.7
+httpx==0.27.0
+# real-data pipeline (external datasets: .xlsx / .xls) and docs/architecture diagram
+openpyxl==3.1.5
+xlrd==2.0.2
+matplotlib==3.9.2
+# optional: legacy trainer app/combined_train.py only (not needed to run the app or the tests)
+# xgboost==2.1.4
+# imbalanced-learn==0.12.4
