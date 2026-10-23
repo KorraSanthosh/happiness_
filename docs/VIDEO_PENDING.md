@@ -18,7 +18,7 @@ with:
 
 ## Recording checklist
 
-- [ ] Rehearse once with a timer using `docs/GlucoTwin_20_Minute_Speaking_Script.pdf` (target about 20 minutes).
+- [ ] Rehearse once with a timer using the team's speaking script (target about 20 minutes).
 - [ ] Start the backend (`cd backend && python -m uvicorn app.main:app --port 8000`) and frontend (`cd frontend && npm run dev`); open `http://localhost:5173`.
 - [ ] Settings → Theme: Light; Data mode: Real patients; Alert mode: Standard.
 - [ ] Check that **Patient #2000** loads and that "Example early warning" shows Day 5 · 21:30.
