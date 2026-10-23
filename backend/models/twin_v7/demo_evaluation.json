@@ -1,0 +1,190 @@
+{
+  "demo_patients": [
+    "sh_t2_2069",
+    "sh_t2_2017",
+    "sh_t2_2078",
+    "sh_t2_2015",
+    "sh_t2_2001",
+    "sh_t2_2055",
+    "sh_t2_2074",
+    "sh_t2_2045",
+    "sh_t2_2073",
+    "sh_t2_2016",
+    "sh_t2_2000",
+    "sh_t2_2091",
+    "sh_t1_1006",
+    "sh_t1_1002",
+    "sh_t1_1003",
+    "sh_t1_1012",
+    "sh_t1_1007",
+    "azt1d_15",
+    "azt1d_23",
+    "azt1d_20",
+    "azt1d_07",
+    "azt1d_21",
+    "uom_2310",
+    "uom_2302",
+    "uom_2403",
+    "uom_2301",
+    "hupa_0027",
+    "hupa_0026",
+    "hupa_0028",
+    "hupa_0001"
+  ],
+  "note": "demo patients were excluded from training of these models",
+  "evaluation": {
+    "30m": {
+      "accuracy_mode": {
+        "n": 165048,
+        "prevalence": 0.2269,
+        "threshold": 0.51,
+        "accuracy": 0.949,
+        "balanced_accuracy": 0.9162,
+        "precision": 0.9135,
+        "recall": 0.8562,
+        "specificity": 0.9762,
+        "f1": 0.8839,
+        "mcc": 0.852,
+        "roc_auc": 0.9828,
+        "pr_auc": 0.9568,
+        "brier": 0.0383,
+        "log_loss": 0.132,
+        "ece": 0.0046,
+        "mean_pred": 0.2315,
+        "confusion": {
+          "tp": 32062,
+          "tn": 124565,
+          "fp": 3035,
+          "fn": 5386
+        }
+      },
+      "safety_mode": {
+        "n": 165048,
+        "prevalence": 0.2269,
+        "threshold": 0.25,
+        "accuracy": 0.9369,
+        "balanced_accuracy": 0.9302,
+        "precision": 0.824,
+        "recall": 0.9179,
+        "specificity": 0.9425,
+        "f1": 0.8684,
+        "mcc": 0.8291,
+        "roc_auc": 0.9828,
+        "pr_auc": 0.9568,
+        "brier": 0.0383,
+        "log_loss": 0.132,
+        "ece": 0.0046,
+        "mean_pred": 0.2315,
+        "confusion": {
+          "tp": 34372,
+          "tn": 120257,
+          "fp": 7343,
+          "fn": 3076
+        }
+      },
+      "rule_accuracy": 0.9391
+    },
+    "60m": {
+      "accuracy_mode": {
+        "n": 171353,
+        "prevalence": 0.2644,
+        "threshold": 0.51,
+        "accuracy": 0.9153,
+        "balanced_accuracy": 0.8683,
+        "precision": 0.8963,
+        "recall": 0.7686,
+        "specificity": 0.9681,
+        "f1": 0.8276,
+        "mcc": 0.7759,
+        "roc_auc": 0.954,
+        "pr_auc": 0.9174,
+        "brier": 0.0642,
+        "log_loss": 0.2185,
+        "ece": 0.0104,
+        "mean_pred": 0.2748,
+        "confusion": {
+          "tp": 34821,
+          "tn": 122020,
+          "fp": 4027,
+          "fn": 10485
+        }
+      },
+      "safety_mode": {
+        "n": 171353,
+        "prevalence": 0.2644,
+        "threshold": 0.3,
+        "accuracy": 0.9002,
+        "balanced_accuracy": 0.8826,
+        "precision": 0.7916,
+        "recall": 0.8452,
+        "specificity": 0.92,
+        "f1": 0.8175,
+        "mcc": 0.7497,
+        "roc_auc": 0.954,
+        "pr_auc": 0.9174,
+        "brier": 0.0642,
+        "log_loss": 0.2185,
+        "ece": 0.0104,
+        "mean_pred": 0.2748,
+        "confusion": {
+          "tp": 38293,
+          "tn": 115966,
+          "fp": 10081,
+          "fn": 7013
+        }
+      },
+      "rule_accuracy": 0.9024
+    },
+    "2h": {
+      "accuracy_mode": {
+        "n": 170269,
+        "prevalence": 0.336,
+        "threshold": 0.51,
+        "accuracy": 0.8513,
+        "balanced_accuracy": 0.8067,
+        "precision": 0.8555,
+        "recall": 0.6708,
+        "specificity": 0.9427,
+        "f1": 0.752,
+        "mcc": 0.6578,
+        "roc_auc": 0.9007,
+        "pr_auc": 0.8674,
+        "brier": 0.1084,
+        "log_loss": 0.3446,
+        "ece": 0.0186,
+        "mean_pred": 0.3546,
+        "confusion": {
+          "tp": 38375,
+          "tn": 106579,
+          "fp": 6484,
+          "fn": 18831
+        }
+      },
+      "safety_mode": {
+        "n": 170269,
+        "prevalence": 0.336,
+        "threshold": 0.38,
+        "accuracy": 0.8368,
+        "balanced_accuracy": 0.8149,
+        "precision": 0.762,
+        "recall": 0.748,
+        "specificity": 0.8818,
+        "f1": 0.7549,
+        "mcc": 0.6327,
+        "roc_auc": 0.9007,
+        "pr_auc": 0.8674,
+        "brier": 0.1084,
+        "log_loss": 0.3446,
+        "ece": 0.0186,
+        "mean_pred": 0.3546,
+        "confusion": {
+          "tp": 42789,
+          "tn": 99698,
+          "fp": 13365,
+          "fn": 14417
+        }
+      },
+      "rule_accuracy": 0.8341
+    }
+  }
+}
