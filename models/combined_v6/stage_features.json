@@ -1,0 +1,194 @@
+{
+  "train_and_test": "original 21 patients only",
+  "config": {
+    "max_depth": 3,
+    "min_samples_leaf": 200,
+    "l2_regularization": 5.0,
+    "max_iter": 400
+  },
+  "variants": {
+    "v5_engineered": {
+      "n": 129580,
+      "prevalence": 0.4743,
+      "threshold": 0.5,
+      "accuracy": 0.8181,
+      "balanced_accuracy": 0.813,
+      "precision": 0.8794,
+      "recall": 0.7144,
+      "specificity": 0.9116,
+      "f1": 0.7883,
+      "mcc": 0.6423,
+      "roc_auc": 0.8841,
+      "pr_auc": 0.9034,
+      "brier": 0.1277,
+      "log_loss": 0.3907,
+      "ece": 0.0128,
+      "mean_pred": 0.4821,
+      "confusion": {
+        "tp": 43908,
+        "tn": 62095,
+        "fp": 6022,
+        "fn": 17555
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8226,
+        "std": 0.0354,
+        "min": 0.7614,
+        "max": 0.8973
+      },
+      "patients": 21
+    },
+    "+activity": {
+      "n": 129580,
+      "prevalence": 0.4743,
+      "threshold": 0.5,
+      "accuracy": 0.8169,
+      "balanced_accuracy": 0.812,
+      "precision": 0.8744,
+      "recall": 0.7169,
+      "specificity": 0.9071,
+      "f1": 0.7879,
+      "mcc": 0.6391,
+      "roc_auc": 0.8852,
+      "pr_auc": 0.9039,
+      "brier": 0.1277,
+      "log_loss": 0.3902,
+      "ece": 0.0118,
+      "mean_pred": 0.4838,
+      "confusion": {
+        "tp": 44063,
+        "tn": 61788,
+        "fp": 6329,
+        "fn": 17400
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8218,
+        "std": 0.0385,
+        "min": 0.7429,
+        "max": 0.898
+      },
+      "patients": 21
+    },
+    "+personal": {
+      "n": 129580,
+      "prevalence": 0.4743,
+      "threshold": 0.5,
+      "accuracy": 0.8206,
+      "balanced_accuracy": 0.8159,
+      "precision": 0.8762,
+      "recall": 0.724,
+      "specificity": 0.9077,
+      "f1": 0.7929,
+      "mcc": 0.6462,
+      "roc_auc": 0.893,
+      "pr_auc": 0.9088,
+      "brier": 0.1244,
+      "log_loss": 0.3812,
+      "ece": 0.0094,
+      "mean_pred": 0.4826,
+      "confusion": {
+        "tp": 44501,
+        "tn": 61831,
+        "fp": 6286,
+        "fn": 16962
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8247,
+        "std": 0.0376,
+        "min": 0.7629,
+        "max": 0.9006
+      },
+      "patients": 21
+    },
+    "v6_all": {
+      "n": 129580,
+      "prevalence": 0.4743,
+      "threshold": 0.5,
+      "accuracy": 0.8194,
+      "balanced_accuracy": 0.8148,
+      "precision": 0.8729,
+      "recall": 0.7248,
+      "specificity": 0.9047,
+      "f1": 0.792,
+      "mcc": 0.6434,
+      "roc_auc": 0.8935,
+      "pr_auc": 0.9089,
+      "brier": 0.1245,
+      "log_loss": 0.3809,
+      "ece": 0.0099,
+      "mean_pred": 0.4835,
+      "confusion": {
+        "tp": 44550,
+        "tn": 61628,
+        "fp": 6489,
+        "fn": 16913
+      },
+      "per_patient_accuracy": {
+        "mean": 0.8238,
+        "std": 0.0395,
+        "min": 0.7555,
+        "max": 0.9042
+      },
+      "patients": 21
+    }
+  },
+  "per_source": {
+    "v5_engineered": {
+      "ohio": 0.8352,
+      "brist": 0.8059
+    },
+    "+activity": {
+      "ohio": 0.8355,
+      "brist": 0.8037
+    },
+    "+personal": {
+      "ohio": 0.8361,
+      "brist": 0.8096
+    },
+    "v6_all": {
+      "ohio": 0.836,
+      "brist": 0.8076
+    }
+  },
+  "paired_vs_v5_engineered": {
+    "+activity": {
+      "accuracy_diff_mean": -0.0014,
+      "accuracy_diff_ci95": [
+        -0.0055,
+        0.0017
+      ],
+      "roc_auc_diff_mean": 0.0008,
+      "roc_auc_diff_ci95": [
+        -0.003,
+        0.0037
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "+personal": {
+      "accuracy_diff_mean": 0.0022,
+      "accuracy_diff_ci95": [
+        -0.0008,
+        0.006
+      ],
+      "roc_auc_diff_mean": 0.0079,
+      "roc_auc_diff_ci95": [
+        0.0025,
+        0.0157
+      ],
+      "accuracy_diff_excludes_0": false
+    },
+    "v6_all": {
+      "accuracy_diff_mean": 0.0009,
+      "accuracy_diff_ci95": [
+        -0.0036,
+        0.0059
+      ],
+      "roc_auc_diff_mean": 0.0082,
+      "roc_auc_diff_ci95": [
+        0.0022,
+        0.017
+      ],
+      "accuracy_diff_excludes_0": false
+    }
+  }
+}
