@@ -1,0 +1,370 @@
+{
+  "evaluated_on": "people with a real clinical EHR (Shanghai T1D+T2D), person-held-out, 2 h horizon",
+  "variants": {
+    "EHR only (static record)": {
+      "shanghai_with_ehr": {
+        "n": 126338,
+        "prevalence": 0.3197,
+        "threshold": 0.5,
+        "accuracy": 0.6683,
+        "balanced_accuracy": 0.5283,
+        "precision": 0.4411,
+        "recall": 0.1397,
+        "specificity": 0.9168,
+        "f1": 0.2122,
+        "mcc": 0.0873,
+        "roc_auc": 0.6489,
+        "pr_auc": 0.4233,
+        "brier": 0.2087,
+        "log_loss": 0.6076,
+        "ece": 0.0578,
+        "mean_pred": 0.2902,
+        "confusion": {
+          "tp": 5645,
+          "tn": 78790,
+          "fp": 7154,
+          "fn": 34749
+        }
+      },
+      "type2_only": {
+        "n": 110862,
+        "prevalence": 0.2947,
+        "threshold": 0.5,
+        "accuracy": 0.6933,
+        "balanced_accuracy": 0.5177,
+        "precision": 0.4077,
+        "recall": 0.0903,
+        "specificity": 0.9452,
+        "f1": 0.1479,
+        "mcc": 0.0655,
+        "roc_auc": 0.6534,
+        "pr_auc": 0.4006,
+        "brier": 0.1985,
+        "log_loss": 0.5842,
+        "ece": 0.0448,
+        "mean_pred": 0.2732,
+        "confusion": {
+          "tp": 2950,
+          "tn": 73907,
+          "fp": 4286,
+          "fn": 29719
+        }
+      },
+      "all_open": {
+        "n": 530807,
+        "prevalence": 0.3749,
+        "threshold": 0.5,
+        "accuracy": 0.6222,
+        "balanced_accuracy": 0.5034,
+        "precision": 0.4411,
+        "recall": 0.0284,
+        "specificity": 0.9784,
+        "f1": 0.0533,
+        "mcc": 0.0215,
+        "roc_auc": 0.5258,
+        "pr_auc": 0.3914,
+        "brier": 0.2319,
+        "log_loss": 0.6561,
+        "ece": 0.0274,
+        "mean_pred": 0.3821,
+        "confusion": {
+          "tp": 5645,
+          "tn": 324632,
+          "fp": 7154,
+          "fn": 193376
+        }
+      }
+    },
+    "CGM/wearable only (dynamic)": {
+      "shanghai_with_ehr": {
+        "n": 126338,
+        "prevalence": 0.3197,
+        "threshold": 0.5,
+        "accuracy": 0.8978,
+        "balanced_accuracy": 0.8623,
+        "precision": 0.9014,
+        "recall": 0.7639,
+        "specificity": 0.9607,
+        "f1": 0.827,
+        "mcc": 0.7604,
+        "roc_auc": 0.9535,
+        "pr_auc": 0.9278,
+        "brier": 0.074,
+        "log_loss": 0.2406,
+        "ece": 0.0081,
+        "mean_pred": 0.3215,
+        "confusion": {
+          "tp": 30857,
+          "tn": 82569,
+          "fp": 3375,
+          "fn": 9537
+        }
+      },
+      "type2_only": {
+        "n": 110862,
+        "prevalence": 0.2947,
+        "threshold": 0.5,
+        "accuracy": 0.8985,
+        "balanced_accuracy": 0.8542,
+        "precision": 0.8919,
+        "recall": 0.7462,
+        "specificity": 0.9622,
+        "f1": 0.8125,
+        "mcc": 0.7493,
+        "roc_auc": 0.9513,
+        "pr_auc": 0.9166,
+        "brier": 0.0737,
+        "log_loss": 0.2403,
+        "ece": 0.0078,
+        "mean_pred": 0.2967,
+        "confusion": {
+          "tp": 24376,
+          "tn": 75238,
+          "fp": 2955,
+          "fn": 8293
+        }
+      },
+      "all_open": {
+        "n": 530807,
+        "prevalence": 0.3749,
+        "threshold": 0.5,
+        "accuracy": 0.8494,
+        "balanced_accuracy": 0.8193,
+        "precision": 0.874,
+        "recall": 0.699,
+        "specificity": 0.9396,
+        "f1": 0.7768,
+        "mcc": 0.6747,
+        "roc_auc": 0.9134,
+        "pr_auc": 0.8944,
+        "brier": 0.1068,
+        "log_loss": 0.3361,
+        "ece": 0.0035,
+        "mean_pred": 0.3781,
+        "confusion": {
+          "tp": 139124,
+          "tn": 311731,
+          "fp": 20055,
+          "fn": 59897
+        }
+      }
+    },
+    "Fusion (EHR + CGM)": {
+      "shanghai_with_ehr": {
+        "n": 126338,
+        "prevalence": 0.3197,
+        "threshold": 0.5,
+        "accuracy": 0.8974,
+        "balanced_accuracy": 0.8609,
+        "precision": 0.9042,
+        "recall": 0.7597,
+        "specificity": 0.9622,
+        "f1": 0.8257,
+        "mcc": 0.7595,
+        "roc_auc": 0.9532,
+        "pr_auc": 0.9272,
+        "brier": 0.0743,
+        "log_loss": 0.2411,
+        "ece": 0.0088,
+        "mean_pred": 0.3164,
+        "confusion": {
+          "tp": 30687,
+          "tn": 82693,
+          "fp": 3251,
+          "fn": 9707
+        }
+      },
+      "type2_only": {
+        "n": 110862,
+        "prevalence": 0.2947,
+        "threshold": 0.5,
+        "accuracy": 0.8981,
+        "balanced_accuracy": 0.8519,
+        "precision": 0.8965,
+        "recall": 0.7395,
+        "specificity": 0.9643,
+        "f1": 0.8105,
+        "mcc": 0.7481,
+        "roc_auc": 0.9507,
+        "pr_auc": 0.9156,
+        "brier": 0.0742,
+        "log_loss": 0.2414,
+        "ece": 0.0093,
+        "mean_pred": 0.2907,
+        "confusion": {
+          "tp": 24159,
+          "tn": 75404,
+          "fp": 2789,
+          "fn": 8510
+        }
+      },
+      "all_open": {
+        "n": 530807,
+        "prevalence": 0.3749,
+        "threshold": 0.5,
+        "accuracy": 0.8492,
+        "balanced_accuracy": 0.8187,
+        "precision": 0.8756,
+        "recall": 0.6967,
+        "specificity": 0.9406,
+        "f1": 0.776,
+        "mcc": 0.6744,
+        "roc_auc": 0.9135,
+        "pr_auc": 0.8944,
+        "brier": 0.1068,
+        "log_loss": 0.336,
+        "ece": 0.0038,
+        "mean_pred": 0.3781,
+        "confusion": {
+          "tp": 138653,
+          "tn": 312092,
+          "fp": 19694,
+          "fn": 60368
+        }
+      }
+    }
+  },
+  "fusion_vs_cgm_only_on_shanghai": {
+    "accuracy_diff_mean": -0.0004,
+    "accuracy_diff_ci95": [
+      -0.0014,
+      0.0006
+    ],
+    "roc_auc_diff_mean": -0.0003,
+    "roc_auc_diff_ci95": [
+      -0.0014,
+      0.0005
+    ],
+    "accuracy_diff_excludes_0": false
+  },
+  "cold_start_shanghai": {
+    "first 24 h of a recording": {
+      "rows": 11490,
+      "cgm_only": {
+        "n": 11490,
+        "prevalence": 0.4091,
+        "threshold": 0.5,
+        "accuracy": 0.8817,
+        "balanced_accuracy": 0.8646,
+        "precision": 0.928,
+        "recall": 0.7706,
+        "specificity": 0.9586,
+        "f1": 0.842,
+        "mcc": 0.7571,
+        "roc_auc": 0.9471,
+        "pr_auc": 0.942,
+        "brier": 0.0846,
+        "log_loss": 0.2727,
+        "ece": 0.0192,
+        "mean_pred": 0.4078,
+        "confusion": {
+          "tp": 3622,
+          "tn": 6509,
+          "fp": 281,
+          "fn": 1078
+        }
+      },
+      "fusion": {
+        "n": 11490,
+        "prevalence": 0.4091,
+        "threshold": 0.5,
+        "accuracy": 0.8839,
+        "balanced_accuracy": 0.8675,
+        "precision": 0.9269,
+        "recall": 0.7774,
+        "specificity": 0.9576,
+        "f1": 0.8456,
+        "mcc": 0.7612,
+        "roc_auc": 0.9478,
+        "pr_auc": 0.943,
+        "brier": 0.0836,
+        "log_loss": 0.2693,
+        "ece": 0.0173,
+        "mean_pred": 0.4051,
+        "confusion": {
+          "tp": 3654,
+          "tn": 6502,
+          "fp": 288,
+          "fn": 1046
+        }
+      },
+      "fusion_minus_cgm": {
+        "accuracy_diff_mean": 0.0022,
+        "accuracy_diff_ci95": [
+          -0.0007,
+          0.0052
+        ],
+        "roc_auc_diff_mean": 0.0008,
+        "roc_auc_diff_ci95": [
+          -0.0011,
+          0.0026
+        ],
+        "accuracy_diff_excludes_0": false
+      }
+    },
+    "after 24 h": {
+      "rows": 114848,
+      "cgm_only": {
+        "n": 114848,
+        "prevalence": 0.3108,
+        "threshold": 0.5,
+        "accuracy": 0.8994,
+        "balanced_accuracy": 0.862,
+        "precision": 0.898,
+        "recall": 0.763,
+        "specificity": 0.9609,
+        "f1": 0.825,
+        "mcc": 0.76,
+        "roc_auc": 0.9541,
+        "pr_auc": 0.9258,
+        "brier": 0.0729,
+        "log_loss": 0.2374,
+        "ece": 0.0077,
+        "mean_pred": 0.3128,
+        "confusion": {
+          "tp": 27235,
+          "tn": 76060,
+          "fp": 3094,
+          "fn": 8459
+        }
+      },
+      "fusion": {
+        "n": 114848,
+        "prevalence": 0.3108,
+        "threshold": 0.5,
+        "accuracy": 0.8988,
+        "balanced_accuracy": 0.86,
+        "precision": 0.9012,
+        "recall": 0.7574,
+        "specificity": 0.9626,
+        "f1": 0.823,
+        "mcc": 0.7585,
+        "roc_auc": 0.9536,
+        "pr_auc": 0.9251,
+        "brier": 0.0734,
+        "log_loss": 0.2383,
+        "ece": 0.0083,
+        "mean_pred": 0.3075,
+        "confusion": {
+          "tp": 27033,
+          "tn": 76191,
+          "fp": 2963,
+          "fn": 8661
+        }
+      },
+      "fusion_minus_cgm": {
+        "accuracy_diff_mean": -0.0006,
+        "accuracy_diff_ci95": [
+          -0.0017,
+          0.0004
+        ],
+        "roc_auc_diff_mean": -0.0005,
+        "roc_auc_diff_ci95": [
+          -0.0016,
+          0.0005
+        ],
+        "accuracy_diff_excludes_0": false
+      }
+    }
+  }
+}
